@@ -1,0 +1,2 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+Partial routes: 33 failed: 0 segments/vias: 108 via count 0

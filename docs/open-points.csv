@@ -1,0 +1,18 @@
+id,status,needed,blocks
+O01,OPEN,Productnaam en foto's B0GMQ92458,Inzet onderdeel 2
+O02,OPEN,ESP32 voor/achter markeringen headermaat USB voedingsschema,Corecarrier en USB-hostbekabeling
+O03,OPEN,USB-MIDI keyboard merk model connector stroom en test,VBUS-dimensionering en compatibiliteit
+O04,OPEN,PCM5102A foto's headerlabels voedingsschema straps en maten,DAC-footprint en definitieve audio-aansluiting
+O05,OPEN,EC11 pinraster bus as ankers detents en pulsen,Encoderfootprint en frontpaneel
+O06,OPEN,Schakelaar pinraster contactmapping actuator en montage,Switchfootprint en paneel
+O07,OPEN,MAX98357 A of B en modulematen,Optionele speaker
+O08,HISTORISCH,SN74HC165N alleen oude SCAN8,Niet nodig voor actieve R0.2
+O09,OPEN,Audio-ADC module of chip plus line-input ontwerp,Verplichte externe audio
+O10,OPEN,Digitaal regelbare main/phones gain plus headphoneamp,Volledige onafhankelijke outputs
+O11,OPEN,Voedingsbudget rails VBUS stroomgrens terugvoedpreventie,Voedings- en coreprint
+O12,OPEN,Carvera type tooling fixture plaatdikte registratiecoupon,Gerbers CAM en G-code vrijgave
+O13,OPEN,Paneelfoto beschikbaar maken en knoppen meten,Definitieve paneelcoördinaten
+O14,HISTORISCH,SCAN8 tests gelden alleen voor R0.1,Niet de actieve architectuur
+O15,OPEN,Zeven CD74HC4067 modules aantal HC-markering afmetingen en scanproef,Volledige R0.2 scanner
+O16,OPEN,Meetlijst-r0.2 en fysieke modulepinnummers invullen,Alle echte footprints en koperrouting
+O17,OPEN,DAC main-L phones-R voorstel elektrisch en softwarematig valideren,Onafhankelijke audio-uitgangen

@@ -1,0 +1,21 @@
+{
+  "control": {
+    "components": 57,
+    "functional_netlist_matches": true,
+    "nets": 73,
+    "unconnected_known_pads": 0,
+    "other_drc": {},
+    "tracks": 108
+  },
+  "core": {
+    "components": 17,
+    "functional_netlist_matches": true,
+    "nets": 21,
+    "unconnected_known_pads": 0,
+    "other_drc": {},
+    "tracks": 107
+  },
+  "ribbon_pin_mapping_identical": true,
+  "added_carrier_smd_parts": 0,
+  "manufacturing_ready": false
+}

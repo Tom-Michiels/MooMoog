@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-27",
+  "source": "Amazon.de order pages read through the user-authorized open Safari session; no purchases made",
+  "pcb_requirement": "Superseded 2026-10-27: two PCBs, one for controls/IO/muxes and one for ESP32/audio/power; soldered ribbon connection; each at most 220 x 150 mm.",
+  "status": "Inventory sourced from Amazon listings/orders; active design split-r0.5. Exact footprints and USB host power still require verification.",
+  "items": [
+    {
+      "asin": "B0CP3YCP57",
+      "part": "ARCELI ESP32-S3 WROOM-1-N16R8 DevKitC-1",
+      "ordered_units": 3
+    },
+    {
+      "asin": "B0GMQ92458",
+      "part": "QUARKZMAN RK097N B10K 3-pin potentiometer",
+      "ordered_units": 10,
+      "listing_dimensions_mm": {
+        "overall": [
+          10.5,
+          13.5,
+          28
+        ],
+        "shaft_diameter": 6,
+        "shaft_length": 15
+      },
+      "note": "Listing specifies type B linear, despite contradictory logarithmic word in title. Verify actual taper and all pin/anchor coordinates."
+    },
+    {
+      "asin": null,
+      "part": "QUARKZMAN RK097N B10K with yellow AG2 knob",
+      "ordered_units": 10,
+      "note": "Separate ordered variant; full ASIN not captured. Do not assume identical footprint."
+    },
+    {
+      "asin": "B07VF14YNG",
+      "part": "ICQUANZX CD74HC4067 16-channel analog mux",
+      "ordered_units": 5
+    },
+    {
+      "asin": "B07ZCQZYW1",
+      "part": "Youmile TCA9548A 8-channel I2C bus mux",
+      "ordered_units": 5,
+      "note": "Not GPIO expansion. Populate only if bus topology requires it."
+    },
+    {
+      "asin": "B09TVDZ8P2",
+      "part": "RUNCCI-YUN 3-pin 2-position SPDT vertical slide switch",
+      "ordered_units": 30
+    },
+    {
+      "asin": "B09SG3HF9N",
+      "part": "RUNCCI-YUN EC11 5-pin rotary encoder with push switch",
+      "ordered_units": 20,
+      "note": "Two packs of ten in order."
+    },
+    {
+      "asin": "B0CJY1C287",
+      "part": "Hailege MAX98357 I2S speaker amplifier",
+      "ordered_units": 3,
+      "note": "Check A/B chip variant."
+    },
+    {
+      "asin": "B0F8Q1TGYZ",
+      "part": "Create idea MCP23017-E/SS 16-channel I2C IO expansion module",
+      "ordered_units": null,
+      "note": "Three matching orders found in 2025. Quantity currently free for this project not established."
+    },
+    {
+      "asin": "B0GZ4XN5VT",
+      "part": "Eltichorix GY-PCM5102 I2S line-output DAC with 3.5 mm jack",
+      "pack_units": 3,
+      "status": "Proposed by user; visible in basket, not established as ordered."
+    }
+  ],
+  "remaining_design_items": [
+    "Headphone amplifier for specified phones output",
+    "USB host connector and protected 5 V VBUS with backfeed prevention",
+    "Power source and rail/filter/protection design; existing buck modules seen in orders may be reusable after checking",
+    "Audio connectors, passives, sockets/headers, power switch, LEDs and mounting hardware"
+  ],
+  "mechanical_inputs": [
+    "Maximum single PCB width and height, actual usable CNC area including clamps",
+    "Front-panel control center coordinates or freedom to propose them, panel thickness and PCB-to-panel spacing",
+    "For each distinct module: body dimensions, header pitch, row spacing/offset, first-pin coordinates, pin labels/diameters, mounting holes and connector clearance",
+    "For pots/EC11/switches: pin and anchor coordinates, pin cross-sections, body envelope and actuator/shaft height relative to PCB",
+    "USB keyboard model or rated 5 V current for VBUS budget"
+  ],
+  "architecture_revision": "Use CD74HC4067 for potentiometers; reassess MCP23017 and encoder sampling/timing. Do not use old 28-encoder/102-contact/7-mux count as a purchase requirement. Control allocation and expander count still to be designed.",
+  "audio_input_required": false,
+  "usb_preference": "Reuse ESP32-S3 native USB for keyboard host and UART USB for power if clone VBUS wiring/current capability permit; not yet electrically verified."
+}

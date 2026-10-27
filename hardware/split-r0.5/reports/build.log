@@ -1,0 +1,2 @@
+./src/common/stdpbase.cpp(59): assert ""traits"" failed in Get(): create wxApp before calling this
+{"components": 74, "pots": 19, "encoders": 8, "switches": 17, "contacts": 41, "new_carrier_smd_parts": 0, "boards": 2, "ribbon_wires": 12, "tracks": 0}

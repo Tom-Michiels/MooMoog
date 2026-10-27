@@ -1,0 +1,16 @@
+DAC_MUTE_N 0 paths 0 unrouted
+I2C_SDA 0 paths 0 unrouted
+I2C_SCL 0 paths 0 unrouted
+PHONES_RAW 0 paths 0 unrouted
+MAIN_RAW 0 paths 0 unrouted
+MAIN_LINE 0 paths 0 unrouted
+HP_EN 0 paths 0 unrouted
+POT_ADC1 1 paths 0 unrouted
+POT_ADC1_FILTER 2 paths 0 unrouted
+HP_FEED 3 paths 0 unrouted
+POT_ADC2_FILTER 4 paths 0 unrouted
+PANEL_IRQ 5 paths 0 unrouted
+POT_ADC2 6 paths 0 unrouted
+3V3 8 paths 0 unrouted
+GND 20 paths 0 unrouted
+DONE 20 0

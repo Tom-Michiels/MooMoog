@@ -1,0 +1,28 @@
+ref,param,label,x,y,kind,mux,channel,net
+RV1,master.tune,TUNE,16,28,pot,MX1,0,RV1_W
+RV2,glide.time,GLIDE,16,60,pot,MX1,1,RV2_W
+RV3,mod.mix,MODULATION MIX,16,92,pot,MX1,2,RV3_W
+RV4,lfo.rate,LFO RATE,16,124,pot,MX1,3,RV4_W
+E1,osc1.range,RANGE,38,28,encoder,,,
+E2,osc1.wave,WAVEFORM,80,28,encoder,,,
+E3,osc2.range,RANGE,38,68,encoder,,,
+E4,osc2.detune,FREQUENCY,59,68,encoder,,,
+E5,osc2.wave,WAVEFORM,80,68,encoder,,,
+E6,osc3.range,RANGE,38,108,encoder,,,
+E7,osc3.detune,FREQUENCY,59,108,encoder,,,
+E8,osc3.wave,WAVEFORM,80,108,encoder,,,
+RV5,mix.osc1,VOLUME,101,28,pot,MX1,4,RV5_W
+RV6,mix.osc2,VOLUME,101,68,pot,MX1,5,RV6_W
+RV7,mix.osc3,VOLUME,101,108,pot,MX1,6,RV7_W
+RV9,mix.noise,NOISE VOLUME,121,88,pot,MX1,7,RV9_W
+RV10,filter.cutoff,CUTOFF FREQUENCY,142,28,pot,MX1,8,RV10_W
+RV11,filter.resonance,EMPHASIS,164,28,pot,MX1,9,RV11_W
+RV12,filter.env_amount,AMOUNT OF CONTOUR,186,28,pot,MX1,10,RV12_W
+RV13,env.filter.attack,ATTACK TIME,142,68,pot,MX1,11,RV13_W
+RV14,env.filter.decay,DECAY TIME,164,68,pot,MX1,12,RV14_W
+RV15,env.filter.sustain,SUSTAIN LEVEL,186,68,pot,MX1,13,RV15_W
+RV16,env.amp.attack,ATTACK TIME,142,108,pot,MX1,14,RV16_W
+RV17,env.amp.decay,DECAY TIME,164,108,pot,MX1,15,RV17_W
+RV18,env.amp.sustain,SUSTAIN LEVEL,186,108,pot,MX2,0,RV18_W
+RV19,output.main_volume,VOLUME,208,28,pot,MX2,1,RV19_W
+RV20,output.phones_volume,PHONES,208,108,pot,MX2,2,RV20_W

@@ -1,0 +1,2193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/tom/Sandbox/Moog/hardware/split-r0.5/control/control.kicad_sch</source>
+    <date>2026-10-27T18:10:51+0100</date>
+    <tool>Eeschema 9.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Compact D R05 / control / functional draft</title>
+        <company/>
+        <rev>0.5 NOT FOR MANUFACTURE</rev>
+        <date/>
+        <source>control.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="CP1">
+      <value>100nF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="CP1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1bb1a3cf-1b3f-5082-b3a2-b102647cab17</tstamps>
+    </comp>
+    <comp ref="CP2">
+      <value>10uF 10V</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="CP2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a02d03fd-9608-53b4-a27f-87f73ed313c9</tstamps>
+    </comp>
+    <comp ref="E1">
+      <value>EC11 RANGE</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="E1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f418e80d-0ce8-50d3-afc7-463336f8534a</tstamps>
+    </comp>
+    <comp ref="E2">
+      <value>EC11 WAVEFORM</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="E2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1baca614-71b7-5ac2-aaed-62afe49f5a1b</tstamps>
+    </comp>
+    <comp ref="E3">
+      <value>EC11 RANGE</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="E3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>497ce301-f613-51b3-bf18-13bf806af9ae</tstamps>
+    </comp>
+    <comp ref="E4">
+      <value>EC11 FREQUENCY</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="E4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e23bc1a4-d7fb-5c56-95b2-c1b80fd07dcd</tstamps>
+    </comp>
+    <comp ref="E5">
+      <value>EC11 WAVEFORM</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="E5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca78f0d5-b728-5a9a-92c7-b7d00decca9d</tstamps>
+    </comp>
+    <comp ref="E6">
+      <value>EC11 RANGE</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="E6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6228a388-2176-5780-8610-b15cf4d480ea</tstamps>
+    </comp>
+    <comp ref="E7">
+      <value>EC11 FREQUENCY</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="E7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26009a4f-14b5-5942-9b70-0022c8122c1e</tstamps>
+    </comp>
+    <comp ref="E8">
+      <value>EC11 WAVEFORM</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="E8" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ed56eaa-d5f0-5d7c-8455-c1e78e62f0f9</tstamps>
+    </comp>
+    <comp ref="IO1">
+      <value>MCP23017 module / 0x20</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="IO1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2113917a-0472-58e6-a5ed-a8b923c030c5</tstamps>
+    </comp>
+    <comp ref="IO2">
+      <value>MCP23017 module / 0x21</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="IO2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6c49feb-9fe9-53ad-8cc9-116ec3840a65</tstamps>
+    </comp>
+    <comp ref="IO3">
+      <value>MCP23017 module / 0x22</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="IO3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38b06189-2189-5b62-aaff-52156a644c9d</tstamps>
+    </comp>
+    <comp ref="JPANEL">
+      <value>12-way soldered ribbon</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="JPANEL" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d2db7dd-8fd9-56d6-9ac6-26519ed1e8f7</tstamps>
+    </comp>
+    <comp ref="LED2">
+      <value>Power LED</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="LED2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>705d441c-ac24-5feb-aea1-08e5e9b81b42</tstamps>
+    </comp>
+    <comp ref="MX1">
+      <value>CD74HC4067 module</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="MX1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df764d0c-b6bb-57ed-8b5f-f85baa640f56</tstamps>
+    </comp>
+    <comp ref="MX2">
+      <value>CD74HC4067 module</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="MX2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b20066e-f4cf-5058-afab-3733056e8bc7</tstamps>
+    </comp>
+    <comp ref="RP1">
+      <value>1k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RP1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>406502ad-da6d-53a3-b5e4-1248a921d58e</tstamps>
+    </comp>
+    <comp ref="RP2">
+      <value>10k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RP2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d594cd3-eb30-558d-a7b3-eda420587f71</tstamps>
+    </comp>
+    <comp ref="RP3">
+      <value>2k2 DNP</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RP3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eac5c37e-ef34-5b8a-97ae-40c51239de60</tstamps>
+    </comp>
+    <comp ref="RP4">
+      <value>2k2 DNP</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RP4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2dd9f83a-bae3-5deb-9eb8-14a56a9ba553</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>RK097N B10K TUNE</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RV1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de3a87ce-ff49-5368-bb62-60a873ce61b0</tstamps>
+    </comp>
+    <comp ref="RV2">
+      <value>RK097N B10K GLIDE</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RV2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5eb5a989-cbdd-509c-b337-edbe90396eef</tstamps>
+    </comp>
+    <comp ref="RV3">
+      <value>RK097N B10K MODULATION MIX</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RV3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e3aa758-0d6f-5399-88e0-8bfa7c5f7b4d</tstamps>
+    </comp>
+    <comp ref="RV4">
+      <value>RK097N B10K LFO RATE</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RV4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebe89f20-fae6-56e5-9389-ae4327b7fada</tstamps>
+    </comp>
+    <comp ref="RV5">
+      <value>RK097N B10K VOLUME</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RV5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>216eab79-ac3a-51c2-83f5-0a9af4a7936b</tstamps>
+    </comp>
+    <comp ref="RV6">
+      <value>RK097N B10K VOLUME</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RV6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38087e77-3967-5b9c-b06e-f05e8869e692</tstamps>
+    </comp>
+    <comp ref="RV7">
+      <value>RK097N B10K VOLUME</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RV7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c32e8ab9-7504-5cf8-8adb-d9b3f937fe80</tstamps>
+    </comp>
+    <comp ref="RV9">
+      <value>RK097N B10K NOISE VOLUME</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RV9" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>147359d9-6c64-5628-9d16-94257f51d702</tstamps>
+    </comp>
+    <comp ref="RV10">
+      <value>RK097N B10K CUTOFF FREQUENCY</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RV10" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61d31255-d1e3-50fd-b5ca-bf9573b0d7bc</tstamps>
+    </comp>
+    <comp ref="RV11">
+      <value>RK097N B10K EMPHASIS</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RV11" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>91127ac0-5213-5e3d-94b7-366a460bf3ac</tstamps>
+    </comp>
+    <comp ref="RV12">
+      <value>RK097N B10K AMOUNT OF CONTOUR</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RV12" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0714948-9275-5a98-87bf-7eaa09acbcc9</tstamps>
+    </comp>
+    <comp ref="RV13">
+      <value>RK097N B10K ATTACK TIME</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RV13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1243068-ffc5-5726-8ea6-c6858999b2af</tstamps>
+    </comp>
+    <comp ref="RV14">
+      <value>RK097N B10K DECAY TIME</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RV14" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98402be8-0c48-5f1f-a881-3f4ac4ae4424</tstamps>
+    </comp>
+    <comp ref="RV15">
+      <value>RK097N B10K SUSTAIN LEVEL</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RV15" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7dd2c71-f01d-5c9e-b8fd-0d300e6bed5f</tstamps>
+    </comp>
+    <comp ref="RV16">
+      <value>RK097N B10K ATTACK TIME</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RV16" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d27918b6-a468-53ea-a1b3-610fb05f9a34</tstamps>
+    </comp>
+    <comp ref="RV17">
+      <value>RK097N B10K DECAY TIME</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RV17" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9dd9f69b-0912-5c4d-af85-b79e8412d25c</tstamps>
+    </comp>
+    <comp ref="RV18">
+      <value>RK097N B10K SUSTAIN LEVEL</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RV18" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aaeb52fd-c175-5ef6-8130-c61759325131</tstamps>
+    </comp>
+    <comp ref="RV19">
+      <value>RK097N B10K VOLUME</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RV19" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5666ba10-80ff-5f9a-b559-a1f64da60018</tstamps>
+    </comp>
+    <comp ref="RV20">
+      <value>RK097N B10K PHONES</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RV20" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7290850-cfc4-501e-9f7e-2a062aae7e23</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>Osc mod</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="S1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e071b53-9d5b-5edf-aaa1-084430c7ff72</tstamps>
+    </comp>
+    <comp ref="S2">
+      <value>Osc3 / EG</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="S2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>233cfd9e-8e98-5579-af04-dc3d838a6136</tstamps>
+    </comp>
+    <comp ref="S3">
+      <value>Noise / LFO</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="S3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13b19d1b-d514-591c-a3dc-aef5b23f30bf</tstamps>
+    </comp>
+    <comp ref="S4">
+      <value>Glide on</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="S4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9b8d60e-c481-56c0-8dfa-29377379a8fb</tstamps>
+    </comp>
+    <comp ref="S5">
+      <value>Decay on</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="S5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70db05e3-a92b-531c-b330-2239563c2af6</tstamps>
+    </comp>
+    <comp ref="S6">
+      <value>LFO shape</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="S6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c176aadf-ed41-5008-8236-4c1fb115adff</tstamps>
+    </comp>
+    <comp ref="S7">
+      <value>Osc3 keyboard</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="S7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c28ac81-f19a-5af8-b136-733acbe1b413</tstamps>
+    </comp>
+    <comp ref="S8">
+      <value>Osc 1 on</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="S8" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60117447-cb6f-522d-ae60-9ef220e8977a</tstamps>
+    </comp>
+    <comp ref="S9">
+      <value>Osc 2 on</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="S9" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cff41159-b9da-5340-bfad-5e5388d35e5c</tstamps>
+    </comp>
+    <comp ref="S10">
+      <value>Osc 3 on</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="S10" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af9f477f-e90e-5f49-87f0-307566063e5d</tstamps>
+    </comp>
+    <comp ref="S12">
+      <value>Noise on</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="S12" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bca64eed-67db-57a7-ae5f-bbe8ab95c18b</tstamps>
+    </comp>
+    <comp ref="S13">
+      <value>White / Pink</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="S13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c0bee7e-45d6-55a4-a829-eea09b7335ad</tstamps>
+    </comp>
+    <comp ref="S14">
+      <value>Filter mod</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="S14" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>927cfcfc-68e0-57f6-a4d9-6b5cae6917c0</tstamps>
+    </comp>
+    <comp ref="S15">
+      <value>Keytrack 1</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="S15" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a62a9302-80aa-5611-b618-b466fd802d79</tstamps>
+    </comp>
+    <comp ref="S16">
+      <value>Keytrack 2</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="S16" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2aff98f4-ce4f-5871-a3d2-88d268fedc06</tstamps>
+    </comp>
+    <comp ref="S17">
+      <value>Main on</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="S17" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc973af6-1539-5db2-be44-f7e96725f76e</tstamps>
+    </comp>
+    <comp ref="S18">
+      <value>A-440</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="S18" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="control.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b87607d4-a3c3-57c5-be22-7b53ccf1977c</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Split" part="CP1">
+      <fields>
+        <field name="Reference">CP1</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="CP2">
+      <fields>
+        <field name="Reference">CP2</field>
+        <field name="Value">10uF 10V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="E1">
+      <fields>
+        <field name="Reference">E1</field>
+        <field name="Value">EC11 RANGE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="SW1" name="SW1" type="passive"/>
+        <pin num="SW2" name="SW2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="E2">
+      <fields>
+        <field name="Reference">E2</field>
+        <field name="Value">EC11 WAVEFORM</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="SW1" name="SW1" type="passive"/>
+        <pin num="SW2" name="SW2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="E3">
+      <fields>
+        <field name="Reference">E3</field>
+        <field name="Value">EC11 RANGE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="SW1" name="SW1" type="passive"/>
+        <pin num="SW2" name="SW2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="E4">
+      <fields>
+        <field name="Reference">E4</field>
+        <field name="Value">EC11 FREQUENCY</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="SW1" name="SW1" type="passive"/>
+        <pin num="SW2" name="SW2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="E5">
+      <fields>
+        <field name="Reference">E5</field>
+        <field name="Value">EC11 WAVEFORM</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="SW1" name="SW1" type="passive"/>
+        <pin num="SW2" name="SW2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="E6">
+      <fields>
+        <field name="Reference">E6</field>
+        <field name="Value">EC11 RANGE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="SW1" name="SW1" type="passive"/>
+        <pin num="SW2" name="SW2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="E7">
+      <fields>
+        <field name="Reference">E7</field>
+        <field name="Value">EC11 FREQUENCY</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="SW1" name="SW1" type="passive"/>
+        <pin num="SW2" name="SW2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="E8">
+      <fields>
+        <field name="Reference">E8</field>
+        <field name="Value">EC11 WAVEFORM</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+        <pin num="SW1" name="SW1" type="passive"/>
+        <pin num="SW2" name="SW2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="IO1">
+      <fields>
+        <field name="Reference">IO1</field>
+        <field name="Value">MCP23017 module / 0x20</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A0" name="A0" type="passive"/>
+        <pin num="A1" name="A1" type="passive"/>
+        <pin num="A2" name="A2" type="passive"/>
+        <pin num="GPA0" name="GPA0" type="passive"/>
+        <pin num="GPA1" name="GPA1" type="passive"/>
+        <pin num="GPA2" name="GPA2" type="passive"/>
+        <pin num="GPA3" name="GPA3" type="passive"/>
+        <pin num="GPA4" name="GPA4" type="passive"/>
+        <pin num="GPA5" name="GPA5" type="passive"/>
+        <pin num="GPA6" name="GPA6" type="passive"/>
+        <pin num="GPA7" name="GPA7" type="passive"/>
+        <pin num="GPB0" name="GPB0" type="passive"/>
+        <pin num="GPB1" name="GPB1" type="passive"/>
+        <pin num="GPB2" name="GPB2" type="passive"/>
+        <pin num="GPB3" name="GPB3" type="passive"/>
+        <pin num="GPB4" name="GPB4" type="passive"/>
+        <pin num="GPB5" name="GPB5" type="passive"/>
+        <pin num="GPB6" name="GPB6" type="passive"/>
+        <pin num="GPB7" name="GPB7" type="passive"/>
+        <pin num="INTA" name="INTA" type="passive"/>
+        <pin num="INTB" name="INTB" type="passive"/>
+        <pin num="RESET" name="RESET" type="passive"/>
+        <pin num="SCL" name="SCL" type="passive"/>
+        <pin num="SDA" name="SDA" type="passive"/>
+        <pin num="VDD" name="VDD" type="passive"/>
+        <pin num="VSS" name="VSS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="IO2">
+      <fields>
+        <field name="Reference">IO2</field>
+        <field name="Value">MCP23017 module / 0x21</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A0" name="A0" type="passive"/>
+        <pin num="A1" name="A1" type="passive"/>
+        <pin num="A2" name="A2" type="passive"/>
+        <pin num="GPA0" name="GPA0" type="passive"/>
+        <pin num="GPA1" name="GPA1" type="passive"/>
+        <pin num="GPA2" name="GPA2" type="passive"/>
+        <pin num="GPA3" name="GPA3" type="passive"/>
+        <pin num="GPA4" name="GPA4" type="passive"/>
+        <pin num="GPA5" name="GPA5" type="passive"/>
+        <pin num="GPA6" name="GPA6" type="passive"/>
+        <pin num="GPA7" name="GPA7" type="passive"/>
+        <pin num="GPB0" name="GPB0" type="passive"/>
+        <pin num="GPB1" name="GPB1" type="passive"/>
+        <pin num="GPB2" name="GPB2" type="passive"/>
+        <pin num="GPB3" name="GPB3" type="passive"/>
+        <pin num="GPB4" name="GPB4" type="passive"/>
+        <pin num="GPB5" name="GPB5" type="passive"/>
+        <pin num="GPB6" name="GPB6" type="passive"/>
+        <pin num="GPB7" name="GPB7" type="passive"/>
+        <pin num="INTA" name="INTA" type="passive"/>
+        <pin num="INTB" name="INTB" type="passive"/>
+        <pin num="RESET" name="RESET" type="passive"/>
+        <pin num="SCL" name="SCL" type="passive"/>
+        <pin num="SDA" name="SDA" type="passive"/>
+        <pin num="VDD" name="VDD" type="passive"/>
+        <pin num="VSS" name="VSS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="IO3">
+      <fields>
+        <field name="Reference">IO3</field>
+        <field name="Value">MCP23017 module / 0x22</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="A0" name="A0" type="passive"/>
+        <pin num="A1" name="A1" type="passive"/>
+        <pin num="A2" name="A2" type="passive"/>
+        <pin num="GPA0" name="GPA0" type="passive"/>
+        <pin num="GPA1" name="GPA1" type="passive"/>
+        <pin num="GPA2" name="GPA2" type="passive"/>
+        <pin num="GPA3" name="GPA3" type="passive"/>
+        <pin num="GPA4" name="GPA4" type="passive"/>
+        <pin num="GPA5" name="GPA5" type="passive"/>
+        <pin num="GPA6" name="GPA6" type="passive"/>
+        <pin num="GPA7" name="GPA7" type="passive"/>
+        <pin num="GPB0" name="GPB0" type="passive"/>
+        <pin num="GPB1" name="GPB1" type="passive"/>
+        <pin num="GPB2" name="GPB2" type="passive"/>
+        <pin num="GPB3" name="GPB3" type="passive"/>
+        <pin num="GPB4" name="GPB4" type="passive"/>
+        <pin num="GPB5" name="GPB5" type="passive"/>
+        <pin num="GPB6" name="GPB6" type="passive"/>
+        <pin num="GPB7" name="GPB7" type="passive"/>
+        <pin num="INTA" name="INTA" type="passive"/>
+        <pin num="INTB" name="INTB" type="passive"/>
+        <pin num="RESET" name="RESET" type="passive"/>
+        <pin num="SCL" name="SCL" type="passive"/>
+        <pin num="SDA" name="SDA" type="passive"/>
+        <pin num="VDD" name="VDD" type="passive"/>
+        <pin num="VSS" name="VSS" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="JPANEL">
+      <fields>
+        <field name="Reference">JPANEL</field>
+        <field name="Value">12-way soldered ribbon</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="LED2">
+      <fields>
+        <field name="Reference">LED2</field>
+        <field name="Value">Power LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="MX1">
+      <fields>
+        <field name="Reference">MX1</field>
+        <field name="Value">CD74HC4067 module</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="C0" name="C0" type="passive"/>
+        <pin num="C1" name="C1" type="passive"/>
+        <pin num="C2" name="C2" type="passive"/>
+        <pin num="C3" name="C3" type="passive"/>
+        <pin num="C4" name="C4" type="passive"/>
+        <pin num="C5" name="C5" type="passive"/>
+        <pin num="C6" name="C6" type="passive"/>
+        <pin num="C7" name="C7" type="passive"/>
+        <pin num="C8" name="C8" type="passive"/>
+        <pin num="C9" name="C9" type="passive"/>
+        <pin num="C10" name="C10" type="passive"/>
+        <pin num="C11" name="C11" type="passive"/>
+        <pin num="C12" name="C12" type="passive"/>
+        <pin num="C13" name="C13" type="passive"/>
+        <pin num="C14" name="C14" type="passive"/>
+        <pin num="C15" name="C15" type="passive"/>
+        <pin num="EN" name="EN" type="passive"/>
+        <pin num="GND" name="GND" type="passive"/>
+        <pin num="S0" name="S0" type="passive"/>
+        <pin num="S1" name="S1" type="passive"/>
+        <pin num="S2" name="S2" type="passive"/>
+        <pin num="S3" name="S3" type="passive"/>
+        <pin num="SIG" name="SIG" type="passive"/>
+        <pin num="VCC" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="MX2">
+      <fields>
+        <field name="Reference">MX2</field>
+        <field name="Value">CD74HC4067 module</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="C0" name="C0" type="passive"/>
+        <pin num="C1" name="C1" type="passive"/>
+        <pin num="C2" name="C2" type="passive"/>
+        <pin num="C3" name="C3" type="passive"/>
+        <pin num="C4" name="C4" type="passive"/>
+        <pin num="C5" name="C5" type="passive"/>
+        <pin num="C6" name="C6" type="passive"/>
+        <pin num="C7" name="C7" type="passive"/>
+        <pin num="C8" name="C8" type="passive"/>
+        <pin num="C9" name="C9" type="passive"/>
+        <pin num="C10" name="C10" type="passive"/>
+        <pin num="C11" name="C11" type="passive"/>
+        <pin num="C12" name="C12" type="passive"/>
+        <pin num="C13" name="C13" type="passive"/>
+        <pin num="C14" name="C14" type="passive"/>
+        <pin num="C15" name="C15" type="passive"/>
+        <pin num="EN" name="EN" type="passive"/>
+        <pin num="GND" name="GND" type="passive"/>
+        <pin num="S0" name="S0" type="passive"/>
+        <pin num="S1" name="S1" type="passive"/>
+        <pin num="S2" name="S2" type="passive"/>
+        <pin num="S3" name="S3" type="passive"/>
+        <pin num="SIG" name="SIG" type="passive"/>
+        <pin num="VCC" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RP1">
+      <fields>
+        <field name="Reference">RP1</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RP2">
+      <fields>
+        <field name="Reference">RP2</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RP3">
+      <fields>
+        <field name="Reference">RP3</field>
+        <field name="Value">2k2 DNP</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RP4">
+      <fields>
+        <field name="Reference">RP4</field>
+        <field name="Value">2k2 DNP</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RV1">
+      <fields>
+        <field name="Reference">RV1</field>
+        <field name="Value">RK097N B10K TUNE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="HIGH" name="HIGH" type="passive"/>
+        <pin num="LOW" name="LOW" type="passive"/>
+        <pin num="WIPER" name="WIPER" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RV10">
+      <fields>
+        <field name="Reference">RV10</field>
+        <field name="Value">RK097N B10K CUTOFF FREQUENCY</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="HIGH" name="HIGH" type="passive"/>
+        <pin num="LOW" name="LOW" type="passive"/>
+        <pin num="WIPER" name="WIPER" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RV11">
+      <fields>
+        <field name="Reference">RV11</field>
+        <field name="Value">RK097N B10K EMPHASIS</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="HIGH" name="HIGH" type="passive"/>
+        <pin num="LOW" name="LOW" type="passive"/>
+        <pin num="WIPER" name="WIPER" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RV12">
+      <fields>
+        <field name="Reference">RV12</field>
+        <field name="Value">RK097N B10K AMOUNT OF CONTOUR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="HIGH" name="HIGH" type="passive"/>
+        <pin num="LOW" name="LOW" type="passive"/>
+        <pin num="WIPER" name="WIPER" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RV13">
+      <fields>
+        <field name="Reference">RV13</field>
+        <field name="Value">RK097N B10K ATTACK TIME</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="HIGH" name="HIGH" type="passive"/>
+        <pin num="LOW" name="LOW" type="passive"/>
+        <pin num="WIPER" name="WIPER" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RV14">
+      <fields>
+        <field name="Reference">RV14</field>
+        <field name="Value">RK097N B10K DECAY TIME</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="HIGH" name="HIGH" type="passive"/>
+        <pin num="LOW" name="LOW" type="passive"/>
+        <pin num="WIPER" name="WIPER" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RV15">
+      <fields>
+        <field name="Reference">RV15</field>
+        <field name="Value">RK097N B10K SUSTAIN LEVEL</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="HIGH" name="HIGH" type="passive"/>
+        <pin num="LOW" name="LOW" type="passive"/>
+        <pin num="WIPER" name="WIPER" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RV16">
+      <fields>
+        <field name="Reference">RV16</field>
+        <field name="Value">RK097N B10K ATTACK TIME</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="HIGH" name="HIGH" type="passive"/>
+        <pin num="LOW" name="LOW" type="passive"/>
+        <pin num="WIPER" name="WIPER" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RV17">
+      <fields>
+        <field name="Reference">RV17</field>
+        <field name="Value">RK097N B10K DECAY TIME</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="HIGH" name="HIGH" type="passive"/>
+        <pin num="LOW" name="LOW" type="passive"/>
+        <pin num="WIPER" name="WIPER" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RV18">
+      <fields>
+        <field name="Reference">RV18</field>
+        <field name="Value">RK097N B10K SUSTAIN LEVEL</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="HIGH" name="HIGH" type="passive"/>
+        <pin num="LOW" name="LOW" type="passive"/>
+        <pin num="WIPER" name="WIPER" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RV19">
+      <fields>
+        <field name="Reference">RV19</field>
+        <field name="Value">RK097N B10K VOLUME</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="HIGH" name="HIGH" type="passive"/>
+        <pin num="LOW" name="LOW" type="passive"/>
+        <pin num="WIPER" name="WIPER" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RV2">
+      <fields>
+        <field name="Reference">RV2</field>
+        <field name="Value">RK097N B10K GLIDE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="HIGH" name="HIGH" type="passive"/>
+        <pin num="LOW" name="LOW" type="passive"/>
+        <pin num="WIPER" name="WIPER" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RV20">
+      <fields>
+        <field name="Reference">RV20</field>
+        <field name="Value">RK097N B10K PHONES</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="HIGH" name="HIGH" type="passive"/>
+        <pin num="LOW" name="LOW" type="passive"/>
+        <pin num="WIPER" name="WIPER" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RV3">
+      <fields>
+        <field name="Reference">RV3</field>
+        <field name="Value">RK097N B10K MODULATION MIX</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="HIGH" name="HIGH" type="passive"/>
+        <pin num="LOW" name="LOW" type="passive"/>
+        <pin num="WIPER" name="WIPER" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RV4">
+      <fields>
+        <field name="Reference">RV4</field>
+        <field name="Value">RK097N B10K LFO RATE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="HIGH" name="HIGH" type="passive"/>
+        <pin num="LOW" name="LOW" type="passive"/>
+        <pin num="WIPER" name="WIPER" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RV5">
+      <fields>
+        <field name="Reference">RV5</field>
+        <field name="Value">RK097N B10K VOLUME</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="HIGH" name="HIGH" type="passive"/>
+        <pin num="LOW" name="LOW" type="passive"/>
+        <pin num="WIPER" name="WIPER" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RV6">
+      <fields>
+        <field name="Reference">RV6</field>
+        <field name="Value">RK097N B10K VOLUME</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="HIGH" name="HIGH" type="passive"/>
+        <pin num="LOW" name="LOW" type="passive"/>
+        <pin num="WIPER" name="WIPER" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RV7">
+      <fields>
+        <field name="Reference">RV7</field>
+        <field name="Value">RK097N B10K VOLUME</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="HIGH" name="HIGH" type="passive"/>
+        <pin num="LOW" name="LOW" type="passive"/>
+        <pin num="WIPER" name="WIPER" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RV9">
+      <fields>
+        <field name="Reference">RV9</field>
+        <field name="Value">RK097N B10K NOISE VOLUME</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="HIGH" name="HIGH" type="passive"/>
+        <pin num="LOW" name="LOW" type="passive"/>
+        <pin num="WIPER" name="WIPER" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="S1">
+      <fields>
+        <field name="Reference">S1</field>
+        <field name="Value">Osc mod</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="COM" name="COM" type="passive"/>
+        <pin num="OFF" name="OFF" type="passive"/>
+        <pin num="ON" name="ON" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="S10">
+      <fields>
+        <field name="Reference">S10</field>
+        <field name="Value">Osc 3 on</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="COM" name="COM" type="passive"/>
+        <pin num="OFF" name="OFF" type="passive"/>
+        <pin num="ON" name="ON" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="S12">
+      <fields>
+        <field name="Reference">S12</field>
+        <field name="Value">Noise on</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="COM" name="COM" type="passive"/>
+        <pin num="OFF" name="OFF" type="passive"/>
+        <pin num="ON" name="ON" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="S13">
+      <fields>
+        <field name="Reference">S13</field>
+        <field name="Value">White / Pink</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="COM" name="COM" type="passive"/>
+        <pin num="OFF" name="OFF" type="passive"/>
+        <pin num="ON" name="ON" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="S14">
+      <fields>
+        <field name="Reference">S14</field>
+        <field name="Value">Filter mod</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="COM" name="COM" type="passive"/>
+        <pin num="OFF" name="OFF" type="passive"/>
+        <pin num="ON" name="ON" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="S15">
+      <fields>
+        <field name="Reference">S15</field>
+        <field name="Value">Keytrack 1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="COM" name="COM" type="passive"/>
+        <pin num="OFF" name="OFF" type="passive"/>
+        <pin num="ON" name="ON" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="S16">
+      <fields>
+        <field name="Reference">S16</field>
+        <field name="Value">Keytrack 2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="COM" name="COM" type="passive"/>
+        <pin num="OFF" name="OFF" type="passive"/>
+        <pin num="ON" name="ON" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="S17">
+      <fields>
+        <field name="Reference">S17</field>
+        <field name="Value">Main on</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="COM" name="COM" type="passive"/>
+        <pin num="OFF" name="OFF" type="passive"/>
+        <pin num="ON" name="ON" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="S18">
+      <fields>
+        <field name="Reference">S18</field>
+        <field name="Value">A-440</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="COM" name="COM" type="passive"/>
+        <pin num="OFF" name="OFF" type="passive"/>
+        <pin num="ON" name="ON" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="S2">
+      <fields>
+        <field name="Reference">S2</field>
+        <field name="Value">Osc3 / EG</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="COM" name="COM" type="passive"/>
+        <pin num="OFF" name="OFF" type="passive"/>
+        <pin num="ON" name="ON" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="S3">
+      <fields>
+        <field name="Reference">S3</field>
+        <field name="Value">Noise / LFO</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="COM" name="COM" type="passive"/>
+        <pin num="OFF" name="OFF" type="passive"/>
+        <pin num="ON" name="ON" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="S4">
+      <fields>
+        <field name="Reference">S4</field>
+        <field name="Value">Glide on</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="COM" name="COM" type="passive"/>
+        <pin num="OFF" name="OFF" type="passive"/>
+        <pin num="ON" name="ON" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="S5">
+      <fields>
+        <field name="Reference">S5</field>
+        <field name="Value">Decay on</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="COM" name="COM" type="passive"/>
+        <pin num="OFF" name="OFF" type="passive"/>
+        <pin num="ON" name="ON" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="S6">
+      <fields>
+        <field name="Reference">S6</field>
+        <field name="Value">LFO shape</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="COM" name="COM" type="passive"/>
+        <pin num="OFF" name="OFF" type="passive"/>
+        <pin num="ON" name="ON" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="S7">
+      <fields>
+        <field name="Reference">S7</field>
+        <field name="Value">Osc3 keyboard</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="COM" name="COM" type="passive"/>
+        <pin num="OFF" name="OFF" type="passive"/>
+        <pin num="ON" name="ON" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="S8">
+      <fields>
+        <field name="Reference">S8</field>
+        <field name="Value">Osc 1 on</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="COM" name="COM" type="passive"/>
+        <pin num="OFF" name="OFF" type="passive"/>
+        <pin num="ON" name="ON" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="S9">
+      <fields>
+        <field name="Reference">S9</field>
+        <field name="Value">Osc 2 on</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="COM" name="COM" type="passive"/>
+        <pin num="OFF" name="OFF" type="passive"/>
+        <pin num="ON" name="ON" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="3V3" class="Default">
+      <node ref="CP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="CP2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="IO1" pin="VDD" pinfunction="VDD" pintype="passive"/>
+      <node ref="IO2" pin="A0" pinfunction="A0" pintype="passive"/>
+      <node ref="IO2" pin="VDD" pinfunction="VDD" pintype="passive"/>
+      <node ref="IO3" pin="A1" pinfunction="A1" pintype="passive"/>
+      <node ref="IO3" pin="VDD" pinfunction="VDD" pintype="passive"/>
+      <node ref="JPANEL" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="LED2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="MX1" pin="VCC" pinfunction="VCC" pintype="passive"/>
+      <node ref="MX2" pin="VCC" pinfunction="VCC" pintype="passive"/>
+      <node ref="RP2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RP3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RP4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV1" pin="HIGH" pinfunction="HIGH" pintype="passive"/>
+      <node ref="RV10" pin="HIGH" pinfunction="HIGH" pintype="passive"/>
+      <node ref="RV11" pin="HIGH" pinfunction="HIGH" pintype="passive"/>
+      <node ref="RV12" pin="HIGH" pinfunction="HIGH" pintype="passive"/>
+      <node ref="RV13" pin="HIGH" pinfunction="HIGH" pintype="passive"/>
+      <node ref="RV14" pin="HIGH" pinfunction="HIGH" pintype="passive"/>
+      <node ref="RV15" pin="HIGH" pinfunction="HIGH" pintype="passive"/>
+      <node ref="RV16" pin="HIGH" pinfunction="HIGH" pintype="passive"/>
+      <node ref="RV17" pin="HIGH" pinfunction="HIGH" pintype="passive"/>
+      <node ref="RV18" pin="HIGH" pinfunction="HIGH" pintype="passive"/>
+      <node ref="RV19" pin="HIGH" pinfunction="HIGH" pintype="passive"/>
+      <node ref="RV2" pin="HIGH" pinfunction="HIGH" pintype="passive"/>
+      <node ref="RV20" pin="HIGH" pinfunction="HIGH" pintype="passive"/>
+      <node ref="RV3" pin="HIGH" pinfunction="HIGH" pintype="passive"/>
+      <node ref="RV4" pin="HIGH" pinfunction="HIGH" pintype="passive"/>
+      <node ref="RV5" pin="HIGH" pinfunction="HIGH" pintype="passive"/>
+      <node ref="RV6" pin="HIGH" pinfunction="HIGH" pintype="passive"/>
+      <node ref="RV7" pin="HIGH" pinfunction="HIGH" pintype="passive"/>
+      <node ref="RV9" pin="HIGH" pinfunction="HIGH" pintype="passive"/>
+    </net>
+    <net code="2" name="E1_A" class="Default">
+      <node ref="E1" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="IO1" pin="GPA0" pinfunction="GPA0" pintype="passive"/>
+    </net>
+    <net code="3" name="E1_B" class="Default">
+      <node ref="E1" pin="B" pinfunction="B" pintype="passive"/>
+      <node ref="IO1" pin="GPA1" pinfunction="GPA1" pintype="passive"/>
+    </net>
+    <net code="4" name="E1_P" class="Default">
+      <node ref="E1" pin="SW1" pinfunction="SW1" pintype="passive"/>
+      <node ref="IO1" pin="GPA2" pinfunction="GPA2" pintype="passive"/>
+    </net>
+    <net code="5" name="E2_A" class="Default">
+      <node ref="E2" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="IO1" pin="GPA3" pinfunction="GPA3" pintype="passive"/>
+    </net>
+    <net code="6" name="E2_B" class="Default">
+      <node ref="E2" pin="B" pinfunction="B" pintype="passive"/>
+      <node ref="IO1" pin="GPA4" pinfunction="GPA4" pintype="passive"/>
+    </net>
+    <net code="7" name="E2_P" class="Default">
+      <node ref="E2" pin="SW1" pinfunction="SW1" pintype="passive"/>
+      <node ref="IO1" pin="GPA5" pinfunction="GPA5" pintype="passive"/>
+    </net>
+    <net code="8" name="E3_A" class="Default">
+      <node ref="E3" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="IO1" pin="GPA6" pinfunction="GPA6" pintype="passive"/>
+    </net>
+    <net code="9" name="E3_B" class="Default">
+      <node ref="E3" pin="B" pinfunction="B" pintype="passive"/>
+      <node ref="IO1" pin="GPB0" pinfunction="GPB0" pintype="passive"/>
+    </net>
+    <net code="10" name="E3_P" class="Default">
+      <node ref="E3" pin="SW1" pinfunction="SW1" pintype="passive"/>
+      <node ref="IO1" pin="GPB1" pinfunction="GPB1" pintype="passive"/>
+    </net>
+    <net code="11" name="E4_A" class="Default">
+      <node ref="E4" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="IO1" pin="GPB2" pinfunction="GPB2" pintype="passive"/>
+    </net>
+    <net code="12" name="E4_B" class="Default">
+      <node ref="E4" pin="B" pinfunction="B" pintype="passive"/>
+      <node ref="IO1" pin="GPB3" pinfunction="GPB3" pintype="passive"/>
+    </net>
+    <net code="13" name="E4_P" class="Default">
+      <node ref="E4" pin="SW1" pinfunction="SW1" pintype="passive"/>
+      <node ref="IO1" pin="GPB4" pinfunction="GPB4" pintype="passive"/>
+    </net>
+    <net code="14" name="E5_A" class="Default">
+      <node ref="E5" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="IO1" pin="GPB5" pinfunction="GPB5" pintype="passive"/>
+    </net>
+    <net code="15" name="E5_B" class="Default">
+      <node ref="E5" pin="B" pinfunction="B" pintype="passive"/>
+      <node ref="IO1" pin="GPB6" pinfunction="GPB6" pintype="passive"/>
+    </net>
+    <net code="16" name="E5_P" class="Default">
+      <node ref="E5" pin="SW1" pinfunction="SW1" pintype="passive"/>
+      <node ref="IO2" pin="GPA0" pinfunction="GPA0" pintype="passive"/>
+    </net>
+    <net code="17" name="E6_A" class="Default">
+      <node ref="E6" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="IO2" pin="GPA1" pinfunction="GPA1" pintype="passive"/>
+    </net>
+    <net code="18" name="E6_B" class="Default">
+      <node ref="E6" pin="B" pinfunction="B" pintype="passive"/>
+      <node ref="IO2" pin="GPA2" pinfunction="GPA2" pintype="passive"/>
+    </net>
+    <net code="19" name="E6_P" class="Default">
+      <node ref="E6" pin="SW1" pinfunction="SW1" pintype="passive"/>
+      <node ref="IO2" pin="GPA3" pinfunction="GPA3" pintype="passive"/>
+    </net>
+    <net code="20" name="E7_A" class="Default">
+      <node ref="E7" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="IO2" pin="GPA4" pinfunction="GPA4" pintype="passive"/>
+    </net>
+    <net code="21" name="E7_B" class="Default">
+      <node ref="E7" pin="B" pinfunction="B" pintype="passive"/>
+      <node ref="IO2" pin="GPA5" pinfunction="GPA5" pintype="passive"/>
+    </net>
+    <net code="22" name="E7_P" class="Default">
+      <node ref="E7" pin="SW1" pinfunction="SW1" pintype="passive"/>
+      <node ref="IO2" pin="GPA6" pinfunction="GPA6" pintype="passive"/>
+    </net>
+    <net code="23" name="E8_A" class="Default">
+      <node ref="E8" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="IO2" pin="GPB0" pinfunction="GPB0" pintype="passive"/>
+    </net>
+    <net code="24" name="E8_B" class="Default">
+      <node ref="E8" pin="B" pinfunction="B" pintype="passive"/>
+      <node ref="IO2" pin="GPB1" pinfunction="GPB1" pintype="passive"/>
+    </net>
+    <net code="25" name="E8_P" class="Default">
+      <node ref="E8" pin="SW1" pinfunction="SW1" pintype="passive"/>
+      <node ref="IO2" pin="GPB2" pinfunction="GPB2" pintype="passive"/>
+    </net>
+    <net code="26" name="GND" class="Default">
+      <node ref="CP1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="CP2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="E1" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="E1" pin="SW2" pinfunction="SW2" pintype="passive"/>
+      <node ref="E2" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="E2" pin="SW2" pinfunction="SW2" pintype="passive"/>
+      <node ref="E3" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="E3" pin="SW2" pinfunction="SW2" pintype="passive"/>
+      <node ref="E4" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="E4" pin="SW2" pinfunction="SW2" pintype="passive"/>
+      <node ref="E5" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="E5" pin="SW2" pinfunction="SW2" pintype="passive"/>
+      <node ref="E6" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="E6" pin="SW2" pinfunction="SW2" pintype="passive"/>
+      <node ref="E7" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="E7" pin="SW2" pinfunction="SW2" pintype="passive"/>
+      <node ref="E8" pin="C" pinfunction="C" pintype="passive"/>
+      <node ref="E8" pin="SW2" pinfunction="SW2" pintype="passive"/>
+      <node ref="IO1" pin="A0" pinfunction="A0" pintype="passive"/>
+      <node ref="IO1" pin="A1" pinfunction="A1" pintype="passive"/>
+      <node ref="IO1" pin="A2" pinfunction="A2" pintype="passive"/>
+      <node ref="IO1" pin="VSS" pinfunction="VSS" pintype="passive"/>
+      <node ref="IO2" pin="A1" pinfunction="A1" pintype="passive"/>
+      <node ref="IO2" pin="A2" pinfunction="A2" pintype="passive"/>
+      <node ref="IO2" pin="VSS" pinfunction="VSS" pintype="passive"/>
+      <node ref="IO3" pin="A0" pinfunction="A0" pintype="passive"/>
+      <node ref="IO3" pin="A2" pinfunction="A2" pintype="passive"/>
+      <node ref="IO3" pin="VSS" pinfunction="VSS" pintype="passive"/>
+      <node ref="JPANEL" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="JPANEL" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="JPANEL" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="JPANEL" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="JPANEL" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="JPANEL" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="MX1" pin="EN" pinfunction="EN" pintype="passive"/>
+      <node ref="MX1" pin="GND" pinfunction="GND" pintype="passive"/>
+      <node ref="MX2" pin="C10" pinfunction="C10" pintype="passive"/>
+      <node ref="MX2" pin="C11" pinfunction="C11" pintype="passive"/>
+      <node ref="MX2" pin="C12" pinfunction="C12" pintype="passive"/>
+      <node ref="MX2" pin="C13" pinfunction="C13" pintype="passive"/>
+      <node ref="MX2" pin="C14" pinfunction="C14" pintype="passive"/>
+      <node ref="MX2" pin="C15" pinfunction="C15" pintype="passive"/>
+      <node ref="MX2" pin="C3" pinfunction="C3" pintype="passive"/>
+      <node ref="MX2" pin="C4" pinfunction="C4" pintype="passive"/>
+      <node ref="MX2" pin="C5" pinfunction="C5" pintype="passive"/>
+      <node ref="MX2" pin="C6" pinfunction="C6" pintype="passive"/>
+      <node ref="MX2" pin="C7" pinfunction="C7" pintype="passive"/>
+      <node ref="MX2" pin="C8" pinfunction="C8" pintype="passive"/>
+      <node ref="MX2" pin="C9" pinfunction="C9" pintype="passive"/>
+      <node ref="MX2" pin="EN" pinfunction="EN" pintype="passive"/>
+      <node ref="MX2" pin="GND" pinfunction="GND" pintype="passive"/>
+      <node ref="RP1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV1" pin="LOW" pinfunction="LOW" pintype="passive"/>
+      <node ref="RV10" pin="LOW" pinfunction="LOW" pintype="passive"/>
+      <node ref="RV11" pin="LOW" pinfunction="LOW" pintype="passive"/>
+      <node ref="RV12" pin="LOW" pinfunction="LOW" pintype="passive"/>
+      <node ref="RV13" pin="LOW" pinfunction="LOW" pintype="passive"/>
+      <node ref="RV14" pin="LOW" pinfunction="LOW" pintype="passive"/>
+      <node ref="RV15" pin="LOW" pinfunction="LOW" pintype="passive"/>
+      <node ref="RV16" pin="LOW" pinfunction="LOW" pintype="passive"/>
+      <node ref="RV17" pin="LOW" pinfunction="LOW" pintype="passive"/>
+      <node ref="RV18" pin="LOW" pinfunction="LOW" pintype="passive"/>
+      <node ref="RV19" pin="LOW" pinfunction="LOW" pintype="passive"/>
+      <node ref="RV2" pin="LOW" pinfunction="LOW" pintype="passive"/>
+      <node ref="RV20" pin="LOW" pinfunction="LOW" pintype="passive"/>
+      <node ref="RV3" pin="LOW" pinfunction="LOW" pintype="passive"/>
+      <node ref="RV4" pin="LOW" pinfunction="LOW" pintype="passive"/>
+      <node ref="RV5" pin="LOW" pinfunction="LOW" pintype="passive"/>
+      <node ref="RV6" pin="LOW" pinfunction="LOW" pintype="passive"/>
+      <node ref="RV7" pin="LOW" pinfunction="LOW" pintype="passive"/>
+      <node ref="RV9" pin="LOW" pinfunction="LOW" pintype="passive"/>
+      <node ref="S1" pin="COM" pinfunction="COM" pintype="passive"/>
+      <node ref="S10" pin="COM" pinfunction="COM" pintype="passive"/>
+      <node ref="S12" pin="COM" pinfunction="COM" pintype="passive"/>
+      <node ref="S13" pin="COM" pinfunction="COM" pintype="passive"/>
+      <node ref="S14" pin="COM" pinfunction="COM" pintype="passive"/>
+      <node ref="S15" pin="COM" pinfunction="COM" pintype="passive"/>
+      <node ref="S16" pin="COM" pinfunction="COM" pintype="passive"/>
+      <node ref="S17" pin="COM" pinfunction="COM" pintype="passive"/>
+      <node ref="S18" pin="COM" pinfunction="COM" pintype="passive"/>
+      <node ref="S2" pin="COM" pinfunction="COM" pintype="passive"/>
+      <node ref="S3" pin="COM" pinfunction="COM" pintype="passive"/>
+      <node ref="S4" pin="COM" pinfunction="COM" pintype="passive"/>
+      <node ref="S5" pin="COM" pinfunction="COM" pintype="passive"/>
+      <node ref="S6" pin="COM" pinfunction="COM" pintype="passive"/>
+      <node ref="S7" pin="COM" pinfunction="COM" pintype="passive"/>
+      <node ref="S8" pin="COM" pinfunction="COM" pintype="passive"/>
+      <node ref="S9" pin="COM" pinfunction="COM" pintype="passive"/>
+    </net>
+    <net code="27" name="I2C_SCL" class="Default">
+      <node ref="IO1" pin="SCL" pinfunction="SCL" pintype="passive"/>
+      <node ref="IO2" pin="SCL" pinfunction="SCL" pintype="passive"/>
+      <node ref="IO3" pin="SCL" pinfunction="SCL" pintype="passive"/>
+      <node ref="JPANEL" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="RP4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="28" name="I2C_SDA" class="Default">
+      <node ref="IO1" pin="SDA" pinfunction="SDA" pintype="passive"/>
+      <node ref="IO2" pin="SDA" pinfunction="SDA" pintype="passive"/>
+      <node ref="IO3" pin="SDA" pinfunction="SDA" pintype="passive"/>
+      <node ref="JPANEL" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RP3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="29" name="IO_RESET" class="Default">
+      <node ref="IO1" pin="RESET" pinfunction="RESET" pintype="passive"/>
+      <node ref="IO2" pin="RESET" pinfunction="RESET" pintype="passive"/>
+      <node ref="IO3" pin="RESET" pinfunction="RESET" pintype="passive"/>
+      <node ref="RP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="30" name="MUX_S0" class="Default">
+      <node ref="IO1" pin="GPA7" pinfunction="GPA7" pintype="passive"/>
+      <node ref="MX1" pin="S0" pinfunction="S0" pintype="passive"/>
+      <node ref="MX2" pin="S0" pinfunction="S0" pintype="passive"/>
+    </net>
+    <net code="31" name="MUX_S1" class="Default">
+      <node ref="IO1" pin="GPB7" pinfunction="GPB7" pintype="passive"/>
+      <node ref="MX1" pin="S1" pinfunction="S1" pintype="passive"/>
+      <node ref="MX2" pin="S1" pinfunction="S1" pintype="passive"/>
+    </net>
+    <net code="32" name="MUX_S2" class="Default">
+      <node ref="IO2" pin="GPA7" pinfunction="GPA7" pintype="passive"/>
+      <node ref="MX1" pin="S2" pinfunction="S2" pintype="passive"/>
+      <node ref="MX2" pin="S2" pinfunction="S2" pintype="passive"/>
+    </net>
+    <net code="33" name="MUX_S3" class="Default">
+      <node ref="IO2" pin="GPB7" pinfunction="GPB7" pintype="passive"/>
+      <node ref="MX1" pin="S3" pinfunction="S3" pintype="passive"/>
+      <node ref="MX2" pin="S3" pinfunction="S3" pintype="passive"/>
+    </net>
+    <net code="34" name="PANEL_IRQ" class="Default">
+      <node ref="IO1" pin="INTA" pinfunction="INTA" pintype="passive"/>
+      <node ref="IO2" pin="INTA" pinfunction="INTA" pintype="passive"/>
+      <node ref="IO3" pin="INTA" pinfunction="INTA" pintype="passive"/>
+      <node ref="JPANEL" pin="11" pinfunction="11" pintype="passive"/>
+    </net>
+    <net code="35" name="POT_ADC1" class="Default">
+      <node ref="JPANEL" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="MX1" pin="SIG" pinfunction="SIG" pintype="passive"/>
+    </net>
+    <net code="36" name="POT_ADC2" class="Default">
+      <node ref="JPANEL" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="MX2" pin="SIG" pinfunction="SIG" pintype="passive"/>
+    </net>
+    <net code="37" name="PWR_LED" class="Default">
+      <node ref="LED2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RP1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="38" name="RV1_W" class="Default">
+      <node ref="MX1" pin="C0" pinfunction="C0" pintype="passive"/>
+      <node ref="RV1" pin="WIPER" pinfunction="WIPER" pintype="passive"/>
+    </net>
+    <net code="39" name="RV2_W" class="Default">
+      <node ref="MX1" pin="C1" pinfunction="C1" pintype="passive"/>
+      <node ref="RV2" pin="WIPER" pinfunction="WIPER" pintype="passive"/>
+    </net>
+    <net code="40" name="RV3_W" class="Default">
+      <node ref="MX1" pin="C2" pinfunction="C2" pintype="passive"/>
+      <node ref="RV3" pin="WIPER" pinfunction="WIPER" pintype="passive"/>
+    </net>
+    <net code="41" name="RV4_W" class="Default">
+      <node ref="MX1" pin="C3" pinfunction="C3" pintype="passive"/>
+      <node ref="RV4" pin="WIPER" pinfunction="WIPER" pintype="passive"/>
+    </net>
+    <net code="42" name="RV5_W" class="Default">
+      <node ref="MX1" pin="C4" pinfunction="C4" pintype="passive"/>
+      <node ref="RV5" pin="WIPER" pinfunction="WIPER" pintype="passive"/>
+    </net>
+    <net code="43" name="RV6_W" class="Default">
+      <node ref="MX1" pin="C5" pinfunction="C5" pintype="passive"/>
+      <node ref="RV6" pin="WIPER" pinfunction="WIPER" pintype="passive"/>
+    </net>
+    <net code="44" name="RV7_W" class="Default">
+      <node ref="MX1" pin="C6" pinfunction="C6" pintype="passive"/>
+      <node ref="RV7" pin="WIPER" pinfunction="WIPER" pintype="passive"/>
+    </net>
+    <net code="45" name="RV9_W" class="Default">
+      <node ref="MX1" pin="C7" pinfunction="C7" pintype="passive"/>
+      <node ref="RV9" pin="WIPER" pinfunction="WIPER" pintype="passive"/>
+    </net>
+    <net code="46" name="RV10_W" class="Default">
+      <node ref="MX1" pin="C8" pinfunction="C8" pintype="passive"/>
+      <node ref="RV10" pin="WIPER" pinfunction="WIPER" pintype="passive"/>
+    </net>
+    <net code="47" name="RV11_W" class="Default">
+      <node ref="MX1" pin="C9" pinfunction="C9" pintype="passive"/>
+      <node ref="RV11" pin="WIPER" pinfunction="WIPER" pintype="passive"/>
+    </net>
+    <net code="48" name="RV12_W" class="Default">
+      <node ref="MX1" pin="C10" pinfunction="C10" pintype="passive"/>
+      <node ref="RV12" pin="WIPER" pinfunction="WIPER" pintype="passive"/>
+    </net>
+    <net code="49" name="RV13_W" class="Default">
+      <node ref="MX1" pin="C11" pinfunction="C11" pintype="passive"/>
+      <node ref="RV13" pin="WIPER" pinfunction="WIPER" pintype="passive"/>
+    </net>
+    <net code="50" name="RV14_W" class="Default">
+      <node ref="MX1" pin="C12" pinfunction="C12" pintype="passive"/>
+      <node ref="RV14" pin="WIPER" pinfunction="WIPER" pintype="passive"/>
+    </net>
+    <net code="51" name="RV15_W" class="Default">
+      <node ref="MX1" pin="C13" pinfunction="C13" pintype="passive"/>
+      <node ref="RV15" pin="WIPER" pinfunction="WIPER" pintype="passive"/>
+    </net>
+    <net code="52" name="RV16_W" class="Default">
+      <node ref="MX1" pin="C14" pinfunction="C14" pintype="passive"/>
+      <node ref="RV16" pin="WIPER" pinfunction="WIPER" pintype="passive"/>
+    </net>
+    <net code="53" name="RV17_W" class="Default">
+      <node ref="MX1" pin="C15" pinfunction="C15" pintype="passive"/>
+      <node ref="RV17" pin="WIPER" pinfunction="WIPER" pintype="passive"/>
+    </net>
+    <net code="54" name="RV18_W" class="Default">
+      <node ref="MX2" pin="C0" pinfunction="C0" pintype="passive"/>
+      <node ref="RV18" pin="WIPER" pinfunction="WIPER" pintype="passive"/>
+    </net>
+    <net code="55" name="RV19_W" class="Default">
+      <node ref="MX2" pin="C1" pinfunction="C1" pintype="passive"/>
+      <node ref="RV19" pin="WIPER" pinfunction="WIPER" pintype="passive"/>
+    </net>
+    <net code="56" name="RV20_W" class="Default">
+      <node ref="MX2" pin="C2" pinfunction="C2" pintype="passive"/>
+      <node ref="RV20" pin="WIPER" pinfunction="WIPER" pintype="passive"/>
+    </net>
+    <net code="57" name="S1_ON" class="Default">
+      <node ref="IO2" pin="GPB3" pinfunction="GPB3" pintype="passive"/>
+      <node ref="S1" pin="ON" pinfunction="ON" pintype="passive"/>
+    </net>
+    <net code="58" name="S2_ON" class="Default">
+      <node ref="IO2" pin="GPB4" pinfunction="GPB4" pintype="passive"/>
+      <node ref="S2" pin="ON" pinfunction="ON" pintype="passive"/>
+    </net>
+    <net code="59" name="S3_ON" class="Default">
+      <node ref="IO2" pin="GPB5" pinfunction="GPB5" pintype="passive"/>
+      <node ref="S3" pin="ON" pinfunction="ON" pintype="passive"/>
+    </net>
+    <net code="60" name="S4_ON" class="Default">
+      <node ref="IO2" pin="GPB6" pinfunction="GPB6" pintype="passive"/>
+      <node ref="S4" pin="ON" pinfunction="ON" pintype="passive"/>
+    </net>
+    <net code="61" name="S5_ON" class="Default">
+      <node ref="IO3" pin="GPA0" pinfunction="GPA0" pintype="passive"/>
+      <node ref="S5" pin="ON" pinfunction="ON" pintype="passive"/>
+    </net>
+    <net code="62" name="S6_ON" class="Default">
+      <node ref="IO3" pin="GPA1" pinfunction="GPA1" pintype="passive"/>
+      <node ref="S6" pin="ON" pinfunction="ON" pintype="passive"/>
+    </net>
+    <net code="63" name="S7_ON" class="Default">
+      <node ref="IO3" pin="GPA2" pinfunction="GPA2" pintype="passive"/>
+      <node ref="S7" pin="ON" pinfunction="ON" pintype="passive"/>
+    </net>
+    <net code="64" name="S8_ON" class="Default">
+      <node ref="IO3" pin="GPA3" pinfunction="GPA3" pintype="passive"/>
+      <node ref="S8" pin="ON" pinfunction="ON" pintype="passive"/>
+    </net>
+    <net code="65" name="S9_ON" class="Default">
+      <node ref="IO3" pin="GPA4" pinfunction="GPA4" pintype="passive"/>
+      <node ref="S9" pin="ON" pinfunction="ON" pintype="passive"/>
+    </net>
+    <net code="66" name="S10_ON" class="Default">
+      <node ref="IO3" pin="GPA5" pinfunction="GPA5" pintype="passive"/>
+      <node ref="S10" pin="ON" pinfunction="ON" pintype="passive"/>
+    </net>
+    <net code="67" name="S12_ON" class="Default">
+      <node ref="IO3" pin="GPA6" pinfunction="GPA6" pintype="passive"/>
+      <node ref="S12" pin="ON" pinfunction="ON" pintype="passive"/>
+    </net>
+    <net code="68" name="S13_ON" class="Default">
+      <node ref="IO3" pin="GPB0" pinfunction="GPB0" pintype="passive"/>
+      <node ref="S13" pin="ON" pinfunction="ON" pintype="passive"/>
+    </net>
+    <net code="69" name="S14_ON" class="Default">
+      <node ref="IO3" pin="GPB1" pinfunction="GPB1" pintype="passive"/>
+      <node ref="S14" pin="ON" pinfunction="ON" pintype="passive"/>
+    </net>
+    <net code="70" name="S15_ON" class="Default">
+      <node ref="IO3" pin="GPB2" pinfunction="GPB2" pintype="passive"/>
+      <node ref="S15" pin="ON" pinfunction="ON" pintype="passive"/>
+    </net>
+    <net code="71" name="S16_ON" class="Default">
+      <node ref="IO3" pin="GPB3" pinfunction="GPB3" pintype="passive"/>
+      <node ref="S16" pin="ON" pinfunction="ON" pintype="passive"/>
+    </net>
+    <net code="72" name="S17_ON" class="Default">
+      <node ref="IO3" pin="GPB4" pinfunction="GPB4" pintype="passive"/>
+      <node ref="S17" pin="ON" pinfunction="ON" pintype="passive"/>
+    </net>
+    <net code="73" name="S18_ON" class="Default">
+      <node ref="IO3" pin="GPB5" pinfunction="GPB5" pintype="passive"/>
+      <node ref="S18" pin="ON" pinfunction="ON" pintype="passive"/>
+    </net>
+    <net code="74" name="unconnected-(IO1-PadINTB)" class="Default">
+      <node ref="IO1" pin="INTB" pinfunction="INTB" pintype="passive+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(IO2-PadINTB)" class="Default">
+      <node ref="IO2" pin="INTB" pinfunction="INTB" pintype="passive+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(IO3-PadGPA7)" class="Default">
+      <node ref="IO3" pin="GPA7" pinfunction="GPA7" pintype="passive+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(IO3-PadGPB6)" class="Default">
+      <node ref="IO3" pin="GPB6" pinfunction="GPB6" pintype="passive+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(IO3-PadGPB7)" class="Default">
+      <node ref="IO3" pin="GPB7" pinfunction="GPB7" pintype="passive+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(IO3-PadINTB)" class="Default">
+      <node ref="IO3" pin="INTB" pinfunction="INTB" pintype="passive+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(S1-PadOFF)" class="Default">
+      <node ref="S1" pin="OFF" pinfunction="OFF" pintype="passive+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(S2-PadOFF)" class="Default">
+      <node ref="S2" pin="OFF" pinfunction="OFF" pintype="passive+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(S3-PadOFF)" class="Default">
+      <node ref="S3" pin="OFF" pinfunction="OFF" pintype="passive+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(S4-PadOFF)" class="Default">
+      <node ref="S4" pin="OFF" pinfunction="OFF" pintype="passive+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(S5-PadOFF)" class="Default">
+      <node ref="S5" pin="OFF" pinfunction="OFF" pintype="passive+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(S6-PadOFF)" class="Default">
+      <node ref="S6" pin="OFF" pinfunction="OFF" pintype="passive+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(S7-PadOFF)" class="Default">
+      <node ref="S7" pin="OFF" pinfunction="OFF" pintype="passive+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(S8-PadOFF)" class="Default">
+      <node ref="S8" pin="OFF" pinfunction="OFF" pintype="passive+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(S9-PadOFF)" class="Default">
+      <node ref="S9" pin="OFF" pinfunction="OFF" pintype="passive+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(S10-PadOFF)" class="Default">
+      <node ref="S10" pin="OFF" pinfunction="OFF" pintype="passive+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(S12-PadOFF)" class="Default">
+      <node ref="S12" pin="OFF" pinfunction="OFF" pintype="passive+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(S13-PadOFF)" class="Default">
+      <node ref="S13" pin="OFF" pinfunction="OFF" pintype="passive+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(S14-PadOFF)" class="Default">
+      <node ref="S14" pin="OFF" pinfunction="OFF" pintype="passive+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(S15-PadOFF)" class="Default">
+      <node ref="S15" pin="OFF" pinfunction="OFF" pintype="passive+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(S16-PadOFF)" class="Default">
+      <node ref="S16" pin="OFF" pinfunction="OFF" pintype="passive+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(S17-PadOFF)" class="Default">
+      <node ref="S17" pin="OFF" pinfunction="OFF" pintype="passive+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(S18-PadOFF)" class="Default">
+      <node ref="S18" pin="OFF" pinfunction="OFF" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

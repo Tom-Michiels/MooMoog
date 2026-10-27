@@ -1,0 +1,62 @@
+{
+  "variants": [
+    {
+      "variant": "tight",
+      "socket_mm": [
+        1.6,
+        4.0,
+        4
+      ],
+      "outside_mm": [
+        5,
+        5,
+        12
+      ],
+      "volume_mm3": 272.58769999999987,
+      "valid": true
+    },
+    {
+      "variant": "nominal",
+      "socket_mm": [
+        1.8,
+        4.1,
+        4
+      ],
+      "outside_mm": [
+        5,
+        5,
+        12
+      ],
+      "volume_mm3": 268.62360000000007,
+      "valid": true
+    },
+    {
+      "variant": "loose",
+      "socket_mm": [
+        2.0,
+        4.2,
+        4
+      ],
+      "outside_mm": [
+        5,
+        5,
+        12
+      ],
+      "volume_mm3": 264.4994999999999,
+      "valid": true
+    }
+  ],
+  "color_counts": {
+    "orange": 2,
+    "blue": 5,
+    "white": 6,
+    "black": 4
+  },
+  "physical_fit_verified": false,
+  "print_orientation": "Visible top on bed, socket upwards; first print fit set only",
+  "panel_slot_mm": [
+    5.4,
+    10.5
+  ],
+  "lateral_clearance_per_side_mm": 0.2
+}

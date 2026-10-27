@@ -1,0 +1,14 @@
+.DS_Store
+*.lck
+~*.lck
+*.kicad_prl
+*-backups/
+*.bak
+
+.venv-design/
+*.blend1
+*.FCBak
+
+# Release bundles and scratch
+*.zip
+tmp/

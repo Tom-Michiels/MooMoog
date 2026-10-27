@@ -1,0 +1,1310 @@
+{
+  "manufacturing_ready": false,
+  "boards": {
+    "control": {
+      "required_connected_terminals": 277,
+      "terminals_with_matching_pads": 66,
+      "missing_terminals": [
+        {
+          "ref": "RV1",
+          "pin": "LOW",
+          "net": "GND"
+        },
+        {
+          "ref": "RV1",
+          "pin": "WIPER",
+          "net": "RV1_W"
+        },
+        {
+          "ref": "RV1",
+          "pin": "HIGH",
+          "net": "3V3"
+        },
+        {
+          "ref": "RV2",
+          "pin": "LOW",
+          "net": "GND"
+        },
+        {
+          "ref": "RV2",
+          "pin": "WIPER",
+          "net": "RV2_W"
+        },
+        {
+          "ref": "RV2",
+          "pin": "HIGH",
+          "net": "3V3"
+        },
+        {
+          "ref": "RV3",
+          "pin": "LOW",
+          "net": "GND"
+        },
+        {
+          "ref": "RV3",
+          "pin": "WIPER",
+          "net": "RV3_W"
+        },
+        {
+          "ref": "RV3",
+          "pin": "HIGH",
+          "net": "3V3"
+        },
+        {
+          "ref": "RV4",
+          "pin": "LOW",
+          "net": "GND"
+        },
+        {
+          "ref": "RV4",
+          "pin": "WIPER",
+          "net": "RV4_W"
+        },
+        {
+          "ref": "RV4",
+          "pin": "HIGH",
+          "net": "3V3"
+        },
+        {
+          "ref": "RV5",
+          "pin": "LOW",
+          "net": "GND"
+        },
+        {
+          "ref": "RV5",
+          "pin": "WIPER",
+          "net": "RV5_W"
+        },
+        {
+          "ref": "RV5",
+          "pin": "HIGH",
+          "net": "3V3"
+        },
+        {
+          "ref": "RV6",
+          "pin": "LOW",
+          "net": "GND"
+        },
+        {
+          "ref": "RV6",
+          "pin": "WIPER",
+          "net": "RV6_W"
+        },
+        {
+          "ref": "RV6",
+          "pin": "HIGH",
+          "net": "3V3"
+        },
+        {
+          "ref": "RV7",
+          "pin": "LOW",
+          "net": "GND"
+        },
+        {
+          "ref": "RV7",
+          "pin": "WIPER",
+          "net": "RV7_W"
+        },
+        {
+          "ref": "RV7",
+          "pin": "HIGH",
+          "net": "3V3"
+        },
+        {
+          "ref": "RV9",
+          "pin": "LOW",
+          "net": "GND"
+        },
+        {
+          "ref": "RV9",
+          "pin": "WIPER",
+          "net": "RV9_W"
+        },
+        {
+          "ref": "RV9",
+          "pin": "HIGH",
+          "net": "3V3"
+        },
+        {
+          "ref": "RV10",
+          "pin": "LOW",
+          "net": "GND"
+        },
+        {
+          "ref": "RV10",
+          "pin": "WIPER",
+          "net": "RV10_W"
+        },
+        {
+          "ref": "RV10",
+          "pin": "HIGH",
+          "net": "3V3"
+        },
+        {
+          "ref": "RV11",
+          "pin": "LOW",
+          "net": "GND"
+        },
+        {
+          "ref": "RV11",
+          "pin": "WIPER",
+          "net": "RV11_W"
+        },
+        {
+          "ref": "RV11",
+          "pin": "HIGH",
+          "net": "3V3"
+        },
+        {
+          "ref": "RV12",
+          "pin": "LOW",
+          "net": "GND"
+        },
+        {
+          "ref": "RV12",
+          "pin": "WIPER",
+          "net": "RV12_W"
+        },
+        {
+          "ref": "RV12",
+          "pin": "HIGH",
+          "net": "3V3"
+        },
+        {
+          "ref": "RV13",
+          "pin": "LOW",
+          "net": "GND"
+        },
+        {
+          "ref": "RV13",
+          "pin": "WIPER",
+          "net": "RV13_W"
+        },
+        {
+          "ref": "RV13",
+          "pin": "HIGH",
+          "net": "3V3"
+        },
+        {
+          "ref": "RV14",
+          "pin": "LOW",
+          "net": "GND"
+        },
+        {
+          "ref": "RV14",
+          "pin": "WIPER",
+          "net": "RV14_W"
+        },
+        {
+          "ref": "RV14",
+          "pin": "HIGH",
+          "net": "3V3"
+        },
+        {
+          "ref": "RV15",
+          "pin": "LOW",
+          "net": "GND"
+        },
+        {
+          "ref": "RV15",
+          "pin": "WIPER",
+          "net": "RV15_W"
+        },
+        {
+          "ref": "RV15",
+          "pin": "HIGH",
+          "net": "3V3"
+        },
+        {
+          "ref": "RV16",
+          "pin": "LOW",
+          "net": "GND"
+        },
+        {
+          "ref": "RV16",
+          "pin": "WIPER",
+          "net": "RV16_W"
+        },
+        {
+          "ref": "RV16",
+          "pin": "HIGH",
+          "net": "3V3"
+        },
+        {
+          "ref": "RV17",
+          "pin": "LOW",
+          "net": "GND"
+        },
+        {
+          "ref": "RV17",
+          "pin": "WIPER",
+          "net": "RV17_W"
+        },
+        {
+          "ref": "RV17",
+          "pin": "HIGH",
+          "net": "3V3"
+        },
+        {
+          "ref": "RV18",
+          "pin": "LOW",
+          "net": "GND"
+        },
+        {
+          "ref": "RV18",
+          "pin": "WIPER",
+          "net": "RV18_W"
+        },
+        {
+          "ref": "RV18",
+          "pin": "HIGH",
+          "net": "3V3"
+        },
+        {
+          "ref": "RV19",
+          "pin": "LOW",
+          "net": "GND"
+        },
+        {
+          "ref": "RV19",
+          "pin": "WIPER",
+          "net": "RV19_W"
+        },
+        {
+          "ref": "RV19",
+          "pin": "HIGH",
+          "net": "3V3"
+        },
+        {
+          "ref": "RV20",
+          "pin": "LOW",
+          "net": "GND"
+        },
+        {
+          "ref": "RV20",
+          "pin": "WIPER",
+          "net": "RV20_W"
+        },
+        {
+          "ref": "RV20",
+          "pin": "HIGH",
+          "net": "3V3"
+        },
+        {
+          "ref": "MX1",
+          "pin": "VCC",
+          "net": "3V3"
+        },
+        {
+          "ref": "MX1",
+          "pin": "GND",
+          "net": "GND"
+        },
+        {
+          "ref": "MX1",
+          "pin": "SIG",
+          "net": "POT_ADC1"
+        },
+        {
+          "ref": "MX1",
+          "pin": "EN",
+          "net": "GND"
+        },
+        {
+          "ref": "MX1",
+          "pin": "S0",
+          "net": "MUX_S0"
+        },
+        {
+          "ref": "MX1",
+          "pin": "S1",
+          "net": "MUX_S1"
+        },
+        {
+          "ref": "MX1",
+          "pin": "S2",
+          "net": "MUX_S2"
+        },
+        {
+          "ref": "MX1",
+          "pin": "S3",
+          "net": "MUX_S3"
+        },
+        {
+          "ref": "MX1",
+          "pin": "C0",
+          "net": "RV1_W"
+        },
+        {
+          "ref": "MX1",
+          "pin": "C1",
+          "net": "RV2_W"
+        },
+        {
+          "ref": "MX1",
+          "pin": "C2",
+          "net": "RV3_W"
+        },
+        {
+          "ref": "MX1",
+          "pin": "C3",
+          "net": "RV4_W"
+        },
+        {
+          "ref": "MX1",
+          "pin": "C4",
+          "net": "RV5_W"
+        },
+        {
+          "ref": "MX1",
+          "pin": "C5",
+          "net": "RV6_W"
+        },
+        {
+          "ref": "MX1",
+          "pin": "C6",
+          "net": "RV7_W"
+        },
+        {
+          "ref": "MX1",
+          "pin": "C7",
+          "net": "RV9_W"
+        },
+        {
+          "ref": "MX1",
+          "pin": "C8",
+          "net": "RV10_W"
+        },
+        {
+          "ref": "MX1",
+          "pin": "C9",
+          "net": "RV11_W"
+        },
+        {
+          "ref": "MX1",
+          "pin": "C10",
+          "net": "RV12_W"
+        },
+        {
+          "ref": "MX1",
+          "pin": "C11",
+          "net": "RV13_W"
+        },
+        {
+          "ref": "MX1",
+          "pin": "C12",
+          "net": "RV14_W"
+        },
+        {
+          "ref": "MX1",
+          "pin": "C13",
+          "net": "RV15_W"
+        },
+        {
+          "ref": "MX1",
+          "pin": "C14",
+          "net": "RV16_W"
+        },
+        {
+          "ref": "MX1",
+          "pin": "C15",
+          "net": "RV17_W"
+        },
+        {
+          "ref": "MX2",
+          "pin": "VCC",
+          "net": "3V3"
+        },
+        {
+          "ref": "MX2",
+          "pin": "GND",
+          "net": "GND"
+        },
+        {
+          "ref": "MX2",
+          "pin": "SIG",
+          "net": "POT_ADC2"
+        },
+        {
+          "ref": "MX2",
+          "pin": "EN",
+          "net": "GND"
+        },
+        {
+          "ref": "MX2",
+          "pin": "S0",
+          "net": "MUX_S0"
+        },
+        {
+          "ref": "MX2",
+          "pin": "S1",
+          "net": "MUX_S1"
+        },
+        {
+          "ref": "MX2",
+          "pin": "S2",
+          "net": "MUX_S2"
+        },
+        {
+          "ref": "MX2",
+          "pin": "S3",
+          "net": "MUX_S3"
+        },
+        {
+          "ref": "MX2",
+          "pin": "C0",
+          "net": "RV18_W"
+        },
+        {
+          "ref": "MX2",
+          "pin": "C1",
+          "net": "RV19_W"
+        },
+        {
+          "ref": "MX2",
+          "pin": "C2",
+          "net": "RV20_W"
+        },
+        {
+          "ref": "MX2",
+          "pin": "C3",
+          "net": "GND"
+        },
+        {
+          "ref": "MX2",
+          "pin": "C4",
+          "net": "GND"
+        },
+        {
+          "ref": "MX2",
+          "pin": "C5",
+          "net": "GND"
+        },
+        {
+          "ref": "MX2",
+          "pin": "C6",
+          "net": "GND"
+        },
+        {
+          "ref": "MX2",
+          "pin": "C7",
+          "net": "GND"
+        },
+        {
+          "ref": "MX2",
+          "pin": "C8",
+          "net": "GND"
+        },
+        {
+          "ref": "MX2",
+          "pin": "C9",
+          "net": "GND"
+        },
+        {
+          "ref": "MX2",
+          "pin": "C10",
+          "net": "GND"
+        },
+        {
+          "ref": "MX2",
+          "pin": "C11",
+          "net": "GND"
+        },
+        {
+          "ref": "MX2",
+          "pin": "C12",
+          "net": "GND"
+        },
+        {
+          "ref": "MX2",
+          "pin": "C13",
+          "net": "GND"
+        },
+        {
+          "ref": "MX2",
+          "pin": "C14",
+          "net": "GND"
+        },
+        {
+          "ref": "MX2",
+          "pin": "C15",
+          "net": "GND"
+        },
+        {
+          "ref": "S1",
+          "pin": "COM",
+          "net": "GND"
+        },
+        {
+          "ref": "S1",
+          "pin": "ON",
+          "net": "S1_ON"
+        },
+        {
+          "ref": "S2",
+          "pin": "COM",
+          "net": "GND"
+        },
+        {
+          "ref": "S2",
+          "pin": "ON",
+          "net": "S2_ON"
+        },
+        {
+          "ref": "S3",
+          "pin": "COM",
+          "net": "GND"
+        },
+        {
+          "ref": "S3",
+          "pin": "ON",
+          "net": "S3_ON"
+        },
+        {
+          "ref": "S4",
+          "pin": "COM",
+          "net": "GND"
+        },
+        {
+          "ref": "S4",
+          "pin": "ON",
+          "net": "S4_ON"
+        },
+        {
+          "ref": "S5",
+          "pin": "COM",
+          "net": "GND"
+        },
+        {
+          "ref": "S5",
+          "pin": "ON",
+          "net": "S5_ON"
+        },
+        {
+          "ref": "S6",
+          "pin": "COM",
+          "net": "GND"
+        },
+        {
+          "ref": "S6",
+          "pin": "ON",
+          "net": "S6_ON"
+        },
+        {
+          "ref": "S7",
+          "pin": "COM",
+          "net": "GND"
+        },
+        {
+          "ref": "S7",
+          "pin": "ON",
+          "net": "S7_ON"
+        },
+        {
+          "ref": "S8",
+          "pin": "COM",
+          "net": "GND"
+        },
+        {
+          "ref": "S8",
+          "pin": "ON",
+          "net": "S8_ON"
+        },
+        {
+          "ref": "S9",
+          "pin": "COM",
+          "net": "GND"
+        },
+        {
+          "ref": "S9",
+          "pin": "ON",
+          "net": "S9_ON"
+        },
+        {
+          "ref": "S10",
+          "pin": "COM",
+          "net": "GND"
+        },
+        {
+          "ref": "S10",
+          "pin": "ON",
+          "net": "S10_ON"
+        },
+        {
+          "ref": "S12",
+          "pin": "COM",
+          "net": "GND"
+        },
+        {
+          "ref": "S12",
+          "pin": "ON",
+          "net": "S12_ON"
+        },
+        {
+          "ref": "S13",
+          "pin": "COM",
+          "net": "GND"
+        },
+        {
+          "ref": "S13",
+          "pin": "ON",
+          "net": "S13_ON"
+        },
+        {
+          "ref": "S14",
+          "pin": "COM",
+          "net": "GND"
+        },
+        {
+          "ref": "S14",
+          "pin": "ON",
+          "net": "S14_ON"
+        },
+        {
+          "ref": "S15",
+          "pin": "COM",
+          "net": "GND"
+        },
+        {
+          "ref": "S15",
+          "pin": "ON",
+          "net": "S15_ON"
+        },
+        {
+          "ref": "S16",
+          "pin": "COM",
+          "net": "GND"
+        },
+        {
+          "ref": "S16",
+          "pin": "ON",
+          "net": "S16_ON"
+        },
+        {
+          "ref": "S17",
+          "pin": "COM",
+          "net": "GND"
+        },
+        {
+          "ref": "S17",
+          "pin": "ON",
+          "net": "S17_ON"
+        },
+        {
+          "ref": "S18",
+          "pin": "COM",
+          "net": "GND"
+        },
+        {
+          "ref": "S18",
+          "pin": "ON",
+          "net": "S18_ON"
+        },
+        {
+          "ref": "IO1",
+          "pin": "VDD",
+          "net": "3V3"
+        },
+        {
+          "ref": "IO1",
+          "pin": "VSS",
+          "net": "GND"
+        },
+        {
+          "ref": "IO1",
+          "pin": "SDA",
+          "net": "I2C_SDA"
+        },
+        {
+          "ref": "IO1",
+          "pin": "SCL",
+          "net": "I2C_SCL"
+        },
+        {
+          "ref": "IO1",
+          "pin": "RESET",
+          "net": "IO_RESET"
+        },
+        {
+          "ref": "IO1",
+          "pin": "INTA",
+          "net": "PANEL_IRQ"
+        },
+        {
+          "ref": "IO1",
+          "pin": "A0",
+          "net": "GND"
+        },
+        {
+          "ref": "IO1",
+          "pin": "A1",
+          "net": "GND"
+        },
+        {
+          "ref": "IO1",
+          "pin": "A2",
+          "net": "GND"
+        },
+        {
+          "ref": "IO1",
+          "pin": "GPA0",
+          "net": "E1_A"
+        },
+        {
+          "ref": "IO1",
+          "pin": "GPA1",
+          "net": "E1_B"
+        },
+        {
+          "ref": "IO1",
+          "pin": "GPA2",
+          "net": "E1_P"
+        },
+        {
+          "ref": "IO1",
+          "pin": "GPA3",
+          "net": "E2_A"
+        },
+        {
+          "ref": "IO1",
+          "pin": "GPA4",
+          "net": "E2_B"
+        },
+        {
+          "ref": "IO1",
+          "pin": "GPA5",
+          "net": "E2_P"
+        },
+        {
+          "ref": "IO1",
+          "pin": "GPA6",
+          "net": "E3_A"
+        },
+        {
+          "ref": "IO1",
+          "pin": "GPB0",
+          "net": "E3_B"
+        },
+        {
+          "ref": "IO1",
+          "pin": "GPB1",
+          "net": "E3_P"
+        },
+        {
+          "ref": "IO1",
+          "pin": "GPB2",
+          "net": "E4_A"
+        },
+        {
+          "ref": "IO1",
+          "pin": "GPB3",
+          "net": "E4_B"
+        },
+        {
+          "ref": "IO1",
+          "pin": "GPB4",
+          "net": "E4_P"
+        },
+        {
+          "ref": "IO1",
+          "pin": "GPB5",
+          "net": "E5_A"
+        },
+        {
+          "ref": "IO1",
+          "pin": "GPB6",
+          "net": "E5_B"
+        },
+        {
+          "ref": "IO1",
+          "pin": "GPA7",
+          "net": "MUX_S0"
+        },
+        {
+          "ref": "IO1",
+          "pin": "GPB7",
+          "net": "MUX_S1"
+        },
+        {
+          "ref": "IO2",
+          "pin": "VDD",
+          "net": "3V3"
+        },
+        {
+          "ref": "IO2",
+          "pin": "VSS",
+          "net": "GND"
+        },
+        {
+          "ref": "IO2",
+          "pin": "SDA",
+          "net": "I2C_SDA"
+        },
+        {
+          "ref": "IO2",
+          "pin": "SCL",
+          "net": "I2C_SCL"
+        },
+        {
+          "ref": "IO2",
+          "pin": "RESET",
+          "net": "IO_RESET"
+        },
+        {
+          "ref": "IO2",
+          "pin": "INTA",
+          "net": "PANEL_IRQ"
+        },
+        {
+          "ref": "IO2",
+          "pin": "A0",
+          "net": "3V3"
+        },
+        {
+          "ref": "IO2",
+          "pin": "A1",
+          "net": "GND"
+        },
+        {
+          "ref": "IO2",
+          "pin": "A2",
+          "net": "GND"
+        },
+        {
+          "ref": "IO2",
+          "pin": "GPA0",
+          "net": "E5_P"
+        },
+        {
+          "ref": "IO2",
+          "pin": "GPA1",
+          "net": "E6_A"
+        },
+        {
+          "ref": "IO2",
+          "pin": "GPA2",
+          "net": "E6_B"
+        },
+        {
+          "ref": "IO2",
+          "pin": "GPA3",
+          "net": "E6_P"
+        },
+        {
+          "ref": "IO2",
+          "pin": "GPA4",
+          "net": "E7_A"
+        },
+        {
+          "ref": "IO2",
+          "pin": "GPA5",
+          "net": "E7_B"
+        },
+        {
+          "ref": "IO2",
+          "pin": "GPA6",
+          "net": "E7_P"
+        },
+        {
+          "ref": "IO2",
+          "pin": "GPB0",
+          "net": "E8_A"
+        },
+        {
+          "ref": "IO2",
+          "pin": "GPB1",
+          "net": "E8_B"
+        },
+        {
+          "ref": "IO2",
+          "pin": "GPB2",
+          "net": "E8_P"
+        },
+        {
+          "ref": "IO2",
+          "pin": "GPB3",
+          "net": "S1_ON"
+        },
+        {
+          "ref": "IO2",
+          "pin": "GPB4",
+          "net": "S2_ON"
+        },
+        {
+          "ref": "IO2",
+          "pin": "GPB5",
+          "net": "S3_ON"
+        },
+        {
+          "ref": "IO2",
+          "pin": "GPB6",
+          "net": "S4_ON"
+        },
+        {
+          "ref": "IO2",
+          "pin": "GPA7",
+          "net": "MUX_S2"
+        },
+        {
+          "ref": "IO2",
+          "pin": "GPB7",
+          "net": "MUX_S3"
+        },
+        {
+          "ref": "IO3",
+          "pin": "VDD",
+          "net": "3V3"
+        },
+        {
+          "ref": "IO3",
+          "pin": "VSS",
+          "net": "GND"
+        },
+        {
+          "ref": "IO3",
+          "pin": "SDA",
+          "net": "I2C_SDA"
+        },
+        {
+          "ref": "IO3",
+          "pin": "SCL",
+          "net": "I2C_SCL"
+        },
+        {
+          "ref": "IO3",
+          "pin": "RESET",
+          "net": "IO_RESET"
+        },
+        {
+          "ref": "IO3",
+          "pin": "INTA",
+          "net": "PANEL_IRQ"
+        },
+        {
+          "ref": "IO3",
+          "pin": "A0",
+          "net": "GND"
+        },
+        {
+          "ref": "IO3",
+          "pin": "A1",
+          "net": "3V3"
+        },
+        {
+          "ref": "IO3",
+          "pin": "A2",
+          "net": "GND"
+        },
+        {
+          "ref": "IO3",
+          "pin": "GPA0",
+          "net": "S5_ON"
+        },
+        {
+          "ref": "IO3",
+          "pin": "GPA1",
+          "net": "S6_ON"
+        },
+        {
+          "ref": "IO3",
+          "pin": "GPA2",
+          "net": "S7_ON"
+        },
+        {
+          "ref": "IO3",
+          "pin": "GPA3",
+          "net": "S8_ON"
+        },
+        {
+          "ref": "IO3",
+          "pin": "GPA4",
+          "net": "S9_ON"
+        },
+        {
+          "ref": "IO3",
+          "pin": "GPA5",
+          "net": "S10_ON"
+        },
+        {
+          "ref": "IO3",
+          "pin": "GPA6",
+          "net": "S12_ON"
+        },
+        {
+          "ref": "IO3",
+          "pin": "GPB0",
+          "net": "S13_ON"
+        },
+        {
+          "ref": "IO3",
+          "pin": "GPB1",
+          "net": "S14_ON"
+        },
+        {
+          "ref": "IO3",
+          "pin": "GPB2",
+          "net": "S15_ON"
+        },
+        {
+          "ref": "IO3",
+          "pin": "GPB3",
+          "net": "S16_ON"
+        },
+        {
+          "ref": "IO3",
+          "pin": "GPB4",
+          "net": "S17_ON"
+        },
+        {
+          "ref": "IO3",
+          "pin": "GPB5",
+          "net": "S18_ON"
+        }
+      ],
+      "wrong_net_terminals": [],
+      "padless_components": [
+        "RV1",
+        "RV2",
+        "RV3",
+        "RV4",
+        "RV5",
+        "RV6",
+        "RV7",
+        "RV9",
+        "RV10",
+        "RV11",
+        "RV12",
+        "RV13",
+        "RV14",
+        "RV15",
+        "RV16",
+        "RV17",
+        "RV18",
+        "RV19",
+        "RV20",
+        "MX1",
+        "MX2",
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9",
+        "S10",
+        "S12",
+        "S13",
+        "S14",
+        "S15",
+        "S16",
+        "S17",
+        "S18",
+        "IO1",
+        "IO2",
+        "IO3"
+      ],
+      "drc_unconnected_existing_pads": 0,
+      "drc_scope_warning": "Zero DRC unconnected items cannot account for missing pads."
+    },
+    "core": {
+      "required_connected_terminals": 71,
+      "terminals_with_matching_pads": 36,
+      "missing_terminals": [
+        {
+          "ref": "MCU1",
+          "pin": "5V",
+          "net": "SYS_5V"
+        },
+        {
+          "ref": "MCU1",
+          "pin": "3V3",
+          "net": "3V3"
+        },
+        {
+          "ref": "MCU1",
+          "pin": "GND",
+          "net": "GND"
+        },
+        {
+          "ref": "MCU1",
+          "pin": "GPIO1",
+          "net": "I2C_SDA"
+        },
+        {
+          "ref": "MCU1",
+          "pin": "GPIO2",
+          "net": "I2C_SCL"
+        },
+        {
+          "ref": "MCU1",
+          "pin": "GPIO4",
+          "net": "POT_ADC1_FILTER"
+        },
+        {
+          "ref": "MCU1",
+          "pin": "GPIO5",
+          "net": "POT_ADC2_FILTER"
+        },
+        {
+          "ref": "MCU1",
+          "pin": "GPIO10",
+          "net": "PANEL_IRQ"
+        },
+        {
+          "ref": "MCU1",
+          "pin": "GPIO15",
+          "net": "I2S_BCLK"
+        },
+        {
+          "ref": "MCU1",
+          "pin": "GPIO16",
+          "net": "I2S_LRCLK"
+        },
+        {
+          "ref": "MCU1",
+          "pin": "GPIO17",
+          "net": "I2S_TX"
+        },
+        {
+          "ref": "MCU1",
+          "pin": "GPIO40",
+          "net": "HP_EN"
+        },
+        {
+          "ref": "MCU1",
+          "pin": "GPIO41",
+          "net": "DAC_MUTE_N"
+        },
+        {
+          "ref": "DAC1",
+          "pin": "VIN",
+          "net": "SYS_5V"
+        },
+        {
+          "ref": "DAC1",
+          "pin": "GND",
+          "net": "GND"
+        },
+        {
+          "ref": "DAC1",
+          "pin": "BCK",
+          "net": "I2S_BCLK"
+        },
+        {
+          "ref": "DAC1",
+          "pin": "LCK",
+          "net": "I2S_LRCLK"
+        },
+        {
+          "ref": "DAC1",
+          "pin": "DIN",
+          "net": "I2S_TX"
+        },
+        {
+          "ref": "DAC1",
+          "pin": "SCK",
+          "net": "GND"
+        },
+        {
+          "ref": "DAC1",
+          "pin": "FMT",
+          "net": "GND"
+        },
+        {
+          "ref": "DAC1",
+          "pin": "XSMT",
+          "net": "DAC_MUTE_N"
+        },
+        {
+          "ref": "DAC1",
+          "pin": "OUTL",
+          "net": "MAIN_RAW"
+        },
+        {
+          "ref": "DAC1",
+          "pin": "OUTR",
+          "net": "PHONES_RAW"
+        },
+        {
+          "ref": "HP1",
+          "pin": "VCC",
+          "net": "3V3"
+        },
+        {
+          "ref": "HP1",
+          "pin": "GND",
+          "net": "GND"
+        },
+        {
+          "ref": "HP1",
+          "pin": "L-",
+          "net": "HP_FEED"
+        },
+        {
+          "ref": "HP1",
+          "pin": "R-",
+          "net": "HP_FEED"
+        },
+        {
+          "ref": "HP1",
+          "pin": "L+",
+          "net": "GND"
+        },
+        {
+          "ref": "HP1",
+          "pin": "R+",
+          "net": "GND"
+        },
+        {
+          "ref": "HP1",
+          "pin": "CTRL",
+          "net": "HP_EN"
+        },
+        {
+          "ref": "HP1",
+          "pin": "OUTL",
+          "net": "PHONES_L"
+        },
+        {
+          "ref": "HP1",
+          "pin": "OUTR",
+          "net": "PHONES_R"
+        },
+        {
+          "ref": "JMAIN",
+          "pin": "TIP",
+          "net": "MAIN_LINE"
+        },
+        {
+          "ref": "JMAIN",
+          "pin": "RING",
+          "net": "MAIN_LINE"
+        },
+        {
+          "ref": "JMAIN",
+          "pin": "SLEEVE",
+          "net": "GND"
+        }
+      ],
+      "wrong_net_terminals": [],
+      "padless_components": [
+        "MCU1",
+        "DAC1",
+        "HP1",
+        "JMAIN"
+      ],
+      "drc_unconnected_existing_pads": 0,
+      "drc_scope_warning": "Zero DRC unconnected items cannot account for missing pads."
+    }
+  },
+  "unresolved_system_checks": [
+    "ARCELI native USB host VBUS source, current limiting and USB-C role",
+    "3.3 V regulator current and thermal budget with all modules attached",
+    "Purchased module input coupling, pull-ups and configuration straps",
+    "Mechanical fit of purchased components and rear connectors"
+  ],
+  "missing_terminal_count": 246,
+  "padless_component_count": 45
+}

@@ -1,0 +1,28 @@
+{
+  "part": "Same Sky SJ1-3523N",
+  "status": "DOCUMENTED_CANDIDATE_NOT_ASSEMBLY_INTEGRATED",
+  "source": "https://www.sameskydevices.com/product/resource/sj1-352xn.pdf",
+  "drawing_date": "2024-09-12",
+  "drawing_page": 2,
+  "pin_mapping": {
+    "1": "SLEEVE/GND",
+    "2": "TIP/MAIN_LINE",
+    "3": "RING/MAIN_LINE"
+  },
+  "origin": "sleeve terminal; top view; mouth towards negative Y",
+  "body_mm": [
+    12,
+    11,
+    5
+  ],
+  "nose_length_mm": 3.3,
+  "nose_diameter_mm": 6,
+  "mating_axis_height_above_body_base_mm": 2.5,
+  "remaining_design_work": [
+    "Integrate board edge/notch under nose, which extends below body base.",
+    "Position jack so plug body clears the 3 mm PMMA rear panel.",
+    "Update main board, schematic, enclosure aperture and CAD together.",
+    "Route output and ground after integration; do not substitute generic PJ307."
+  ],
+  "procurement": "No exact Amazon.de listing confirmed; buy the exact manufacturer part from an electronics distributor."
+}

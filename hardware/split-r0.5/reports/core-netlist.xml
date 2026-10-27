@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/tom/Sandbox/Moog/hardware/split-r0.5/core/core.kicad_sch</source>
+    <date>2026-10-27T18:10:51+0100</date>
+    <tool>Eeschema 9.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Compact D R05 / core / functional draft</title>
+        <company/>
+        <rev>0.5 NOT FOR MANUFACTURE</rev>
+        <date/>
+        <source>core.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="CA1">
+      <value>1nF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="CA1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="core.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4b47e3b-0190-5b96-96c9-86e41041a30a</tstamps>
+    </comp>
+    <comp ref="CA2">
+      <value>1nF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="CA2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="core.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>150559ed-a5ad-5f2b-9ff7-af55f04343e5</tstamps>
+    </comp>
+    <comp ref="CC1">
+      <value>100nF</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="CC1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="core.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b5289e9-f0dd-507a-b0e7-e0fe9798b599</tstamps>
+    </comp>
+    <comp ref="CC2">
+      <value>10uF 10V</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="CC2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="core.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37a6511d-1156-550f-88c0-f98cac523546</tstamps>
+    </comp>
+    <comp ref="DAC1">
+      <value>PCM5102 / L main, R phones</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="DAC1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="core.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7dd7b8f5-ddc4-504d-882a-8f0cd822c5f1</tstamps>
+    </comp>
+    <comp ref="HP1">
+      <value>Quystetes TPA6132 module</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="HP1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="core.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca5121b6-15f6-50aa-a6e5-60a80141f5e7</tstamps>
+    </comp>
+    <comp ref="JCORE">
+      <value>12-way soldered ribbon</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="JCORE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="core.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1039cd8f-e180-5181-bd4f-e75068f21a6a</tstamps>
+    </comp>
+    <comp ref="JMAIN">
+      <value>3.5mm MAIN output / MPN pending</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="JMAIN" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="core.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8df836b-bc97-5d1b-adca-d17e30b99921</tstamps>
+    </comp>
+    <comp ref="MCU1">
+      <value>ARCELI ESP32-S3 N16R8</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="MCU1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="core.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7bdd0c4-22d9-5ee1-a22d-787d7eb9950d</tstamps>
+    </comp>
+    <comp ref="RA1">
+      <value>1k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RA1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="core.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4e413365-11cd-558a-ad05-23a11ce8efd1</tstamps>
+    </comp>
+    <comp ref="RA2">
+      <value>1k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RA2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="core.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80408712-bbff-5869-93f4-bc1b98cf5075</tstamps>
+    </comp>
+    <comp ref="RA3">
+      <value>100R</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RA3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="core.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef606cd2-97c9-5fed-990c-0b2b04c40c78</tstamps>
+    </comp>
+    <comp ref="RA4">
+      <value>10k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RA4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="core.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1d78ba0-52fc-51ec-b8af-30d054a22d06</tstamps>
+    </comp>
+    <comp ref="RA5">
+      <value>4k7</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RA5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="core.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1f18b19-ac89-5101-accf-5e699f30900e</tstamps>
+    </comp>
+    <comp ref="RA6">
+      <value>100k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RA6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="core.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df564040-865b-5996-9ebb-2404b2343793</tstamps>
+    </comp>
+    <comp ref="RA7">
+      <value>100k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RA7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="core.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff720a3f-b2ff-5254-b242-fd64eb510fc2</tstamps>
+    </comp>
+    <comp ref="RP5">
+      <value>10k</value>
+      <fields>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Split" part="RP5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="core.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f64a9fc0-fc64-571d-b6b5-cd9925b5ec89</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Split" part="CA1">
+      <fields>
+        <field name="Reference">CA1</field>
+        <field name="Value">1nF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="CA2">
+      <fields>
+        <field name="Reference">CA2</field>
+        <field name="Value">1nF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="CC1">
+      <fields>
+        <field name="Reference">CC1</field>
+        <field name="Value">100nF</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="CC2">
+      <fields>
+        <field name="Reference">CC2</field>
+        <field name="Value">10uF 10V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="DAC1">
+      <fields>
+        <field name="Reference">DAC1</field>
+        <field name="Value">PCM5102 / L main, R phones</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="BCK" name="BCK" type="passive"/>
+        <pin num="DIN" name="DIN" type="passive"/>
+        <pin num="FMT" name="FMT" type="passive"/>
+        <pin num="GND" name="GND" type="passive"/>
+        <pin num="LCK" name="LCK" type="passive"/>
+        <pin num="OUTL" name="OUTL" type="passive"/>
+        <pin num="OUTR" name="OUTR" type="passive"/>
+        <pin num="SCK" name="SCK" type="passive"/>
+        <pin num="VIN" name="VIN" type="passive"/>
+        <pin num="XSMT" name="XSMT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="HP1">
+      <fields>
+        <field name="Reference">HP1</field>
+        <field name="Value">Quystetes TPA6132 module</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="CTRL" name="CTRL" type="passive"/>
+        <pin num="DET" name="DET" type="passive"/>
+        <pin num="GND" name="GND" type="passive"/>
+        <pin num="L+" name="L+" type="passive"/>
+        <pin num="L-" name="L-" type="passive"/>
+        <pin num="OUTL" name="OUTL" type="passive"/>
+        <pin num="OUTR" name="OUTR" type="passive"/>
+        <pin num="R+" name="R+" type="passive"/>
+        <pin num="R-" name="R-" type="passive"/>
+        <pin num="VCC" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="JCORE">
+      <fields>
+        <field name="Reference">JCORE</field>
+        <field name="Value">12-way soldered ribbon</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="JMAIN">
+      <fields>
+        <field name="Reference">JMAIN</field>
+        <field name="Value">3.5mm MAIN output / MPN pending</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="RING" name="RING" type="passive"/>
+        <pin num="SLEEVE" name="SLEEVE" type="passive"/>
+        <pin num="TIP" name="TIP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="MCU1">
+      <fields>
+        <field name="Reference">MCU1</field>
+        <field name="Value">ARCELI ESP32-S3 N16R8</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="3V3" name="3V3" type="passive"/>
+        <pin num="5V" name="5V" type="passive"/>
+        <pin num="GND" name="GND" type="passive"/>
+        <pin num="GPIO1" name="GPIO1" type="passive"/>
+        <pin num="GPIO2" name="GPIO2" type="passive"/>
+        <pin num="GPIO4" name="GPIO4" type="passive"/>
+        <pin num="GPIO5" name="GPIO5" type="passive"/>
+        <pin num="GPIO10" name="GPIO10" type="passive"/>
+        <pin num="GPIO15" name="GPIO15" type="passive"/>
+        <pin num="GPIO16" name="GPIO16" type="passive"/>
+        <pin num="GPIO17" name="GPIO17" type="passive"/>
+        <pin num="GPIO40" name="GPIO40" type="passive"/>
+        <pin num="GPIO41" name="GPIO41" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RA1">
+      <fields>
+        <field name="Reference">RA1</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RA2">
+      <fields>
+        <field name="Reference">RA2</field>
+        <field name="Value">1k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RA3">
+      <fields>
+        <field name="Reference">RA3</field>
+        <field name="Value">100R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RA4">
+      <fields>
+        <field name="Reference">RA4</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RA5">
+      <fields>
+        <field name="Reference">RA5</field>
+        <field name="Value">4k7</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RA6">
+      <fields>
+        <field name="Reference">RA6</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RA7">
+      <fields>
+        <field name="Reference">RA7</field>
+        <field name="Value">100k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Split" part="RP5">
+      <fields>
+        <field name="Reference">RP5</field>
+        <field name="Value">10k</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="3V3" class="Default">
+      <node ref="CC1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="HP1" pin="VCC" pinfunction="VCC" pintype="passive"/>
+      <node ref="JCORE" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="MCU1" pin="3V3" pinfunction="3V3" pintype="passive"/>
+      <node ref="RP5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="2" name="DAC_MUTE_N" class="Default">
+      <node ref="DAC1" pin="XSMT" pinfunction="XSMT" pintype="passive"/>
+      <node ref="MCU1" pin="GPIO41" pinfunction="GPIO41" pintype="passive"/>
+      <node ref="RA6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="3" name="GND" class="Default">
+      <node ref="CA1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="CA2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="CC1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="CC2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="DAC1" pin="FMT" pinfunction="FMT" pintype="passive"/>
+      <node ref="DAC1" pin="GND" pinfunction="GND" pintype="passive"/>
+      <node ref="DAC1" pin="SCK" pinfunction="SCK" pintype="passive"/>
+      <node ref="HP1" pin="GND" pinfunction="GND" pintype="passive"/>
+      <node ref="HP1" pin="L+" pinfunction="L+" pintype="passive"/>
+      <node ref="HP1" pin="R+" pinfunction="R+" pintype="passive"/>
+      <node ref="JCORE" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="JCORE" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="JCORE" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="JCORE" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="JCORE" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="JCORE" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="JMAIN" pin="SLEEVE" pinfunction="SLEEVE" pintype="passive"/>
+      <node ref="MCU1" pin="GND" pinfunction="GND" pintype="passive"/>
+      <node ref="RA5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RA6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RA7" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="4" name="HP_EN" class="Default">
+      <node ref="HP1" pin="CTRL" pinfunction="CTRL" pintype="passive"/>
+      <node ref="MCU1" pin="GPIO40" pinfunction="GPIO40" pintype="passive"/>
+      <node ref="RA7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="5" name="HP_FEED" class="Default">
+      <node ref="HP1" pin="L-" pinfunction="L-" pintype="passive"/>
+      <node ref="HP1" pin="R-" pinfunction="R-" pintype="passive"/>
+      <node ref="RA4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RA5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="6" name="I2C_SCL" class="Default">
+      <node ref="JCORE" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="MCU1" pin="GPIO2" pinfunction="GPIO2" pintype="passive"/>
+    </net>
+    <net code="7" name="I2C_SDA" class="Default">
+      <node ref="JCORE" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="MCU1" pin="GPIO1" pinfunction="GPIO1" pintype="passive"/>
+    </net>
+    <net code="8" name="I2S_BCLK" class="Default">
+      <node ref="DAC1" pin="BCK" pinfunction="BCK" pintype="passive"/>
+      <node ref="MCU1" pin="GPIO15" pinfunction="GPIO15" pintype="passive"/>
+    </net>
+    <net code="9" name="I2S_LRCLK" class="Default">
+      <node ref="DAC1" pin="LCK" pinfunction="LCK" pintype="passive"/>
+      <node ref="MCU1" pin="GPIO16" pinfunction="GPIO16" pintype="passive"/>
+    </net>
+    <net code="10" name="I2S_TX" class="Default">
+      <node ref="DAC1" pin="DIN" pinfunction="DIN" pintype="passive"/>
+      <node ref="MCU1" pin="GPIO17" pinfunction="GPIO17" pintype="passive"/>
+    </net>
+    <net code="11" name="MAIN_LINE" class="Default">
+      <node ref="JMAIN" pin="RING" pinfunction="RING" pintype="passive"/>
+      <node ref="JMAIN" pin="TIP" pinfunction="TIP" pintype="passive"/>
+      <node ref="RA3" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="12" name="MAIN_RAW" class="Default">
+      <node ref="DAC1" pin="OUTL" pinfunction="OUTL" pintype="passive"/>
+      <node ref="RA3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="13" name="PANEL_IRQ" class="Default">
+      <node ref="JCORE" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="MCU1" pin="GPIO10" pinfunction="GPIO10" pintype="passive"/>
+      <node ref="RP5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="14" name="PHONES_L" class="Default">
+      <node ref="HP1" pin="OUTL" pinfunction="OUTL" pintype="passive"/>
+    </net>
+    <net code="15" name="PHONES_R" class="Default">
+      <node ref="HP1" pin="OUTR" pinfunction="OUTR" pintype="passive"/>
+    </net>
+    <net code="16" name="PHONES_RAW" class="Default">
+      <node ref="DAC1" pin="OUTR" pinfunction="OUTR" pintype="passive"/>
+      <node ref="RA4" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="17" name="POT_ADC1" class="Default">
+      <node ref="JCORE" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="RA1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="18" name="POT_ADC1_FILTER" class="Default">
+      <node ref="CA1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="MCU1" pin="GPIO4" pinfunction="GPIO4" pintype="passive"/>
+      <node ref="RA1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="19" name="POT_ADC2" class="Default">
+      <node ref="JCORE" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="RA2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="20" name="POT_ADC2_FILTER" class="Default">
+      <node ref="CA2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="MCU1" pin="GPIO5" pinfunction="GPIO5" pintype="passive"/>
+      <node ref="RA2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="21" name="SYS_5V" class="Default">
+      <node ref="CC2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="DAC1" pin="VIN" pinfunction="VIN" pintype="passive"/>
+      <node ref="MCU1" pin="5V" pinfunction="5V" pintype="passive"/>
+    </net>
+    <net code="22" name="unconnected-(HP1-PadDET)" class="Default">
+      <node ref="HP1" pin="DET" pinfunction="DET" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

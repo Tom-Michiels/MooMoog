@@ -1,0 +1,9 @@
+{
+  "minimum_conservative_interboard_gap_mm": 11.693128729500188,
+  "nearest_envelopes": [
+    "control_PCB",
+    "DAC1_44"
+  ],
+  "overall_height_including_knobs_and_feet_mm": 104.52547294220044,
+  "scope": "Reconstructed nominal geometry only; not vendor dimension validation. Conservative axis-aligned boxes between boards; not a full assembly fit or electrical clearance certification."
+}

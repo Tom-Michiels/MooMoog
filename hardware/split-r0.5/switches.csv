@@ -1,0 +1,18 @@
+ref,param,label,x,y,kind,rotation,color
+S1,mod.osc_enable,Osc mod,38,128,switch,90,orange
+S2,mod.source_a,Osc3 / EG,51,128,switch,90,black
+S3,mod.source_b,Noise / LFO,64,128,switch,90,black
+S4,glide.enable,Glide on,12,141,switch,90,white
+S5,env.decay_enable,Decay on,24,141,switch,90,white
+S6,lfo.shape,LFO shape,51,142,switch,90,black
+S7,osc3.keyboard,Osc3 keyboard,80,128,switch,90,white
+S8,mix.osc1_enable,Osc 1 on,121,28,switch,90,blue
+S9,mix.osc2_enable,Osc 2 on,121,68,switch,90,blue
+S10,mix.osc3_enable,Osc 3 on,121,108,switch,90,blue
+S12,mix.noise_enable,Noise on,101,88,switch,90,blue
+S13,noise.type,White / Pink,121,128,switch,90,black
+S14,mod.filter_enable,Filter mod,142,48,switch,90,orange
+S15,filter.keytrack1,Keytrack 1,164,48,switch,90,white
+S16,filter.keytrack2,Keytrack 2,186,48,switch,90,white
+S17,output.main_enable,Main on,208,53,switch,90,blue
+S18,output.a440,A-440,208,76,switch,90,white

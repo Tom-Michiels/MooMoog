@@ -1,0 +1,7783 @@
+{
+  "revision": "0.4",
+  "status": "PARTIALLY_ROUTED_NOT_MANUFACTURING_READY",
+  "board_mm": [
+    220,
+    150,
+    1.6
+  ],
+  "user_board_limit_mm": [
+    220,
+    150
+  ],
+  "controls": [
+    {
+      "ref": "RV1",
+      "param": "master.tune",
+      "label": "TUNE",
+      "x": 16,
+      "y": 28,
+      "kind": "pot",
+      "mux": "MX1",
+      "channel": 0,
+      "net": "RV1_FILTER"
+    },
+    {
+      "ref": "RV2",
+      "param": "glide.time",
+      "label": "GLIDE",
+      "x": 16,
+      "y": 60,
+      "kind": "pot",
+      "mux": "MX1",
+      "channel": 1,
+      "net": "RV2_FILTER"
+    },
+    {
+      "ref": "RV3",
+      "param": "mod.mix",
+      "label": "MODULATION MIX",
+      "x": 16,
+      "y": 92,
+      "kind": "pot",
+      "mux": "MX1",
+      "channel": 2,
+      "net": "RV3_FILTER"
+    },
+    {
+      "ref": "RV4",
+      "param": "lfo.rate",
+      "label": "LFO RATE",
+      "x": 16,
+      "y": 124,
+      "kind": "pot",
+      "mux": "MX1",
+      "channel": 3,
+      "net": "RV4_FILTER"
+    },
+    {
+      "ref": "E1",
+      "param": "osc1.range",
+      "label": "RANGE",
+      "x": 38,
+      "y": 28,
+      "kind": "encoder"
+    },
+    {
+      "ref": "E2",
+      "param": "osc1.wave",
+      "label": "WAVEFORM",
+      "x": 80,
+      "y": 28,
+      "kind": "encoder"
+    },
+    {
+      "ref": "E3",
+      "param": "osc2.range",
+      "label": "RANGE",
+      "x": 38,
+      "y": 68,
+      "kind": "encoder"
+    },
+    {
+      "ref": "E4",
+      "param": "osc2.detune",
+      "label": "FREQUENCY",
+      "x": 59,
+      "y": 68,
+      "kind": "encoder"
+    },
+    {
+      "ref": "E5",
+      "param": "osc2.wave",
+      "label": "WAVEFORM",
+      "x": 80,
+      "y": 68,
+      "kind": "encoder"
+    },
+    {
+      "ref": "E6",
+      "param": "osc3.range",
+      "label": "RANGE",
+      "x": 38,
+      "y": 108,
+      "kind": "encoder"
+    },
+    {
+      "ref": "E7",
+      "param": "osc3.detune",
+      "label": "FREQUENCY",
+      "x": 59,
+      "y": 108,
+      "kind": "encoder"
+    },
+    {
+      "ref": "E8",
+      "param": "osc3.wave",
+      "label": "WAVEFORM",
+      "x": 80,
+      "y": 108,
+      "kind": "encoder"
+    },
+    {
+      "ref": "RV5",
+      "param": "mix.osc1",
+      "label": "VOLUME",
+      "x": 101,
+      "y": 28,
+      "kind": "pot",
+      "mux": "MX1",
+      "channel": 4,
+      "net": "RV5_FILTER"
+    },
+    {
+      "ref": "RV6",
+      "param": "mix.osc2",
+      "label": "VOLUME",
+      "x": 101,
+      "y": 68,
+      "kind": "pot",
+      "mux": "MX1",
+      "channel": 5,
+      "net": "RV6_FILTER"
+    },
+    {
+      "ref": "RV7",
+      "param": "mix.osc3",
+      "label": "VOLUME",
+      "x": 101,
+      "y": 108,
+      "kind": "pot",
+      "mux": "MX1",
+      "channel": 6,
+      "net": "RV7_FILTER"
+    },
+    {
+      "ref": "RV8",
+      "param": "mix.external",
+      "label": "EXT INPUT",
+      "x": 121,
+      "y": 48,
+      "kind": "pot",
+      "mux": "MX1",
+      "channel": 7,
+      "net": "RV8_FILTER"
+    },
+    {
+      "ref": "RV9",
+      "param": "mix.noise",
+      "label": "NOISE VOLUME",
+      "x": 121,
+      "y": 88,
+      "kind": "pot",
+      "mux": "MX1",
+      "channel": 8,
+      "net": "RV9_FILTER"
+    },
+    {
+      "ref": "RV10",
+      "param": "filter.cutoff",
+      "label": "CUTOFF FREQUENCY",
+      "x": 142,
+      "y": 28,
+      "kind": "pot",
+      "mux": "MX1",
+      "channel": 9,
+      "net": "RV10_FILTER"
+    },
+    {
+      "ref": "RV11",
+      "param": "filter.resonance",
+      "label": "EMPHASIS",
+      "x": 164,
+      "y": 28,
+      "kind": "pot",
+      "mux": "MX1",
+      "channel": 10,
+      "net": "RV11_FILTER"
+    },
+    {
+      "ref": "RV12",
+      "param": "filter.env_amount",
+      "label": "AMOUNT OF CONTOUR",
+      "x": 186,
+      "y": 28,
+      "kind": "pot",
+      "mux": "MX1",
+      "channel": 11,
+      "net": "RV12_FILTER"
+    },
+    {
+      "ref": "RV13",
+      "param": "env.filter.attack",
+      "label": "ATTACK TIME",
+      "x": 142,
+      "y": 68,
+      "kind": "pot",
+      "mux": "MX1",
+      "channel": 12,
+      "net": "RV13_FILTER"
+    },
+    {
+      "ref": "RV14",
+      "param": "env.filter.decay",
+      "label": "DECAY TIME",
+      "x": 164,
+      "y": 68,
+      "kind": "pot",
+      "mux": "MX1",
+      "channel": 13,
+      "net": "RV14_FILTER"
+    },
+    {
+      "ref": "RV15",
+      "param": "env.filter.sustain",
+      "label": "SUSTAIN LEVEL",
+      "x": 186,
+      "y": 68,
+      "kind": "pot",
+      "mux": "MX1",
+      "channel": 14,
+      "net": "RV15_FILTER"
+    },
+    {
+      "ref": "RV16",
+      "param": "env.amp.attack",
+      "label": "ATTACK TIME",
+      "x": 142,
+      "y": 108,
+      "kind": "pot",
+      "mux": "MX1",
+      "channel": 15,
+      "net": "RV16_FILTER"
+    },
+    {
+      "ref": "RV17",
+      "param": "env.amp.decay",
+      "label": "DECAY TIME",
+      "x": 164,
+      "y": 108,
+      "kind": "pot",
+      "mux": "MX2",
+      "channel": 0,
+      "net": "RV17_FILTER"
+    },
+    {
+      "ref": "RV18",
+      "param": "env.amp.sustain",
+      "label": "SUSTAIN LEVEL",
+      "x": 186,
+      "y": 108,
+      "kind": "pot",
+      "mux": "MX2",
+      "channel": 1,
+      "net": "RV18_FILTER"
+    },
+    {
+      "ref": "RV19",
+      "param": "output.main_volume",
+      "label": "VOLUME",
+      "x": 208,
+      "y": 28,
+      "kind": "pot",
+      "mux": "MX2",
+      "channel": 2,
+      "net": "RV19_FILTER"
+    },
+    {
+      "ref": "RV20",
+      "param": "output.phones_volume",
+      "label": "PHONES",
+      "x": 208,
+      "y": 108,
+      "kind": "pot",
+      "mux": "MX2",
+      "channel": 3,
+      "net": "RV20_FILTER"
+    }
+  ],
+  "switches": [
+    {
+      "ref": "S1",
+      "param": "mod.osc_enable",
+      "label": "Osc mod",
+      "x": 38,
+      "y": 128,
+      "kind": "switch",
+      "rotation": 90,
+      "color": "orange"
+    },
+    {
+      "ref": "S2",
+      "param": "mod.source_a",
+      "label": "Osc3 / EG",
+      "x": 51,
+      "y": 128,
+      "kind": "switch",
+      "rotation": 90,
+      "color": "black"
+    },
+    {
+      "ref": "S3",
+      "param": "mod.source_b",
+      "label": "Noise / LFO",
+      "x": 64,
+      "y": 128,
+      "kind": "switch",
+      "rotation": 90,
+      "color": "black"
+    },
+    {
+      "ref": "S4",
+      "param": "glide.enable",
+      "label": "Glide on",
+      "x": 12,
+      "y": 141,
+      "kind": "switch",
+      "rotation": 90,
+      "color": "white"
+    },
+    {
+      "ref": "S5",
+      "param": "env.decay_enable",
+      "label": "Decay on",
+      "x": 24,
+      "y": 141,
+      "kind": "switch",
+      "rotation": 90,
+      "color": "white"
+    },
+    {
+      "ref": "S6",
+      "param": "lfo.shape",
+      "label": "LFO shape",
+      "x": 51,
+      "y": 142,
+      "kind": "switch",
+      "rotation": 90,
+      "color": "black"
+    },
+    {
+      "ref": "S7",
+      "param": "osc3.keyboard",
+      "label": "Osc3 keyboard",
+      "x": 80,
+      "y": 128,
+      "kind": "switch",
+      "rotation": 90,
+      "color": "white"
+    },
+    {
+      "ref": "S8",
+      "param": "mix.osc1_enable",
+      "label": "Osc 1 on",
+      "x": 121,
+      "y": 28,
+      "kind": "switch",
+      "rotation": 90,
+      "color": "blue"
+    },
+    {
+      "ref": "S9",
+      "param": "mix.osc2_enable",
+      "label": "Osc 2 on",
+      "x": 121,
+      "y": 68,
+      "kind": "switch",
+      "rotation": 90,
+      "color": "blue"
+    },
+    {
+      "ref": "S10",
+      "param": "mix.osc3_enable",
+      "label": "Osc 3 on",
+      "x": 121,
+      "y": 108,
+      "kind": "switch",
+      "rotation": 90,
+      "color": "blue"
+    },
+    {
+      "ref": "S11",
+      "param": "mix.external_enable",
+      "label": "External on",
+      "x": 101,
+      "y": 48,
+      "kind": "switch",
+      "rotation": 90,
+      "color": "blue"
+    },
+    {
+      "ref": "S12",
+      "param": "mix.noise_enable",
+      "label": "Noise on",
+      "x": 101,
+      "y": 88,
+      "kind": "switch",
+      "rotation": 90,
+      "color": "blue"
+    },
+    {
+      "ref": "S13",
+      "param": "noise.type",
+      "label": "White / Pink",
+      "x": 121,
+      "y": 128,
+      "kind": "switch",
+      "rotation": 90,
+      "color": "black"
+    },
+    {
+      "ref": "S14",
+      "param": "mod.filter_enable",
+      "label": "Filter mod",
+      "x": 142,
+      "y": 48,
+      "kind": "switch",
+      "rotation": 90,
+      "color": "orange"
+    },
+    {
+      "ref": "S15",
+      "param": "filter.keytrack1",
+      "label": "Keytrack 1",
+      "x": 164,
+      "y": 48,
+      "kind": "switch",
+      "rotation": 90,
+      "color": "white"
+    },
+    {
+      "ref": "S16",
+      "param": "filter.keytrack2",
+      "label": "Keytrack 2",
+      "x": 186,
+      "y": 48,
+      "kind": "switch",
+      "rotation": 90,
+      "color": "white"
+    },
+    {
+      "ref": "S17",
+      "param": "output.main_enable",
+      "label": "Main on",
+      "x": 208,
+      "y": 53,
+      "kind": "switch",
+      "rotation": 90,
+      "color": "blue"
+    },
+    {
+      "ref": "S18",
+      "param": "output.a440",
+      "label": "A-440",
+      "x": 208,
+      "y": 76,
+      "kind": "switch",
+      "rotation": 90,
+      "color": "white"
+    }
+  ],
+  "components": [
+    {
+      "ref": "RV1",
+      "value": "RK097N B10K TUNE",
+      "kind": "pot",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "LOW",
+          "name": "LOW",
+          "net": "GND"
+        },
+        {
+          "number": "WIPER",
+          "name": "WIPER",
+          "net": "RV1_W"
+        },
+        {
+          "number": "HIGH",
+          "name": "HIGH",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        16,
+        28
+      ],
+      "size": [
+        13.5,
+        10.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Order listing body/shaft only. Pin and anchor coordinates OPEN.",
+      "uuid": "47438593-fc5c-5bc1-b12b-884933480fc4"
+    },
+    {
+      "ref": "R1",
+      "value": "1k",
+      "kind": "R",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV1_W"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "RV1_FILTER"
+        }
+      ],
+      "xy": [
+        24,
+        35
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "d41561c4-28ec-5cba-a8c1-dfcf0641c287"
+    },
+    {
+      "ref": "C1",
+      "value": "1nF C0G",
+      "kind": "C",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV1_FILTER"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        24,
+        38
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "4181a4db-51e4-59f6-952d-a179135e2f61"
+    },
+    {
+      "ref": "RV2",
+      "value": "RK097N B10K GLIDE",
+      "kind": "pot",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "LOW",
+          "name": "LOW",
+          "net": "GND"
+        },
+        {
+          "number": "WIPER",
+          "name": "WIPER",
+          "net": "RV2_W"
+        },
+        {
+          "number": "HIGH",
+          "name": "HIGH",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        16,
+        60
+      ],
+      "size": [
+        13.5,
+        10.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Order listing body/shaft only. Pin and anchor coordinates OPEN.",
+      "uuid": "7aeb1774-795d-564f-bbae-3e89b6227d68"
+    },
+    {
+      "ref": "R2",
+      "value": "1k",
+      "kind": "R",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV2_W"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "RV2_FILTER"
+        }
+      ],
+      "xy": [
+        24,
+        67
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "652f480c-af0d-5c30-9a49-db2eec37a7c7"
+    },
+    {
+      "ref": "C2",
+      "value": "1nF C0G",
+      "kind": "C",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV2_FILTER"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        24,
+        70
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "c81384e0-163e-5ff2-b343-b2d36da6be31"
+    },
+    {
+      "ref": "RV3",
+      "value": "RK097N B10K MODULATION MIX",
+      "kind": "pot",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "LOW",
+          "name": "LOW",
+          "net": "GND"
+        },
+        {
+          "number": "WIPER",
+          "name": "WIPER",
+          "net": "RV3_W"
+        },
+        {
+          "number": "HIGH",
+          "name": "HIGH",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        16,
+        92
+      ],
+      "size": [
+        13.5,
+        10.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Order listing body/shaft only. Pin and anchor coordinates OPEN.",
+      "uuid": "4cfe122c-86b0-567d-955a-f9ae5fcfe650"
+    },
+    {
+      "ref": "R3",
+      "value": "1k",
+      "kind": "R",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV3_W"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "RV3_FILTER"
+        }
+      ],
+      "xy": [
+        24,
+        99
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "7388f026-ac06-5cb8-bd76-69e521e4ce32"
+    },
+    {
+      "ref": "C3",
+      "value": "1nF C0G",
+      "kind": "C",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV3_FILTER"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        24,
+        102
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "5de6de5b-4063-508f-8d2f-5783b00b8613"
+    },
+    {
+      "ref": "RV4",
+      "value": "RK097N B10K LFO RATE",
+      "kind": "pot",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "LOW",
+          "name": "LOW",
+          "net": "GND"
+        },
+        {
+          "number": "WIPER",
+          "name": "WIPER",
+          "net": "RV4_W"
+        },
+        {
+          "number": "HIGH",
+          "name": "HIGH",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        16,
+        124
+      ],
+      "size": [
+        13.5,
+        10.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Order listing body/shaft only. Pin and anchor coordinates OPEN.",
+      "uuid": "2642413a-241b-5d8b-84c5-5c6b63ac1179"
+    },
+    {
+      "ref": "R4",
+      "value": "1k",
+      "kind": "R",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV4_W"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "RV4_FILTER"
+        }
+      ],
+      "xy": [
+        24,
+        131
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "faed15b7-d8e9-51b0-a1aa-169702b84be1"
+    },
+    {
+      "ref": "C4",
+      "value": "1nF C0G",
+      "kind": "C",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV4_FILTER"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        24,
+        134
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "d2c0cd47-ab94-59be-b274-30e9088a7de6"
+    },
+    {
+      "ref": "RV5",
+      "value": "RK097N B10K VOLUME",
+      "kind": "pot",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "LOW",
+          "name": "LOW",
+          "net": "GND"
+        },
+        {
+          "number": "WIPER",
+          "name": "WIPER",
+          "net": "RV5_W"
+        },
+        {
+          "number": "HIGH",
+          "name": "HIGH",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        101,
+        28
+      ],
+      "size": [
+        13.5,
+        10.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Order listing body/shaft only. Pin and anchor coordinates OPEN.",
+      "uuid": "de2b98f8-2228-51a8-9f48-8a7f74f4504a"
+    },
+    {
+      "ref": "R5",
+      "value": "1k",
+      "kind": "R",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV5_W"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "RV5_FILTER"
+        }
+      ],
+      "xy": [
+        109,
+        35
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "0b148ef3-4bce-5a40-adab-087f15db315c"
+    },
+    {
+      "ref": "C5",
+      "value": "1nF C0G",
+      "kind": "C",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV5_FILTER"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        109,
+        38
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "d31b01e8-68db-5a29-a197-0943ba2cce45"
+    },
+    {
+      "ref": "RV6",
+      "value": "RK097N B10K VOLUME",
+      "kind": "pot",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "LOW",
+          "name": "LOW",
+          "net": "GND"
+        },
+        {
+          "number": "WIPER",
+          "name": "WIPER",
+          "net": "RV6_W"
+        },
+        {
+          "number": "HIGH",
+          "name": "HIGH",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        101,
+        68
+      ],
+      "size": [
+        13.5,
+        10.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Order listing body/shaft only. Pin and anchor coordinates OPEN.",
+      "uuid": "dcc981a2-5469-552d-9c5e-42ea56ac98dc"
+    },
+    {
+      "ref": "R6",
+      "value": "1k",
+      "kind": "R",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV6_W"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "RV6_FILTER"
+        }
+      ],
+      "xy": [
+        109,
+        75
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "14073918-22b2-506e-99b9-9a7b32e60842"
+    },
+    {
+      "ref": "C6",
+      "value": "1nF C0G",
+      "kind": "C",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV6_FILTER"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        109,
+        78
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "41439b53-e2af-53c6-9c60-e8b31f05e4ad"
+    },
+    {
+      "ref": "RV7",
+      "value": "RK097N B10K VOLUME",
+      "kind": "pot",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "LOW",
+          "name": "LOW",
+          "net": "GND"
+        },
+        {
+          "number": "WIPER",
+          "name": "WIPER",
+          "net": "RV7_W"
+        },
+        {
+          "number": "HIGH",
+          "name": "HIGH",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        101,
+        108
+      ],
+      "size": [
+        13.5,
+        10.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Order listing body/shaft only. Pin and anchor coordinates OPEN.",
+      "uuid": "1f0ed66b-43ea-5350-ac45-0240586a564d"
+    },
+    {
+      "ref": "R7",
+      "value": "1k",
+      "kind": "R",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV7_W"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "RV7_FILTER"
+        }
+      ],
+      "xy": [
+        106,
+        113
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "326bee63-2169-5ced-809c-ab9ffd245907"
+    },
+    {
+      "ref": "C7",
+      "value": "1nF C0G",
+      "kind": "C",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV7_FILTER"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        109,
+        118
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "9e8a1611-de6b-5bc6-99ee-80d1becbabb1"
+    },
+    {
+      "ref": "RV8",
+      "value": "RK097N B10K EXT INPUT",
+      "kind": "pot",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "LOW",
+          "name": "LOW",
+          "net": "GND"
+        },
+        {
+          "number": "WIPER",
+          "name": "WIPER",
+          "net": "RV8_W"
+        },
+        {
+          "number": "HIGH",
+          "name": "HIGH",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        121,
+        48
+      ],
+      "size": [
+        13.5,
+        10.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Order listing body/shaft only. Pin and anchor coordinates OPEN.",
+      "uuid": "1e8d095f-1633-5bd3-be57-040e6810cd7e"
+    },
+    {
+      "ref": "R8",
+      "value": "1k",
+      "kind": "R",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV8_W"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "RV8_FILTER"
+        }
+      ],
+      "xy": [
+        129,
+        55
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "dc3d0750-c757-5c1b-bed5-9011e8b03844"
+    },
+    {
+      "ref": "C8",
+      "value": "1nF C0G",
+      "kind": "C",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV8_FILTER"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        129,
+        58
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "09d4e083-89b2-53aa-bc9d-d4b71578e131"
+    },
+    {
+      "ref": "RV9",
+      "value": "RK097N B10K NOISE VOLUME",
+      "kind": "pot",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "LOW",
+          "name": "LOW",
+          "net": "GND"
+        },
+        {
+          "number": "WIPER",
+          "name": "WIPER",
+          "net": "RV9_W"
+        },
+        {
+          "number": "HIGH",
+          "name": "HIGH",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        121,
+        88
+      ],
+      "size": [
+        13.5,
+        10.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Order listing body/shaft only. Pin and anchor coordinates OPEN.",
+      "uuid": "f4ac7092-a81b-5da1-8abf-2456b4d99be7"
+    },
+    {
+      "ref": "R9",
+      "value": "1k",
+      "kind": "R",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV9_W"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "RV9_FILTER"
+        }
+      ],
+      "xy": [
+        129,
+        95
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "4fd89f98-31e7-595b-924d-0aff9846fbeb"
+    },
+    {
+      "ref": "C9",
+      "value": "1nF C0G",
+      "kind": "C",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV9_FILTER"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        129,
+        98
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "812774f1-5a09-5bbe-90ba-c2bcffaa0eea"
+    },
+    {
+      "ref": "RV10",
+      "value": "RK097N B10K CUTOFF FREQUENCY",
+      "kind": "pot",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "LOW",
+          "name": "LOW",
+          "net": "GND"
+        },
+        {
+          "number": "WIPER",
+          "name": "WIPER",
+          "net": "RV10_W"
+        },
+        {
+          "number": "HIGH",
+          "name": "HIGH",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        142,
+        28
+      ],
+      "size": [
+        13.5,
+        10.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Order listing body/shaft only. Pin and anchor coordinates OPEN.",
+      "uuid": "c74a3e98-15a1-5abc-9458-f2ec9c4de744"
+    },
+    {
+      "ref": "R10",
+      "value": "1k",
+      "kind": "R",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV10_W"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "RV10_FILTER"
+        }
+      ],
+      "xy": [
+        150,
+        35
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "ea341a2f-89af-5583-a2d3-f1d375f69a67"
+    },
+    {
+      "ref": "C10",
+      "value": "1nF C0G",
+      "kind": "C",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV10_FILTER"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        150,
+        38
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "48885db4-1408-5aa2-95ef-2d1408e167b3"
+    },
+    {
+      "ref": "RV11",
+      "value": "RK097N B10K EMPHASIS",
+      "kind": "pot",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "LOW",
+          "name": "LOW",
+          "net": "GND"
+        },
+        {
+          "number": "WIPER",
+          "name": "WIPER",
+          "net": "RV11_W"
+        },
+        {
+          "number": "HIGH",
+          "name": "HIGH",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        164,
+        28
+      ],
+      "size": [
+        13.5,
+        10.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Order listing body/shaft only. Pin and anchor coordinates OPEN.",
+      "uuid": "6d00948f-4c03-58ad-b5da-aac93c6f8504"
+    },
+    {
+      "ref": "R11",
+      "value": "1k",
+      "kind": "R",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV11_W"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "RV11_FILTER"
+        }
+      ],
+      "xy": [
+        172,
+        35
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "0f4f7a29-94a1-5afb-a11c-fd96df3e620f"
+    },
+    {
+      "ref": "C11",
+      "value": "1nF C0G",
+      "kind": "C",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV11_FILTER"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        172,
+        38
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "771b5b91-7181-5800-98cd-65b7ac84ba66"
+    },
+    {
+      "ref": "RV12",
+      "value": "RK097N B10K AMOUNT OF CONTOUR",
+      "kind": "pot",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "LOW",
+          "name": "LOW",
+          "net": "GND"
+        },
+        {
+          "number": "WIPER",
+          "name": "WIPER",
+          "net": "RV12_W"
+        },
+        {
+          "number": "HIGH",
+          "name": "HIGH",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        186,
+        28
+      ],
+      "size": [
+        13.5,
+        10.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Order listing body/shaft only. Pin and anchor coordinates OPEN.",
+      "uuid": "f72d3aa8-ad28-5897-be95-536b3cd6b6bc"
+    },
+    {
+      "ref": "R12",
+      "value": "1k",
+      "kind": "R",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV12_W"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "RV12_FILTER"
+        }
+      ],
+      "xy": [
+        194,
+        35
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "00d23596-0ef4-52bd-ad73-c24a0a3fa222"
+    },
+    {
+      "ref": "C12",
+      "value": "1nF C0G",
+      "kind": "C",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV12_FILTER"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        194,
+        38
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "f1483d6e-8ad7-5cca-bde9-b109dc1013a5"
+    },
+    {
+      "ref": "RV13",
+      "value": "RK097N B10K ATTACK TIME",
+      "kind": "pot",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "LOW",
+          "name": "LOW",
+          "net": "GND"
+        },
+        {
+          "number": "WIPER",
+          "name": "WIPER",
+          "net": "RV13_W"
+        },
+        {
+          "number": "HIGH",
+          "name": "HIGH",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        142,
+        68
+      ],
+      "size": [
+        13.5,
+        10.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Order listing body/shaft only. Pin and anchor coordinates OPEN.",
+      "uuid": "757f6133-c937-55b1-8b8d-15a890956954"
+    },
+    {
+      "ref": "R13",
+      "value": "1k",
+      "kind": "R",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV13_W"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "RV13_FILTER"
+        }
+      ],
+      "xy": [
+        150,
+        75
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "7c2b83c2-8d2e-57c9-9523-945b8005a55a"
+    },
+    {
+      "ref": "C13",
+      "value": "1nF C0G",
+      "kind": "C",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV13_FILTER"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        150,
+        78
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "862e58b9-1a37-5216-a9ee-3e92b6590897"
+    },
+    {
+      "ref": "RV14",
+      "value": "RK097N B10K DECAY TIME",
+      "kind": "pot",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "LOW",
+          "name": "LOW",
+          "net": "GND"
+        },
+        {
+          "number": "WIPER",
+          "name": "WIPER",
+          "net": "RV14_W"
+        },
+        {
+          "number": "HIGH",
+          "name": "HIGH",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        164,
+        68
+      ],
+      "size": [
+        13.5,
+        10.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Order listing body/shaft only. Pin and anchor coordinates OPEN.",
+      "uuid": "af624281-9293-59d5-960a-a30a917b1f96"
+    },
+    {
+      "ref": "R14",
+      "value": "1k",
+      "kind": "R",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV14_W"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "RV14_FILTER"
+        }
+      ],
+      "xy": [
+        172,
+        75
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "111e4d51-7f3d-5261-9454-998237202b98"
+    },
+    {
+      "ref": "C14",
+      "value": "1nF C0G",
+      "kind": "C",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV14_FILTER"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        172,
+        78
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "ea054c2c-4f93-5413-817a-98e376e15b92"
+    },
+    {
+      "ref": "RV15",
+      "value": "RK097N B10K SUSTAIN LEVEL",
+      "kind": "pot",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "LOW",
+          "name": "LOW",
+          "net": "GND"
+        },
+        {
+          "number": "WIPER",
+          "name": "WIPER",
+          "net": "RV15_W"
+        },
+        {
+          "number": "HIGH",
+          "name": "HIGH",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        186,
+        68
+      ],
+      "size": [
+        13.5,
+        10.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Order listing body/shaft only. Pin and anchor coordinates OPEN.",
+      "uuid": "74134295-c167-5f63-afca-9be246982dd9"
+    },
+    {
+      "ref": "R15",
+      "value": "1k",
+      "kind": "R",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV15_W"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "RV15_FILTER"
+        }
+      ],
+      "xy": [
+        194,
+        75
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "43ba2389-48fe-5c9b-9e05-9ad3dd0a571a"
+    },
+    {
+      "ref": "C15",
+      "value": "1nF C0G",
+      "kind": "C",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV15_FILTER"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        194,
+        78
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "e65433d8-8309-5608-8298-92bd88ce9580"
+    },
+    {
+      "ref": "RV16",
+      "value": "RK097N B10K ATTACK TIME",
+      "kind": "pot",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "LOW",
+          "name": "LOW",
+          "net": "GND"
+        },
+        {
+          "number": "WIPER",
+          "name": "WIPER",
+          "net": "RV16_W"
+        },
+        {
+          "number": "HIGH",
+          "name": "HIGH",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        142,
+        108
+      ],
+      "size": [
+        13.5,
+        10.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Order listing body/shaft only. Pin and anchor coordinates OPEN.",
+      "uuid": "597ca47a-50f8-553c-bec1-2f7f7535c4be"
+    },
+    {
+      "ref": "R16",
+      "value": "1k",
+      "kind": "R",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV16_W"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "RV16_FILTER"
+        }
+      ],
+      "xy": [
+        150,
+        115
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "24991509-9882-582e-bd65-79b696f41b9d"
+    },
+    {
+      "ref": "C16",
+      "value": "1nF C0G",
+      "kind": "C",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV16_FILTER"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        150,
+        118
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "785c446f-1aba-5df0-a5c9-16f4e416cc85"
+    },
+    {
+      "ref": "RV17",
+      "value": "RK097N B10K DECAY TIME",
+      "kind": "pot",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "LOW",
+          "name": "LOW",
+          "net": "GND"
+        },
+        {
+          "number": "WIPER",
+          "name": "WIPER",
+          "net": "RV17_W"
+        },
+        {
+          "number": "HIGH",
+          "name": "HIGH",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        164,
+        108
+      ],
+      "size": [
+        13.5,
+        10.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Order listing body/shaft only. Pin and anchor coordinates OPEN.",
+      "uuid": "6099bfea-becc-54ea-a9d1-52b96dd295d4"
+    },
+    {
+      "ref": "R17",
+      "value": "1k",
+      "kind": "R",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV17_W"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "RV17_FILTER"
+        }
+      ],
+      "xy": [
+        172,
+        115
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "c1ef3c30-8237-504d-87ba-b2358d497300"
+    },
+    {
+      "ref": "C17",
+      "value": "1nF C0G",
+      "kind": "C",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV17_FILTER"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        172,
+        118
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "5a8cdc56-8b85-52fe-b8b9-6f7ca4cfd429"
+    },
+    {
+      "ref": "RV18",
+      "value": "RK097N B10K SUSTAIN LEVEL",
+      "kind": "pot",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "LOW",
+          "name": "LOW",
+          "net": "GND"
+        },
+        {
+          "number": "WIPER",
+          "name": "WIPER",
+          "net": "RV18_W"
+        },
+        {
+          "number": "HIGH",
+          "name": "HIGH",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        186,
+        108
+      ],
+      "size": [
+        13.5,
+        10.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Order listing body/shaft only. Pin and anchor coordinates OPEN.",
+      "uuid": "2150aebe-4264-5a34-92ea-d34de115035a"
+    },
+    {
+      "ref": "R18",
+      "value": "1k",
+      "kind": "R",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV18_W"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "RV18_FILTER"
+        }
+      ],
+      "xy": [
+        194,
+        115
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "42e69ecb-ff45-5072-a0ef-3a4151120393"
+    },
+    {
+      "ref": "C18",
+      "value": "1nF C0G",
+      "kind": "C",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV18_FILTER"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        194,
+        118
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "8805d91f-5fa6-5e55-918b-0df798769fc9"
+    },
+    {
+      "ref": "RV19",
+      "value": "RK097N B10K VOLUME",
+      "kind": "pot",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "LOW",
+          "name": "LOW",
+          "net": "GND"
+        },
+        {
+          "number": "WIPER",
+          "name": "WIPER",
+          "net": "RV19_W"
+        },
+        {
+          "number": "HIGH",
+          "name": "HIGH",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        208,
+        28
+      ],
+      "size": [
+        13.5,
+        10.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Order listing body/shaft only. Pin and anchor coordinates OPEN.",
+      "uuid": "a8a65c43-3c21-5219-b87c-d6ae04ba12d0"
+    },
+    {
+      "ref": "R19",
+      "value": "1k",
+      "kind": "R",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV19_W"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "RV19_FILTER"
+        }
+      ],
+      "xy": [
+        216,
+        35
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "7757778e-a18b-5eaf-bff2-2144981aa67f"
+    },
+    {
+      "ref": "C19",
+      "value": "1nF C0G",
+      "kind": "C",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV19_FILTER"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        216,
+        38
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "f3f51e83-10d8-5211-b2ca-17033e9e3542"
+    },
+    {
+      "ref": "RV20",
+      "value": "RK097N B10K PHONES",
+      "kind": "pot",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "LOW",
+          "name": "LOW",
+          "net": "GND"
+        },
+        {
+          "number": "WIPER",
+          "name": "WIPER",
+          "net": "RV20_W"
+        },
+        {
+          "number": "HIGH",
+          "name": "HIGH",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        208,
+        108
+      ],
+      "size": [
+        13.5,
+        10.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Order listing body/shaft only. Pin and anchor coordinates OPEN.",
+      "uuid": "357c8ee5-1743-578d-879c-c419dafdd1d6"
+    },
+    {
+      "ref": "R20",
+      "value": "1k",
+      "kind": "R",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV20_W"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "RV20_FILTER"
+        }
+      ],
+      "xy": [
+        216,
+        115
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "0dae6764-f471-5e98-974c-5052185cdf5a"
+    },
+    {
+      "ref": "C20",
+      "value": "1nF C0G",
+      "kind": "C",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "RV20_FILTER"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        216,
+        118
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "f064c4ce-8d50-5d2c-bf78-0ed8b1603464"
+    },
+    {
+      "ref": "MX1",
+      "value": "CD74HC4067 module",
+      "kind": "module",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "VCC",
+          "name": "VCC",
+          "net": "3V3"
+        },
+        {
+          "number": "GND",
+          "name": "GND",
+          "net": "GND"
+        },
+        {
+          "number": "SIG",
+          "name": "SIG",
+          "net": "POT_ADC1"
+        },
+        {
+          "number": "EN",
+          "name": "EN",
+          "net": "GND"
+        },
+        {
+          "number": "S0",
+          "name": "S0",
+          "net": "MUX_S0"
+        },
+        {
+          "number": "S1",
+          "name": "S1",
+          "net": "MUX_S1"
+        },
+        {
+          "number": "S2",
+          "name": "S2",
+          "net": "MUX_S2"
+        },
+        {
+          "number": "S3",
+          "name": "S3",
+          "net": "MUX_S3"
+        },
+        {
+          "number": "C0",
+          "name": "C0",
+          "net": "RV1_FILTER"
+        },
+        {
+          "number": "C1",
+          "name": "C1",
+          "net": "RV2_FILTER"
+        },
+        {
+          "number": "C2",
+          "name": "C2",
+          "net": "RV3_FILTER"
+        },
+        {
+          "number": "C3",
+          "name": "C3",
+          "net": "RV4_FILTER"
+        },
+        {
+          "number": "C4",
+          "name": "C4",
+          "net": "RV5_FILTER"
+        },
+        {
+          "number": "C5",
+          "name": "C5",
+          "net": "RV6_FILTER"
+        },
+        {
+          "number": "C6",
+          "name": "C6",
+          "net": "RV7_FILTER"
+        },
+        {
+          "number": "C7",
+          "name": "C7",
+          "net": "RV8_FILTER"
+        },
+        {
+          "number": "C8",
+          "name": "C8",
+          "net": "RV9_FILTER"
+        },
+        {
+          "number": "C9",
+          "name": "C9",
+          "net": "RV10_FILTER"
+        },
+        {
+          "number": "C10",
+          "name": "C10",
+          "net": "RV11_FILTER"
+        },
+        {
+          "number": "C11",
+          "name": "C11",
+          "net": "RV12_FILTER"
+        },
+        {
+          "number": "C12",
+          "name": "C12",
+          "net": "RV13_FILTER"
+        },
+        {
+          "number": "C13",
+          "name": "C13",
+          "net": "RV14_FILTER"
+        },
+        {
+          "number": "C14",
+          "name": "C14",
+          "net": "RV15_FILTER"
+        },
+        {
+          "number": "C15",
+          "name": "C15",
+          "net": "RV16_FILTER"
+        }
+      ],
+      "xy": [
+        69,
+        99
+      ],
+      "size": [
+        40,
+        17
+      ],
+      "side": "B",
+      "footprint": null,
+      "notes": "",
+      "uuid": "2d184c0d-a84f-5870-b8c0-349be2636998"
+    },
+    {
+      "ref": "C21",
+      "value": "100nF",
+      "kind": "C",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "3V3"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        95,
+        140
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "9c20ef7a-0785-5758-bd17-888adb18e0e0"
+    },
+    {
+      "ref": "MX2",
+      "value": "CD74HC4067 module",
+      "kind": "module",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "VCC",
+          "name": "VCC",
+          "net": "3V3"
+        },
+        {
+          "number": "GND",
+          "name": "GND",
+          "net": "GND"
+        },
+        {
+          "number": "SIG",
+          "name": "SIG",
+          "net": "POT_ADC2"
+        },
+        {
+          "number": "EN",
+          "name": "EN",
+          "net": "GND"
+        },
+        {
+          "number": "S0",
+          "name": "S0",
+          "net": "MUX_S0"
+        },
+        {
+          "number": "S1",
+          "name": "S1",
+          "net": "MUX_S1"
+        },
+        {
+          "number": "S2",
+          "name": "S2",
+          "net": "MUX_S2"
+        },
+        {
+          "number": "S3",
+          "name": "S3",
+          "net": "MUX_S3"
+        },
+        {
+          "number": "C0",
+          "name": "C0",
+          "net": "RV17_FILTER"
+        },
+        {
+          "number": "C1",
+          "name": "C1",
+          "net": "RV18_FILTER"
+        },
+        {
+          "number": "C2",
+          "name": "C2",
+          "net": "RV19_FILTER"
+        },
+        {
+          "number": "C3",
+          "name": "C3",
+          "net": "RV20_FILTER"
+        },
+        {
+          "number": "C4",
+          "name": "C4",
+          "net": "GND"
+        },
+        {
+          "number": "C5",
+          "name": "C5",
+          "net": "GND"
+        },
+        {
+          "number": "C6",
+          "name": "C6",
+          "net": "GND"
+        },
+        {
+          "number": "C7",
+          "name": "C7",
+          "net": "GND"
+        },
+        {
+          "number": "C8",
+          "name": "C8",
+          "net": "GND"
+        },
+        {
+          "number": "C9",
+          "name": "C9",
+          "net": "GND"
+        },
+        {
+          "number": "C10",
+          "name": "C10",
+          "net": "GND"
+        },
+        {
+          "number": "C11",
+          "name": "C11",
+          "net": "GND"
+        },
+        {
+          "number": "C12",
+          "name": "C12",
+          "net": "GND"
+        },
+        {
+          "number": "C13",
+          "name": "C13",
+          "net": "GND"
+        },
+        {
+          "number": "C14",
+          "name": "C14",
+          "net": "GND"
+        },
+        {
+          "number": "C15",
+          "name": "C15",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        69,
+        121
+      ],
+      "size": [
+        40,
+        17
+      ],
+      "side": "B",
+      "footprint": null,
+      "notes": "",
+      "uuid": "4c6c8f1f-836e-52fd-bd5c-a62c4d994cf0"
+    },
+    {
+      "ref": "C22",
+      "value": "100nF",
+      "kind": "C",
+      "sheet": "pots",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "3V3"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        95,
+        144
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "f21b412c-602b-595e-9c92-dc491aadabc0"
+    },
+    {
+      "ref": "E1",
+      "value": "EC11 RANGE",
+      "kind": "encoder",
+      "sheet": "encoders",
+      "pins": [
+        {
+          "number": "A",
+          "name": "A",
+          "net": "E1_A"
+        },
+        {
+          "number": "C",
+          "name": "C",
+          "net": "GND"
+        },
+        {
+          "number": "B",
+          "name": "B",
+          "net": "E1_B"
+        },
+        {
+          "number": "SW1",
+          "name": "SW1",
+          "net": "E1_P"
+        },
+        {
+          "number": "SW2",
+          "name": "SW2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        38,
+        28
+      ],
+      "size": [
+        15,
+        12.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon B09SG3HF9N image 3 PCB drawing: contact rows -7.5/+7 mm, 2.5 mm pitch, 1 mm holes; mount centres +/-5.55 mm. Slot variant A unspecified.",
+      "uuid": "0aa361d5-7c19-5abb-b20c-f24e830943ce"
+    },
+    {
+      "ref": "E2",
+      "value": "EC11 WAVEFORM",
+      "kind": "encoder",
+      "sheet": "encoders",
+      "pins": [
+        {
+          "number": "A",
+          "name": "A",
+          "net": "E2_A"
+        },
+        {
+          "number": "C",
+          "name": "C",
+          "net": "GND"
+        },
+        {
+          "number": "B",
+          "name": "B",
+          "net": "E2_B"
+        },
+        {
+          "number": "SW1",
+          "name": "SW1",
+          "net": "E2_P"
+        },
+        {
+          "number": "SW2",
+          "name": "SW2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        80,
+        28
+      ],
+      "size": [
+        15,
+        12.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon B09SG3HF9N image 3 PCB drawing: contact rows -7.5/+7 mm, 2.5 mm pitch, 1 mm holes; mount centres +/-5.55 mm. Slot variant A unspecified.",
+      "uuid": "e8625cdf-188b-533d-95d9-c365d8726ede"
+    },
+    {
+      "ref": "E3",
+      "value": "EC11 RANGE",
+      "kind": "encoder",
+      "sheet": "encoders",
+      "pins": [
+        {
+          "number": "A",
+          "name": "A",
+          "net": "E3_A"
+        },
+        {
+          "number": "C",
+          "name": "C",
+          "net": "GND"
+        },
+        {
+          "number": "B",
+          "name": "B",
+          "net": "E3_B"
+        },
+        {
+          "number": "SW1",
+          "name": "SW1",
+          "net": "E3_P"
+        },
+        {
+          "number": "SW2",
+          "name": "SW2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        38,
+        68
+      ],
+      "size": [
+        15,
+        12.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon B09SG3HF9N image 3 PCB drawing: contact rows -7.5/+7 mm, 2.5 mm pitch, 1 mm holes; mount centres +/-5.55 mm. Slot variant A unspecified.",
+      "uuid": "4cc0b67c-8580-5e64-b084-3829569231df"
+    },
+    {
+      "ref": "E4",
+      "value": "EC11 FREQUENCY",
+      "kind": "encoder",
+      "sheet": "encoders",
+      "pins": [
+        {
+          "number": "A",
+          "name": "A",
+          "net": "E4_A"
+        },
+        {
+          "number": "C",
+          "name": "C",
+          "net": "GND"
+        },
+        {
+          "number": "B",
+          "name": "B",
+          "net": "E4_B"
+        },
+        {
+          "number": "SW1",
+          "name": "SW1",
+          "net": "E4_P"
+        },
+        {
+          "number": "SW2",
+          "name": "SW2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        59,
+        68
+      ],
+      "size": [
+        15,
+        12.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon B09SG3HF9N image 3 PCB drawing: contact rows -7.5/+7 mm, 2.5 mm pitch, 1 mm holes; mount centres +/-5.55 mm. Slot variant A unspecified.",
+      "uuid": "a8bc2e0b-7905-59e9-b143-306370463137"
+    },
+    {
+      "ref": "E5",
+      "value": "EC11 WAVEFORM",
+      "kind": "encoder",
+      "sheet": "encoders",
+      "pins": [
+        {
+          "number": "A",
+          "name": "A",
+          "net": "E5_A"
+        },
+        {
+          "number": "C",
+          "name": "C",
+          "net": "GND"
+        },
+        {
+          "number": "B",
+          "name": "B",
+          "net": "E5_B"
+        },
+        {
+          "number": "SW1",
+          "name": "SW1",
+          "net": "E5_P"
+        },
+        {
+          "number": "SW2",
+          "name": "SW2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        80,
+        68
+      ],
+      "size": [
+        15,
+        12.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon B09SG3HF9N image 3 PCB drawing: contact rows -7.5/+7 mm, 2.5 mm pitch, 1 mm holes; mount centres +/-5.55 mm. Slot variant A unspecified.",
+      "uuid": "d929b0a4-f368-5521-bcb7-82853dfeadd1"
+    },
+    {
+      "ref": "E6",
+      "value": "EC11 RANGE",
+      "kind": "encoder",
+      "sheet": "encoders",
+      "pins": [
+        {
+          "number": "A",
+          "name": "A",
+          "net": "E6_A"
+        },
+        {
+          "number": "C",
+          "name": "C",
+          "net": "GND"
+        },
+        {
+          "number": "B",
+          "name": "B",
+          "net": "E6_B"
+        },
+        {
+          "number": "SW1",
+          "name": "SW1",
+          "net": "E6_P"
+        },
+        {
+          "number": "SW2",
+          "name": "SW2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        38,
+        108
+      ],
+      "size": [
+        15,
+        12.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon B09SG3HF9N image 3 PCB drawing: contact rows -7.5/+7 mm, 2.5 mm pitch, 1 mm holes; mount centres +/-5.55 mm. Slot variant A unspecified.",
+      "uuid": "233a99dd-983f-5100-8ede-5bb8e3482add"
+    },
+    {
+      "ref": "E7",
+      "value": "EC11 FREQUENCY",
+      "kind": "encoder",
+      "sheet": "encoders",
+      "pins": [
+        {
+          "number": "A",
+          "name": "A",
+          "net": "E7_A"
+        },
+        {
+          "number": "C",
+          "name": "C",
+          "net": "GND"
+        },
+        {
+          "number": "B",
+          "name": "B",
+          "net": "E7_B"
+        },
+        {
+          "number": "SW1",
+          "name": "SW1",
+          "net": "E7_P"
+        },
+        {
+          "number": "SW2",
+          "name": "SW2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        59,
+        108
+      ],
+      "size": [
+        15,
+        12.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon B09SG3HF9N image 3 PCB drawing: contact rows -7.5/+7 mm, 2.5 mm pitch, 1 mm holes; mount centres +/-5.55 mm. Slot variant A unspecified.",
+      "uuid": "da822b64-3942-5402-8c09-b05d53577b2f"
+    },
+    {
+      "ref": "E8",
+      "value": "EC11 WAVEFORM",
+      "kind": "encoder",
+      "sheet": "encoders",
+      "pins": [
+        {
+          "number": "A",
+          "name": "A",
+          "net": "E8_A"
+        },
+        {
+          "number": "C",
+          "name": "C",
+          "net": "GND"
+        },
+        {
+          "number": "B",
+          "name": "B",
+          "net": "E8_B"
+        },
+        {
+          "number": "SW1",
+          "name": "SW1",
+          "net": "E8_P"
+        },
+        {
+          "number": "SW2",
+          "name": "SW2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        80,
+        108
+      ],
+      "size": [
+        15,
+        12.5
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon B09SG3HF9N image 3 PCB drawing: contact rows -7.5/+7 mm, 2.5 mm pitch, 1 mm holes; mount centres +/-5.55 mm. Slot variant A unspecified.",
+      "uuid": "ae5bdbaa-5092-5efb-9d4c-d8959b2a3ec5"
+    },
+    {
+      "ref": "S1",
+      "value": "Osc mod",
+      "kind": "switch",
+      "sheet": "switches",
+      "pins": [
+        {
+          "number": "COM",
+          "name": "COM",
+          "net": "GND"
+        },
+        {
+          "number": "ON",
+          "name": "ON",
+          "net": "S1_ON"
+        },
+        {
+          "number": "OFF",
+          "name": "OFF",
+          "net": null
+        }
+      ],
+      "xy": [
+        38,
+        128
+      ],
+      "size": [
+        6.7,
+        12.7
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon drawing: 12.7 x 6.7 body, 6.5 high, 5 mm actuator; pin pitch not dimensioned. Rotated 90 deg.",
+      "uuid": "9170e933-8347-5248-85ce-89680c33e4a1"
+    },
+    {
+      "ref": "S2",
+      "value": "Osc3 / EG",
+      "kind": "switch",
+      "sheet": "switches",
+      "pins": [
+        {
+          "number": "COM",
+          "name": "COM",
+          "net": "GND"
+        },
+        {
+          "number": "ON",
+          "name": "ON",
+          "net": "S2_ON"
+        },
+        {
+          "number": "OFF",
+          "name": "OFF",
+          "net": null
+        }
+      ],
+      "xy": [
+        51,
+        128
+      ],
+      "size": [
+        6.7,
+        12.7
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon drawing: 12.7 x 6.7 body, 6.5 high, 5 mm actuator; pin pitch not dimensioned. Rotated 90 deg.",
+      "uuid": "07e06eef-7418-5b2a-bfec-7dd1e015fe54"
+    },
+    {
+      "ref": "S3",
+      "value": "Noise / LFO",
+      "kind": "switch",
+      "sheet": "switches",
+      "pins": [
+        {
+          "number": "COM",
+          "name": "COM",
+          "net": "GND"
+        },
+        {
+          "number": "ON",
+          "name": "ON",
+          "net": "S3_ON"
+        },
+        {
+          "number": "OFF",
+          "name": "OFF",
+          "net": null
+        }
+      ],
+      "xy": [
+        64,
+        128
+      ],
+      "size": [
+        6.7,
+        12.7
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon drawing: 12.7 x 6.7 body, 6.5 high, 5 mm actuator; pin pitch not dimensioned. Rotated 90 deg.",
+      "uuid": "a7721394-3758-5453-a04b-488eabd29e0a"
+    },
+    {
+      "ref": "S4",
+      "value": "Glide on",
+      "kind": "switch",
+      "sheet": "switches",
+      "pins": [
+        {
+          "number": "COM",
+          "name": "COM",
+          "net": "GND"
+        },
+        {
+          "number": "ON",
+          "name": "ON",
+          "net": "S4_ON"
+        },
+        {
+          "number": "OFF",
+          "name": "OFF",
+          "net": null
+        }
+      ],
+      "xy": [
+        12,
+        141
+      ],
+      "size": [
+        6.7,
+        12.7
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon drawing: 12.7 x 6.7 body, 6.5 high, 5 mm actuator; pin pitch not dimensioned. Rotated 90 deg.",
+      "uuid": "b9be5c8e-b976-59f0-a82d-3f1ef04ad86f"
+    },
+    {
+      "ref": "S5",
+      "value": "Decay on",
+      "kind": "switch",
+      "sheet": "switches",
+      "pins": [
+        {
+          "number": "COM",
+          "name": "COM",
+          "net": "GND"
+        },
+        {
+          "number": "ON",
+          "name": "ON",
+          "net": "S5_ON"
+        },
+        {
+          "number": "OFF",
+          "name": "OFF",
+          "net": null
+        }
+      ],
+      "xy": [
+        24,
+        141
+      ],
+      "size": [
+        6.7,
+        12.7
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon drawing: 12.7 x 6.7 body, 6.5 high, 5 mm actuator; pin pitch not dimensioned. Rotated 90 deg.",
+      "uuid": "e1777243-f0a1-5061-9849-b2fb9894f135"
+    },
+    {
+      "ref": "S6",
+      "value": "LFO shape",
+      "kind": "switch",
+      "sheet": "switches",
+      "pins": [
+        {
+          "number": "COM",
+          "name": "COM",
+          "net": "GND"
+        },
+        {
+          "number": "ON",
+          "name": "ON",
+          "net": "S6_ON"
+        },
+        {
+          "number": "OFF",
+          "name": "OFF",
+          "net": null
+        }
+      ],
+      "xy": [
+        51,
+        142
+      ],
+      "size": [
+        6.7,
+        12.7
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon drawing: 12.7 x 6.7 body, 6.5 high, 5 mm actuator; pin pitch not dimensioned. Rotated 90 deg.",
+      "uuid": "a6180e81-a320-578a-ad1d-472f0c05b857"
+    },
+    {
+      "ref": "S7",
+      "value": "Osc3 keyboard",
+      "kind": "switch",
+      "sheet": "switches",
+      "pins": [
+        {
+          "number": "COM",
+          "name": "COM",
+          "net": "GND"
+        },
+        {
+          "number": "ON",
+          "name": "ON",
+          "net": "S7_ON"
+        },
+        {
+          "number": "OFF",
+          "name": "OFF",
+          "net": null
+        }
+      ],
+      "xy": [
+        80,
+        128
+      ],
+      "size": [
+        6.7,
+        12.7
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon drawing: 12.7 x 6.7 body, 6.5 high, 5 mm actuator; pin pitch not dimensioned. Rotated 90 deg.",
+      "uuid": "651e2da5-1224-5d59-b0f9-c0f9a34afed8"
+    },
+    {
+      "ref": "S8",
+      "value": "Osc 1 on",
+      "kind": "switch",
+      "sheet": "switches",
+      "pins": [
+        {
+          "number": "COM",
+          "name": "COM",
+          "net": "GND"
+        },
+        {
+          "number": "ON",
+          "name": "ON",
+          "net": "S8_ON"
+        },
+        {
+          "number": "OFF",
+          "name": "OFF",
+          "net": null
+        }
+      ],
+      "xy": [
+        121,
+        28
+      ],
+      "size": [
+        6.7,
+        12.7
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon drawing: 12.7 x 6.7 body, 6.5 high, 5 mm actuator; pin pitch not dimensioned. Rotated 90 deg.",
+      "uuid": "9b06e289-ce1a-58de-b80f-32e6cdfa7132"
+    },
+    {
+      "ref": "S9",
+      "value": "Osc 2 on",
+      "kind": "switch",
+      "sheet": "switches",
+      "pins": [
+        {
+          "number": "COM",
+          "name": "COM",
+          "net": "GND"
+        },
+        {
+          "number": "ON",
+          "name": "ON",
+          "net": "S9_ON"
+        },
+        {
+          "number": "OFF",
+          "name": "OFF",
+          "net": null
+        }
+      ],
+      "xy": [
+        121,
+        68
+      ],
+      "size": [
+        6.7,
+        12.7
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon drawing: 12.7 x 6.7 body, 6.5 high, 5 mm actuator; pin pitch not dimensioned. Rotated 90 deg.",
+      "uuid": "97ba2009-7873-57f1-8506-9665260c4722"
+    },
+    {
+      "ref": "S10",
+      "value": "Osc 3 on",
+      "kind": "switch",
+      "sheet": "switches",
+      "pins": [
+        {
+          "number": "COM",
+          "name": "COM",
+          "net": "GND"
+        },
+        {
+          "number": "ON",
+          "name": "ON",
+          "net": "S10_ON"
+        },
+        {
+          "number": "OFF",
+          "name": "OFF",
+          "net": null
+        }
+      ],
+      "xy": [
+        121,
+        108
+      ],
+      "size": [
+        6.7,
+        12.7
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon drawing: 12.7 x 6.7 body, 6.5 high, 5 mm actuator; pin pitch not dimensioned. Rotated 90 deg.",
+      "uuid": "a7496b42-c6be-53be-bdc1-59c3a60eb81a"
+    },
+    {
+      "ref": "S11",
+      "value": "External on",
+      "kind": "switch",
+      "sheet": "switches",
+      "pins": [
+        {
+          "number": "COM",
+          "name": "COM",
+          "net": "GND"
+        },
+        {
+          "number": "ON",
+          "name": "ON",
+          "net": "S11_ON"
+        },
+        {
+          "number": "OFF",
+          "name": "OFF",
+          "net": null
+        }
+      ],
+      "xy": [
+        101,
+        48
+      ],
+      "size": [
+        6.7,
+        12.7
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon drawing: 12.7 x 6.7 body, 6.5 high, 5 mm actuator; pin pitch not dimensioned. Rotated 90 deg.",
+      "uuid": "f96ce575-23b0-5218-ab9e-ace08c77f534"
+    },
+    {
+      "ref": "S12",
+      "value": "Noise on",
+      "kind": "switch",
+      "sheet": "switches",
+      "pins": [
+        {
+          "number": "COM",
+          "name": "COM",
+          "net": "GND"
+        },
+        {
+          "number": "ON",
+          "name": "ON",
+          "net": "S12_ON"
+        },
+        {
+          "number": "OFF",
+          "name": "OFF",
+          "net": null
+        }
+      ],
+      "xy": [
+        101,
+        88
+      ],
+      "size": [
+        6.7,
+        12.7
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon drawing: 12.7 x 6.7 body, 6.5 high, 5 mm actuator; pin pitch not dimensioned. Rotated 90 deg.",
+      "uuid": "19552b88-c6e6-56be-be64-9f4a52ac7603"
+    },
+    {
+      "ref": "S13",
+      "value": "White / Pink",
+      "kind": "switch",
+      "sheet": "switches",
+      "pins": [
+        {
+          "number": "COM",
+          "name": "COM",
+          "net": "GND"
+        },
+        {
+          "number": "ON",
+          "name": "ON",
+          "net": "S13_ON"
+        },
+        {
+          "number": "OFF",
+          "name": "OFF",
+          "net": null
+        }
+      ],
+      "xy": [
+        121,
+        128
+      ],
+      "size": [
+        6.7,
+        12.7
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon drawing: 12.7 x 6.7 body, 6.5 high, 5 mm actuator; pin pitch not dimensioned. Rotated 90 deg.",
+      "uuid": "b0ae41d4-f7de-5bca-b0d7-23aa8dfab6e6"
+    },
+    {
+      "ref": "S14",
+      "value": "Filter mod",
+      "kind": "switch",
+      "sheet": "switches",
+      "pins": [
+        {
+          "number": "COM",
+          "name": "COM",
+          "net": "GND"
+        },
+        {
+          "number": "ON",
+          "name": "ON",
+          "net": "S14_ON"
+        },
+        {
+          "number": "OFF",
+          "name": "OFF",
+          "net": null
+        }
+      ],
+      "xy": [
+        142,
+        48
+      ],
+      "size": [
+        6.7,
+        12.7
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon drawing: 12.7 x 6.7 body, 6.5 high, 5 mm actuator; pin pitch not dimensioned. Rotated 90 deg.",
+      "uuid": "de8c7446-59e2-5db8-9d92-b4f61f38f1e8"
+    },
+    {
+      "ref": "S15",
+      "value": "Keytrack 1",
+      "kind": "switch",
+      "sheet": "switches",
+      "pins": [
+        {
+          "number": "COM",
+          "name": "COM",
+          "net": "GND"
+        },
+        {
+          "number": "ON",
+          "name": "ON",
+          "net": "S15_ON"
+        },
+        {
+          "number": "OFF",
+          "name": "OFF",
+          "net": null
+        }
+      ],
+      "xy": [
+        164,
+        48
+      ],
+      "size": [
+        6.7,
+        12.7
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon drawing: 12.7 x 6.7 body, 6.5 high, 5 mm actuator; pin pitch not dimensioned. Rotated 90 deg.",
+      "uuid": "29066836-9c63-532a-857b-960c75251af7"
+    },
+    {
+      "ref": "S16",
+      "value": "Keytrack 2",
+      "kind": "switch",
+      "sheet": "switches",
+      "pins": [
+        {
+          "number": "COM",
+          "name": "COM",
+          "net": "GND"
+        },
+        {
+          "number": "ON",
+          "name": "ON",
+          "net": "S16_ON"
+        },
+        {
+          "number": "OFF",
+          "name": "OFF",
+          "net": null
+        }
+      ],
+      "xy": [
+        186,
+        48
+      ],
+      "size": [
+        6.7,
+        12.7
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon drawing: 12.7 x 6.7 body, 6.5 high, 5 mm actuator; pin pitch not dimensioned. Rotated 90 deg.",
+      "uuid": "c08dadc8-daf2-55cd-9e6c-4f9cc32ca6cb"
+    },
+    {
+      "ref": "S17",
+      "value": "Main on",
+      "kind": "switch",
+      "sheet": "switches",
+      "pins": [
+        {
+          "number": "COM",
+          "name": "COM",
+          "net": "GND"
+        },
+        {
+          "number": "ON",
+          "name": "ON",
+          "net": "S17_ON"
+        },
+        {
+          "number": "OFF",
+          "name": "OFF",
+          "net": null
+        }
+      ],
+      "xy": [
+        208,
+        53
+      ],
+      "size": [
+        6.7,
+        12.7
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon drawing: 12.7 x 6.7 body, 6.5 high, 5 mm actuator; pin pitch not dimensioned. Rotated 90 deg.",
+      "uuid": "98f54117-0bdc-5efb-a914-f60c4b6e733b"
+    },
+    {
+      "ref": "S18",
+      "value": "A-440",
+      "kind": "switch",
+      "sheet": "switches",
+      "pins": [
+        {
+          "number": "COM",
+          "name": "COM",
+          "net": "GND"
+        },
+        {
+          "number": "ON",
+          "name": "ON",
+          "net": "S18_ON"
+        },
+        {
+          "number": "OFF",
+          "name": "OFF",
+          "net": null
+        }
+      ],
+      "xy": [
+        208,
+        76
+      ],
+      "size": [
+        6.7,
+        12.7
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "Amazon drawing: 12.7 x 6.7 body, 6.5 high, 5 mm actuator; pin pitch not dimensioned. Rotated 90 deg.",
+      "uuid": "574fa88a-53ab-5e32-ae1c-3720fe0bc41a"
+    },
+    {
+      "ref": "IO1",
+      "value": "MCP23017 module / 0x20",
+      "kind": "module",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "VDD",
+          "name": "VDD",
+          "net": "3V3"
+        },
+        {
+          "number": "VSS",
+          "name": "VSS",
+          "net": "GND"
+        },
+        {
+          "number": "SDA",
+          "name": "SDA",
+          "net": "I2C_SDA"
+        },
+        {
+          "number": "SCL",
+          "name": "SCL",
+          "net": "I2C_SCL"
+        },
+        {
+          "number": "RESET",
+          "name": "RESET",
+          "net": "IO_RESET"
+        },
+        {
+          "number": "INTA",
+          "name": "INTA",
+          "net": "IO_INT1"
+        },
+        {
+          "number": "INTB",
+          "name": "INTB",
+          "net": null
+        },
+        {
+          "number": "A0",
+          "name": "A0",
+          "net": "GND"
+        },
+        {
+          "number": "A1",
+          "name": "A1",
+          "net": "GND"
+        },
+        {
+          "number": "A2",
+          "name": "A2",
+          "net": "GND"
+        },
+        {
+          "number": "GPA0",
+          "name": "GPA0",
+          "net": "E1_A"
+        },
+        {
+          "number": "GPA1",
+          "name": "GPA1",
+          "net": "E1_B"
+        },
+        {
+          "number": "GPA2",
+          "name": "GPA2",
+          "net": "E1_P"
+        },
+        {
+          "number": "GPA3",
+          "name": "GPA3",
+          "net": "E2_A"
+        },
+        {
+          "number": "GPA4",
+          "name": "GPA4",
+          "net": "E2_B"
+        },
+        {
+          "number": "GPA5",
+          "name": "GPA5",
+          "net": "E2_P"
+        },
+        {
+          "number": "GPA6",
+          "name": "GPA6",
+          "net": "E3_A"
+        },
+        {
+          "number": "GPB0",
+          "name": "GPB0",
+          "net": "E3_B"
+        },
+        {
+          "number": "GPB1",
+          "name": "GPB1",
+          "net": "E3_P"
+        },
+        {
+          "number": "GPB2",
+          "name": "GPB2",
+          "net": "E4_A"
+        },
+        {
+          "number": "GPB3",
+          "name": "GPB3",
+          "net": "E4_B"
+        },
+        {
+          "number": "GPB4",
+          "name": "GPB4",
+          "net": "E4_P"
+        },
+        {
+          "number": "GPB5",
+          "name": "GPB5",
+          "net": "E5_A"
+        },
+        {
+          "number": "GPB6",
+          "name": "GPB6",
+          "net": "E5_B"
+        },
+        {
+          "number": "GPA7",
+          "name": "GPA7",
+          "net": null
+        },
+        {
+          "number": "GPB7",
+          "name": "GPB7",
+          "net": null
+        }
+      ],
+      "xy": [
+        78,
+        32
+      ],
+      "size": [
+        65,
+        19
+      ],
+      "side": "B",
+      "footprint": null,
+      "notes": "",
+      "uuid": "f1eb2cbc-c1b4-5b95-87f1-046f46bb84af"
+    },
+    {
+      "ref": "C23",
+      "value": "100nF",
+      "kind": "C",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "3V3"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        115,
+        16
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "cfd32d3c-440e-5b2e-bab5-2a519515e309"
+    },
+    {
+      "ref": "IO2",
+      "value": "MCP23017 module / 0x21",
+      "kind": "module",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "VDD",
+          "name": "VDD",
+          "net": "3V3"
+        },
+        {
+          "number": "VSS",
+          "name": "VSS",
+          "net": "GND"
+        },
+        {
+          "number": "SDA",
+          "name": "SDA",
+          "net": "I2C_SDA"
+        },
+        {
+          "number": "SCL",
+          "name": "SCL",
+          "net": "I2C_SCL"
+        },
+        {
+          "number": "RESET",
+          "name": "RESET",
+          "net": "IO_RESET"
+        },
+        {
+          "number": "INTA",
+          "name": "INTA",
+          "net": "IO_INT2"
+        },
+        {
+          "number": "INTB",
+          "name": "INTB",
+          "net": null
+        },
+        {
+          "number": "A0",
+          "name": "A0",
+          "net": "3V3"
+        },
+        {
+          "number": "A1",
+          "name": "A1",
+          "net": "GND"
+        },
+        {
+          "number": "A2",
+          "name": "A2",
+          "net": "GND"
+        },
+        {
+          "number": "GPA0",
+          "name": "GPA0",
+          "net": "E5_P"
+        },
+        {
+          "number": "GPA1",
+          "name": "GPA1",
+          "net": "E6_A"
+        },
+        {
+          "number": "GPA2",
+          "name": "GPA2",
+          "net": "E6_B"
+        },
+        {
+          "number": "GPA3",
+          "name": "GPA3",
+          "net": "E6_P"
+        },
+        {
+          "number": "GPA4",
+          "name": "GPA4",
+          "net": "E7_A"
+        },
+        {
+          "number": "GPA5",
+          "name": "GPA5",
+          "net": "E7_B"
+        },
+        {
+          "number": "GPA6",
+          "name": "GPA6",
+          "net": "E7_P"
+        },
+        {
+          "number": "GPB0",
+          "name": "GPB0",
+          "net": "E8_A"
+        },
+        {
+          "number": "GPB1",
+          "name": "GPB1",
+          "net": "E8_B"
+        },
+        {
+          "number": "GPB2",
+          "name": "GPB2",
+          "net": "E8_P"
+        },
+        {
+          "number": "GPB3",
+          "name": "GPB3",
+          "net": "S1_ON"
+        },
+        {
+          "number": "GPB4",
+          "name": "GPB4",
+          "net": "S2_ON"
+        },
+        {
+          "number": "GPB5",
+          "name": "GPB5",
+          "net": "S3_ON"
+        },
+        {
+          "number": "GPB6",
+          "name": "GPB6",
+          "net": "S4_ON"
+        },
+        {
+          "number": "GPA7",
+          "name": "GPA7",
+          "net": null
+        },
+        {
+          "number": "GPB7",
+          "name": "GPB7",
+          "net": null
+        }
+      ],
+      "xy": [
+        78,
+        55
+      ],
+      "size": [
+        65,
+        19
+      ],
+      "side": "B",
+      "footprint": null,
+      "notes": "",
+      "uuid": "97dd55a2-f9da-5dab-828f-fc3925724503"
+    },
+    {
+      "ref": "C24",
+      "value": "100nF",
+      "kind": "C",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "3V3"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        115,
+        20
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "5b92ab87-a735-5612-b3b1-51f3b55c4aa3"
+    },
+    {
+      "ref": "IO3",
+      "value": "MCP23017 module / 0x22",
+      "kind": "module",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "VDD",
+          "name": "VDD",
+          "net": "3V3"
+        },
+        {
+          "number": "VSS",
+          "name": "VSS",
+          "net": "GND"
+        },
+        {
+          "number": "SDA",
+          "name": "SDA",
+          "net": "I2C_SDA"
+        },
+        {
+          "number": "SCL",
+          "name": "SCL",
+          "net": "I2C_SCL"
+        },
+        {
+          "number": "RESET",
+          "name": "RESET",
+          "net": "IO_RESET"
+        },
+        {
+          "number": "INTA",
+          "name": "INTA",
+          "net": "IO_INT3"
+        },
+        {
+          "number": "INTB",
+          "name": "INTB",
+          "net": null
+        },
+        {
+          "number": "A0",
+          "name": "A0",
+          "net": "GND"
+        },
+        {
+          "number": "A1",
+          "name": "A1",
+          "net": "3V3"
+        },
+        {
+          "number": "A2",
+          "name": "A2",
+          "net": "GND"
+        },
+        {
+          "number": "GPA0",
+          "name": "GPA0",
+          "net": "S5_ON"
+        },
+        {
+          "number": "GPA1",
+          "name": "GPA1",
+          "net": "S6_ON"
+        },
+        {
+          "number": "GPA2",
+          "name": "GPA2",
+          "net": "S7_ON"
+        },
+        {
+          "number": "GPA3",
+          "name": "GPA3",
+          "net": "S8_ON"
+        },
+        {
+          "number": "GPA4",
+          "name": "GPA4",
+          "net": "S9_ON"
+        },
+        {
+          "number": "GPA5",
+          "name": "GPA5",
+          "net": "S10_ON"
+        },
+        {
+          "number": "GPA6",
+          "name": "GPA6",
+          "net": "S11_ON"
+        },
+        {
+          "number": "GPB0",
+          "name": "GPB0",
+          "net": "S12_ON"
+        },
+        {
+          "number": "GPB1",
+          "name": "GPB1",
+          "net": "S13_ON"
+        },
+        {
+          "number": "GPB2",
+          "name": "GPB2",
+          "net": "S14_ON"
+        },
+        {
+          "number": "GPB3",
+          "name": "GPB3",
+          "net": "S15_ON"
+        },
+        {
+          "number": "GPB4",
+          "name": "GPB4",
+          "net": "S16_ON"
+        },
+        {
+          "number": "GPB5",
+          "name": "GPB5",
+          "net": "S17_ON"
+        },
+        {
+          "number": "GPB6",
+          "name": "GPB6",
+          "net": "S18_ON"
+        },
+        {
+          "number": "GPA7",
+          "name": "GPA7",
+          "net": null
+        },
+        {
+          "number": "GPB7",
+          "name": "GPB7",
+          "net": null
+        }
+      ],
+      "xy": [
+        78,
+        78
+      ],
+      "size": [
+        65,
+        19
+      ],
+      "side": "B",
+      "footprint": null,
+      "notes": "",
+      "uuid": "ffa44ac7-4e8b-5ce0-bd06-7005d6fe0273"
+    },
+    {
+      "ref": "C25",
+      "value": "100nF",
+      "kind": "C",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "3V3"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        115,
+        24
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "f4990c9e-bf75-50e8-a004-48d9017fbc98"
+    },
+    {
+      "ref": "R21",
+      "value": "2k2 DNP if module pullups adequate",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "I2C_SDA"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        45,
+        126
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "fb62f743-5736-5749-a22b-d2824a1ab324"
+    },
+    {
+      "ref": "R22",
+      "value": "2k2 DNP if module pullups adequate",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "I2C_SCL"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        51,
+        126
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "1085a5a6-3cc3-539a-a3ce-caa0eea03350"
+    },
+    {
+      "ref": "R23",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "IO_RESET"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        57,
+        126
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "58f23e56-41b4-5c4c-a65f-8d7c95886c2a"
+    },
+    {
+      "ref": "C26",
+      "value": "100nF",
+      "kind": "C",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "IO_RESET"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        63,
+        126
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "c4d8dcb6-ef91-5d05-84a2-00246b096704"
+    },
+    {
+      "ref": "R24",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "IO_INT1"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        69,
+        126
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "2cd8c3e3-d220-5429-8ab4-56dbd957bed1"
+    },
+    {
+      "ref": "R25",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "IO_INT2"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        75,
+        126
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "ad91301c-4a8a-50ed-9524-74a1183db888"
+    },
+    {
+      "ref": "R26",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "IO_INT3"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        81,
+        126
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "ce63e894-1d04-5adf-a203-8b11ad6e7104"
+    },
+    {
+      "ref": "R27",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "E1_A"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        46,
+        116
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "1cf0ff2d-3e36-5fdf-98b6-6849d8974c57"
+    },
+    {
+      "ref": "R28",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "E1_B"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        57,
+        116
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "8108c96f-0d02-5efd-9325-dae9c8f9316e"
+    },
+    {
+      "ref": "R29",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "E1_P"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        68,
+        116
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "b25ed3f6-2cd4-5996-8f8d-5a0f894a62db"
+    },
+    {
+      "ref": "R30",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "E2_A"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        79,
+        116
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "9ee4f850-fab9-57d1-bdf6-330b21f7f095"
+    },
+    {
+      "ref": "R31",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "E2_B"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        90,
+        116
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "6ac280ec-60c9-58c9-8fb1-b928b984fe98"
+    },
+    {
+      "ref": "R32",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "E2_P"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        101,
+        116
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "7f8b66db-b072-5983-b989-9f58ef1d568b"
+    },
+    {
+      "ref": "R33",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "E3_A"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        112,
+        116
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "bf14f917-4fe3-586a-9031-0d3d93a3a614"
+    },
+    {
+      "ref": "R34",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "E3_B"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        123,
+        116
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "3f288d24-0b13-5d52-a134-e3a691eff035"
+    },
+    {
+      "ref": "R35",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "E3_P"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        134,
+        116
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "2cf6f66b-2454-56d2-95e6-ceb294e33dd0"
+    },
+    {
+      "ref": "R36",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "E4_A"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        145,
+        116
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "34f7fecb-c0a7-5b73-9855-c9db53967f17"
+    },
+    {
+      "ref": "R37",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "E4_B"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        156,
+        116
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "7893a8df-7dc9-57c1-b4a4-b273e0236dfc"
+    },
+    {
+      "ref": "R38",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "E4_P"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        167,
+        116
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "027f6ed3-fb0f-5518-b1ca-c684cee06f9a"
+    },
+    {
+      "ref": "R39",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "E5_A"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        178,
+        116
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "3bb0accf-8bfe-5f21-b71c-a76dae5d5ea7"
+    },
+    {
+      "ref": "R40",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "E5_B"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        189,
+        116
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "b662cf88-840a-5f95-a6ea-1bf83fefb797"
+    },
+    {
+      "ref": "R41",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "E5_P"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        46,
+        120
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "eaeb1f19-2c0a-5227-b367-96444f1ba7b4"
+    },
+    {
+      "ref": "R42",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "E6_A"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        57,
+        120
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "c4688c72-aa4e-5669-b940-ae7fee9c49fa"
+    },
+    {
+      "ref": "R43",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "E6_B"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        68,
+        120
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "04105ae6-5360-5d08-9b1f-b4ac35cf481b"
+    },
+    {
+      "ref": "R44",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "E6_P"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        79,
+        120
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "1eacbf70-9284-57f0-989e-22da64a6ec90"
+    },
+    {
+      "ref": "R45",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "E7_A"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        90,
+        120
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "1bc2cb72-8f84-55ee-bc8b-99009802f1e3"
+    },
+    {
+      "ref": "R46",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "E7_B"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        101,
+        120
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "f2953cbe-8dbf-5107-947e-25603be7b974"
+    },
+    {
+      "ref": "R47",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "E7_P"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        112,
+        120
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "328aeed3-595f-585b-82bb-9c4cd55c28b0"
+    },
+    {
+      "ref": "R48",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "E8_A"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        123,
+        120
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "24f93a96-b15f-5d90-af36-df826e082990"
+    },
+    {
+      "ref": "R49",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "E8_B"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        134,
+        120
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "47675bd0-1f4c-557c-b4ae-a90ea71c5438"
+    },
+    {
+      "ref": "R50",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "E8_P"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        145,
+        120
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "fb40f6c5-8cac-5dca-9a39-161633252aa0"
+    },
+    {
+      "ref": "R51",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "S1_ON"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        156,
+        120
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "6a84e691-40a5-57e2-aebb-f38f61e98483"
+    },
+    {
+      "ref": "R52",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "S2_ON"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        167,
+        120
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "d2d055a5-04f4-5ca4-958d-c5f460047f62"
+    },
+    {
+      "ref": "R53",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "S3_ON"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        178,
+        120
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "5455dba8-2b26-53c4-a013-16497a8c9b96"
+    },
+    {
+      "ref": "R54",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "S4_ON"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        189,
+        120
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "052c9613-12a4-554c-9008-f4f3865aca0a"
+    },
+    {
+      "ref": "R55",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "S5_ON"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        46,
+        124
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "d4c62dfb-f58f-53a7-89c7-9b0776bc4b7f"
+    },
+    {
+      "ref": "R56",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "S6_ON"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        57,
+        124
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "4fc932d8-3b37-5d36-9829-2fb2d6d3e382"
+    },
+    {
+      "ref": "R57",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "S7_ON"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        68,
+        124
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "c06282b6-611f-5f2b-8a6c-7577014cea30"
+    },
+    {
+      "ref": "R58",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "S8_ON"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        79,
+        124
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "4c83b0c8-314e-5d30-8005-42e33fa51384"
+    },
+    {
+      "ref": "R59",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "S9_ON"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        90,
+        124
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "5129458d-0f33-53e5-848d-1f768309a032"
+    },
+    {
+      "ref": "R60",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "S10_ON"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        101,
+        124
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "07bf849e-94a0-54a6-a56a-19b252e537c1"
+    },
+    {
+      "ref": "R61",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "S11_ON"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        112,
+        124
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "f5a04c79-a7f6-568d-991b-3eb5e2bd84da"
+    },
+    {
+      "ref": "R62",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "S12_ON"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        123,
+        124
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "39ca1bb8-bfba-5306-94e3-47150fccf4ba"
+    },
+    {
+      "ref": "R63",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "S13_ON"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        134,
+        124
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "5d0d30bf-9902-5543-9f14-78cddb770511"
+    },
+    {
+      "ref": "R64",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "S14_ON"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        145,
+        124
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "77d88c01-d6a2-5b5c-86b1-d7aa8ee33c2c"
+    },
+    {
+      "ref": "R65",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "S15_ON"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        156,
+        124
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "1d3c456f-2e88-51ec-9b8e-a9b5010a289d"
+    },
+    {
+      "ref": "R66",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "S16_ON"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        167,
+        124
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "85ecd97f-eff4-5c20-a310-b372f660ae73"
+    },
+    {
+      "ref": "R67",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "S17_ON"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        178,
+        124
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "98d45eba-9de3-5b1b-ad93-df5f7e4cac74"
+    },
+    {
+      "ref": "R68",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "digital_io",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "S18_ON"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        189,
+        124
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "74caa5b0-0c69-5f4c-b8fd-307b37310d1e"
+    },
+    {
+      "ref": "MCU1",
+      "value": "ARCELI ESP32-S3 N16R8",
+      "kind": "module",
+      "sheet": "processor",
+      "pins": [
+        {
+          "number": "5V_IN",
+          "name": "5V_IN",
+          "net": "SYS_5V"
+        },
+        {
+          "number": "3V3_OUT",
+          "name": "3V3_OUT",
+          "net": "3V3"
+        },
+        {
+          "number": "GND",
+          "name": "GND",
+          "net": "GND"
+        },
+        {
+          "number": "GPIO1",
+          "name": "GPIO1",
+          "net": "I2C_SDA"
+        },
+        {
+          "number": "GPIO2",
+          "name": "GPIO2",
+          "net": "I2C_SCL"
+        },
+        {
+          "number": "GPIO4",
+          "name": "GPIO4",
+          "net": "POT_ADC1"
+        },
+        {
+          "number": "GPIO5",
+          "name": "GPIO5",
+          "net": "POT_ADC2"
+        },
+        {
+          "number": "GPIO6",
+          "name": "GPIO6",
+          "net": "MUX_S0"
+        },
+        {
+          "number": "GPIO7",
+          "name": "GPIO7",
+          "net": "MUX_S1"
+        },
+        {
+          "number": "GPIO8",
+          "name": "GPIO8",
+          "net": "MUX_S2"
+        },
+        {
+          "number": "GPIO9",
+          "name": "GPIO9",
+          "net": "MUX_S3"
+        },
+        {
+          "number": "GPIO10",
+          "name": "GPIO10",
+          "net": "IO_INT1"
+        },
+        {
+          "number": "GPIO11",
+          "name": "GPIO11",
+          "net": "IO_INT2"
+        },
+        {
+          "number": "GPIO12",
+          "name": "GPIO12",
+          "net": "IO_INT3"
+        },
+        {
+          "number": "GPIO13",
+          "name": "GPIO13",
+          "net": "OVERLOAD_LED"
+        },
+        {
+          "number": "GPIO15",
+          "name": "GPIO15",
+          "net": "I2S_BCLK"
+        },
+        {
+          "number": "GPIO16",
+          "name": "GPIO16",
+          "net": "I2S_LRCLK"
+        },
+        {
+          "number": "GPIO17",
+          "name": "GPIO17",
+          "net": "I2S_TX"
+        },
+        {
+          "number": "GPIO18",
+          "name": "GPIO18",
+          "net": "I2S_RX"
+        },
+        {
+          "number": "GPIO19",
+          "name": "GPIO19",
+          "net": "USB_DM"
+        },
+        {
+          "number": "GPIO20",
+          "name": "GPIO20",
+          "net": "USB_DP"
+        },
+        {
+          "number": "GPIO21",
+          "name": "GPIO21",
+          "net": "I2S_MCLK"
+        },
+        {
+          "number": "GPIO47",
+          "name": "GPIO47",
+          "net": "VBUS_EN"
+        },
+        {
+          "number": "GPIO39",
+          "name": "GPIO39",
+          "net": "VBUS_FAULT_N"
+        },
+        {
+          "number": "GPIO40",
+          "name": "GPIO40",
+          "net": "HP_EN"
+        },
+        {
+          "number": "GPIO41",
+          "name": "GPIO41",
+          "net": "DAC_MUTE_N"
+        },
+        {
+          "number": "GPIO42",
+          "name": "GPIO42",
+          "net": "SPK_EN"
+        }
+      ],
+      "xy": [
+        25,
+        51
+      ],
+      "size": [
+        31,
+        62
+      ],
+      "side": "B",
+      "footprint": null,
+      "notes": "Clone header positions, USB VBUS backfeed and 3V3 regulator capacity OPEN.",
+      "uuid": "ee69afe4-ccdd-5844-a622-35af5b5d1e3e"
+    },
+    {
+      "ref": "R69",
+      "value": "100k",
+      "kind": "R",
+      "sheet": "processor",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "MUX_S0"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        87,
+        126
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "e101889b-ab1c-5f57-92b5-586820809e5a"
+    },
+    {
+      "ref": "R70",
+      "value": "100k",
+      "kind": "R",
+      "sheet": "processor",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "MUX_S1"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        93,
+        126
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "46369eb6-1455-5974-8438-774481ce86d0"
+    },
+    {
+      "ref": "R71",
+      "value": "100k",
+      "kind": "R",
+      "sheet": "processor",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "MUX_S2"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        99,
+        126
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "36230191-f70b-53ab-9e94-34e9af624a51"
+    },
+    {
+      "ref": "R72",
+      "value": "100k",
+      "kind": "R",
+      "sheet": "processor",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "MUX_S3"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        105,
+        126
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "6147a680-8030-5f80-ad84-2041ec872d56"
+    },
+    {
+      "ref": "J1",
+      "value": "5V DC input centre positive",
+      "kind": "connector",
+      "sheet": "power",
+      "pins": [
+        {
+          "number": "PLUS",
+          "name": "PLUS",
+          "net": "DC_5V"
+        },
+        {
+          "number": "GND",
+          "name": "GND",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        18,
+        9
+      ],
+      "size": [
+        14,
+        18
+      ],
+      "side": "B",
+      "footprint": null,
+      "notes": "",
+      "uuid": "b78e788a-7387-5621-ac06-e7b06ac2981a"
+    },
+    {
+      "ref": "SW1",
+      "value": "POWER >=3A DC / MPN OPEN",
+      "kind": "switch_power",
+      "sheet": "power",
+      "pins": [
+        {
+          "number": "IN",
+          "name": "IN",
+          "net": "DC_5V"
+        },
+        {
+          "number": "OUT",
+          "name": "OUT",
+          "net": "FUSE_IN"
+        }
+      ],
+      "xy": [
+        42,
+        8
+      ],
+      "size": [
+        12,
+        16
+      ],
+      "side": "B",
+      "footprint": null,
+      "notes": "",
+      "uuid": "1bdaf1c4-5a85-56c9-8cd4-e24f7a67434e"
+    },
+    {
+      "ref": "F1",
+      "value": "PPTC 3A hold / thermal rating OPEN",
+      "kind": "fuse",
+      "sheet": "power",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "FUSE_IN"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "SYS_5V"
+        }
+      ],
+      "xy": [
+        44,
+        32
+      ],
+      "size": [
+        8,
+        5
+      ],
+      "side": "B",
+      "footprint": null,
+      "notes": "",
+      "uuid": "6c1d0fb2-19d6-55bb-9dbf-0d28f94c1317"
+    },
+    {
+      "ref": "U1",
+      "value": "TPS2553DBVR",
+      "kind": "ic",
+      "sheet": "power",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "SYS_5V"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        },
+        {
+          "number": "3",
+          "name": "3",
+          "net": "VBUS_EN"
+        },
+        {
+          "number": "4",
+          "name": "4",
+          "net": "VBUS_FAULT_N"
+        },
+        {
+          "number": "5",
+          "name": "5",
+          "net": "USB_ILIM"
+        },
+        {
+          "number": "6",
+          "name": "6",
+          "net": "USB_VBUS"
+        }
+      ],
+      "xy": [
+        65,
+        53
+      ],
+      "size": [
+        3,
+        3
+      ],
+      "side": "B",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "notes": "TI SLVS841F pin map. 49k9 limit is 520mA typ, 475..565mA over temp. Keyboard budget provisional.",
+      "uuid": "3f876e91-6b7f-57a8-9ddf-53fd9e536de5"
+    },
+    {
+      "ref": "R73",
+      "value": "49k9 1%",
+      "kind": "R",
+      "sheet": "power",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "USB_ILIM"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        70,
+        53
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "12df4c2a-8704-5b91-b3c0-c1fc01333241"
+    },
+    {
+      "ref": "R74",
+      "value": "47k",
+      "kind": "R",
+      "sheet": "power",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "VBUS_EN"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        60,
+        53
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "f7a7a4be-d217-5bdb-a14b-5d9eac8ed432"
+    },
+    {
+      "ref": "R75",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "power",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "VBUS_FAULT_N"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "3V3"
+        }
+      ],
+      "xy": [
+        65,
+        58
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "55b7cce9-0460-5bbc-a298-3a709573879a"
+    },
+    {
+      "ref": "C27",
+      "value": "100nF",
+      "kind": "C",
+      "sheet": "power",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "SYS_5V"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        65,
+        49
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "9e2facd0-8d98-510f-8157-ee103dd81cb8"
+    },
+    {
+      "ref": "C28",
+      "value": "10uF 10V",
+      "kind": "C",
+      "sheet": "power",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "SYS_5V"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        60,
+        49
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "86c06e78-143a-5d08-a69e-cae280813b3b"
+    },
+    {
+      "ref": "C29",
+      "value": "100nF",
+      "kind": "C",
+      "sheet": "power",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "USB_VBUS"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        70,
+        49
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "ec133d8d-c827-5204-bdab-4b91496a0bfb"
+    },
+    {
+      "ref": "C101",
+      "value": "150uF 10V low ESR",
+      "kind": "electrolytic",
+      "sheet": "power",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "USB_VBUS"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        120,
+        65
+      ],
+      "size": [
+        6.3,
+        6.3
+      ],
+      "side": "B",
+      "footprint": "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm",
+      "notes": "",
+      "uuid": "1198cbdf-e7eb-5a4c-be98-f6d56bb271de"
+    },
+    {
+      "ref": "J2",
+      "value": "JZK USB-A host module",
+      "kind": "module",
+      "sheet": "usb",
+      "pins": [
+        {
+          "number": "VBUS",
+          "name": "VBUS",
+          "net": "USB_VBUS"
+        },
+        {
+          "number": "D-",
+          "name": "D-",
+          "net": "USB_DM"
+        },
+        {
+          "number": "D+",
+          "name": "D+",
+          "net": "USB_DP"
+        },
+        {
+          "number": "GND",
+          "name": "GND",
+          "net": "GND"
+        },
+        {
+          "number": "SHIELD",
+          "name": "SHIELD",
+          "net": null
+        }
+      ],
+      "xy": [
+        65,
+        9
+      ],
+      "size": [
+        17,
+        17
+      ],
+      "side": "B",
+      "footprint": null,
+      "notes": "",
+      "uuid": "df1f0421-9cfd-5c11-b10e-79fd98babad5"
+    },
+    {
+      "ref": "D1",
+      "value": "USBLC6-2SC6 ESD",
+      "kind": "ic",
+      "sheet": "usb",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "USB_DM"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        },
+        {
+          "number": "3",
+          "name": "3",
+          "net": "USB_DP"
+        },
+        {
+          "number": "4",
+          "name": "4",
+          "net": "USB_DP"
+        },
+        {
+          "number": "5",
+          "name": "5",
+          "net": "USB_VBUS"
+        },
+        {
+          "number": "6",
+          "name": "6",
+          "net": "USB_DM"
+        }
+      ],
+      "xy": [
+        65,
+        40
+      ],
+      "size": [
+        3,
+        3
+      ],
+      "side": "B",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "notes": "ST USBLC6-2 datasheet pin map verified; layout still open.",
+      "uuid": "67491c2b-1380-594d-890b-ff52c396426e"
+    },
+    {
+      "ref": "ADC1",
+      "value": "Youmile PCM1808 module",
+      "kind": "module",
+      "sheet": "audio_input",
+      "pins": [
+        {
+          "number": "5V",
+          "name": "5V",
+          "net": "AUDIO_5V"
+        },
+        {
+          "number": "3V3",
+          "name": "3V3",
+          "net": "3V3"
+        },
+        {
+          "number": "GND",
+          "name": "GND",
+          "net": "GND"
+        },
+        {
+          "number": "SCK",
+          "name": "SCK",
+          "net": "I2S_MCLK"
+        },
+        {
+          "number": "BCK",
+          "name": "BCK",
+          "net": "I2S_BCLK"
+        },
+        {
+          "number": "LRCK",
+          "name": "LRCK",
+          "net": "I2S_LRCLK"
+        },
+        {
+          "number": "DOUT",
+          "name": "DOUT",
+          "net": "I2S_RX"
+        },
+        {
+          "number": "FMT",
+          "name": "FMT",
+          "net": "GND"
+        },
+        {
+          "number": "MD0",
+          "name": "MD0",
+          "net": "GND"
+        },
+        {
+          "number": "MD1",
+          "name": "MD1",
+          "net": "GND"
+        },
+        {
+          "number": "LIN",
+          "name": "LIN",
+          "net": "ADC_IN"
+        },
+        {
+          "number": "RIN",
+          "name": "RIN",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        177,
+        105
+      ],
+      "size": [
+        34,
+        27.2
+      ],
+      "side": "B",
+      "footprint": null,
+      "notes": "Functional terminals, NOT physical order; confirm onboard coupling/filter/regulator, FMT=I2S and slave straps.",
+      "uuid": "3d63513e-baae-51f7-aadb-78ba3ff4e9f8"
+    },
+    {
+      "ref": "J3",
+      "value": "External mono line jack",
+      "kind": "connector",
+      "sheet": "audio_input",
+      "pins": [
+        {
+          "number": "TIP",
+          "name": "TIP",
+          "net": "EXT_IN"
+        },
+        {
+          "number": "SLEEVE",
+          "name": "SLEEVE",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        157,
+        8
+      ],
+      "size": [
+        12,
+        16
+      ],
+      "side": "B",
+      "footprint": null,
+      "notes": "",
+      "uuid": "d77fec39-6d92-570b-9255-8b39931c2d54"
+    },
+    {
+      "ref": "R76",
+      "value": "10k input attenuator",
+      "kind": "R",
+      "sheet": "audio_input",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "EXT_IN"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "ADC_IN"
+        }
+      ],
+      "xy": [
+        157,
+        98
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "2f4d9720-f9f1-5cb8-a9ee-65a3831d8304"
+    },
+    {
+      "ref": "R77",
+      "value": "10k input attenuator",
+      "kind": "R",
+      "sheet": "audio_input",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "ADC_IN"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        157,
+        102
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "851c150d-d667-5700-b2e9-58bea7b5fede"
+    },
+    {
+      "ref": "DAC1",
+      "value": "PCM5102 / L main, R phones",
+      "kind": "module",
+      "sheet": "audio_output",
+      "pins": [
+        {
+          "number": "VIN",
+          "name": "VIN",
+          "net": "AUDIO_5V"
+        },
+        {
+          "number": "GND",
+          "name": "GND",
+          "net": "GND"
+        },
+        {
+          "number": "BCK",
+          "name": "BCK",
+          "net": "I2S_BCLK"
+        },
+        {
+          "number": "LCK",
+          "name": "LCK",
+          "net": "I2S_LRCLK"
+        },
+        {
+          "number": "DIN",
+          "name": "DIN",
+          "net": "I2S_TX"
+        },
+        {
+          "number": "SCK",
+          "name": "SCK",
+          "net": "GND"
+        },
+        {
+          "number": "FMT",
+          "name": "FMT",
+          "net": "GND"
+        },
+        {
+          "number": "XSMT",
+          "name": "XSMT",
+          "net": "DAC_MUTE_N"
+        },
+        {
+          "number": "OUTL",
+          "name": "OUTL",
+          "net": "MAIN_RAW"
+        },
+        {
+          "number": "OUTR",
+          "name": "OUTR",
+          "net": "PHONES_RAW"
+        }
+      ],
+      "xy": [
+        177,
+        69
+      ],
+      "size": [
+        30,
+        23
+      ],
+      "side": "B",
+      "footprint": null,
+      "notes": "Module jack unused: L/R carry independent mono buses. Verify straps and labels.",
+      "uuid": "89133d9f-6815-5777-bb8c-e1fdf8bed6bf"
+    },
+    {
+      "ref": "J4",
+      "value": "Main mono line jack",
+      "kind": "connector",
+      "sheet": "audio_output",
+      "pins": [
+        {
+          "number": "TIP",
+          "name": "TIP",
+          "net": "MAIN_LINE"
+        },
+        {
+          "number": "SLEEVE",
+          "name": "SLEEVE",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        177,
+        8
+      ],
+      "size": [
+        12,
+        16
+      ],
+      "side": "B",
+      "footprint": null,
+      "notes": "",
+      "uuid": "4dee291e-1865-50eb-ba29-104c5f86a057"
+    },
+    {
+      "ref": "R78",
+      "value": "100R",
+      "kind": "R",
+      "sheet": "audio_output",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "MAIN_RAW"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "MAIN_LINE"
+        }
+      ],
+      "xy": [
+        160,
+        69
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "72d07ee8-3858-59f1-92d4-f093f3b46bde"
+    },
+    {
+      "ref": "R79",
+      "value": "100k",
+      "kind": "R",
+      "sheet": "audio_output",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "MAIN_LINE"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        160,
+        73
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "6484b35d-d3f1-5934-b032-299c53118edb"
+    },
+    {
+      "ref": "R80",
+      "value": "10k",
+      "kind": "R",
+      "sheet": "audio_output",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "PHONES_RAW"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "HP_FEED"
+        }
+      ],
+      "xy": [
+        191,
+        52
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "98f9801e-c43d-54ba-837e-35058c6686e1"
+    },
+    {
+      "ref": "R81",
+      "value": "4k7",
+      "kind": "R",
+      "sheet": "audio_output",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "HP_FEED"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        195,
+        52
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "27910f8f-f87b-516a-8c08-a0902dfaac6d"
+    },
+    {
+      "ref": "HP1",
+      "value": "Quystetes TPA6132 module",
+      "kind": "module",
+      "sheet": "audio_output",
+      "pins": [
+        {
+          "number": "VCC",
+          "name": "VCC",
+          "net": "3V3"
+        },
+        {
+          "number": "GND",
+          "name": "GND",
+          "net": "GND"
+        },
+        {
+          "number": "L-",
+          "name": "L-",
+          "net": "HP_FEED"
+        },
+        {
+          "number": "R-",
+          "name": "R-",
+          "net": "HP_FEED"
+        },
+        {
+          "number": "L+",
+          "name": "L+",
+          "net": "GND"
+        },
+        {
+          "number": "R+",
+          "name": "R+",
+          "net": "GND"
+        },
+        {
+          "number": "CTRL",
+          "name": "CTRL",
+          "net": "HP_EN"
+        },
+        {
+          "number": "DET",
+          "name": "DET",
+          "net": null
+        },
+        {
+          "number": "OUTL",
+          "name": "OUTL",
+          "net": "PHONES_L"
+        },
+        {
+          "number": "OUTR",
+          "name": "OUTR",
+          "net": "PHONES_R"
+        }
+      ],
+      "xy": [
+        199,
+        19
+      ],
+      "size": [
+        23,
+        26
+      ],
+      "side": "B",
+      "footprint": null,
+      "notes": "Use onboard jack. Listing image 5 single-ended: L-/R- signals, L+/R+ returns. 3V3 supply prevents CTRL pullup from exposing ESP GPIO to 5V. Gain 0dB proposed; attenuation ~0.32 before input loading.",
+      "uuid": "ec9cc1a4-fbbc-55de-a44d-67091226a259"
+    },
+    {
+      "ref": "SPK1",
+      "value": "MAX98357 optional",
+      "kind": "module",
+      "sheet": "audio_output",
+      "pins": [
+        {
+          "number": "VIN",
+          "name": "VIN",
+          "net": "SYS_5V"
+        },
+        {
+          "number": "GND",
+          "name": "GND",
+          "net": "GND"
+        },
+        {
+          "number": "BCLK",
+          "name": "BCLK",
+          "net": "I2S_BCLK"
+        },
+        {
+          "number": "LRC",
+          "name": "LRC",
+          "net": "I2S_LRCLK"
+        },
+        {
+          "number": "DIN",
+          "name": "DIN",
+          "net": "I2S_TX"
+        },
+        {
+          "number": "SD",
+          "name": "SD",
+          "net": "SPK_EN"
+        },
+        {
+          "number": "OUT+",
+          "name": "OUT+",
+          "net": "SPK_P"
+        },
+        {
+          "number": "OUT-",
+          "name": "OUT-",
+          "net": "SPK_N"
+        }
+      ],
+      "xy": [
+        180,
+        137
+      ],
+      "size": [
+        20,
+        20
+      ],
+      "side": "B",
+      "footprint": null,
+      "notes": "DNP unless A variant confirmed; class D outputs only to speaker.",
+      "uuid": "65052840-7494-59be-b31b-7f4f2a75ece2"
+    },
+    {
+      "ref": "J5",
+      "value": "Optional speaker terminal",
+      "kind": "connector",
+      "sheet": "audio_output",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "SPK_P"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "SPK_N"
+        }
+      ],
+      "xy": [
+        205,
+        140
+      ],
+      "size": [
+        10,
+        8
+      ],
+      "side": "B",
+      "footprint": null,
+      "notes": "",
+      "uuid": "012b58c5-324f-58d6-958e-0411e361d4d9"
+    },
+    {
+      "ref": "R82",
+      "value": "100k",
+      "kind": "R",
+      "sheet": "audio_output",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "DAC_MUTE_N"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        111,
+        126
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "a906c87f-a641-5bfc-9796-96263aedee5d"
+    },
+    {
+      "ref": "R83",
+      "value": "100k",
+      "kind": "R",
+      "sheet": "audio_output",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "HP_EN"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        117,
+        126
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "aa8affee-f348-5cfc-8cf9-245249f09f56"
+    },
+    {
+      "ref": "R84",
+      "value": "100k",
+      "kind": "R",
+      "sheet": "audio_output",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "SPK_EN"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        123,
+        126
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "c238666f-a258-50c1-a342-b2add19288c9"
+    },
+    {
+      "ref": "FB1",
+      "value": "Ferrite bead 600R@100MHz >=500mA low DCR",
+      "kind": "ferrite",
+      "sheet": "power",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "SYS_5V"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "AUDIO_5V"
+        }
+      ],
+      "xy": [
+        148,
+        57
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "a93dd3bf-5b74-556f-ba8d-0002c58ee174"
+    },
+    {
+      "ref": "C30",
+      "value": "10uF 10V",
+      "kind": "C",
+      "sheet": "power",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "AUDIO_5V"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        153,
+        57
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "264c9c33-7cb3-59f2-aa01-071b446faf3e"
+    },
+    {
+      "ref": "C31",
+      "value": "100nF",
+      "kind": "C",
+      "sheet": "power",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "AUDIO_5V"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        153,
+        61
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "f20c6a4b-8fc5-5201-a2ca-3e1b06e60676"
+    },
+    {
+      "ref": "C32",
+      "value": "10uF 10V",
+      "kind": "C",
+      "sheet": "power",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "3V3"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        34,
+        87
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "79217d4d-b7bf-5043-8e38-b774b876b148"
+    },
+    {
+      "ref": "C33",
+      "value": "100nF",
+      "kind": "C",
+      "sheet": "power",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "3V3"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        34,
+        91
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "c9e4c740-51bc-5d95-8a9e-24ff9f436e8b"
+    },
+    {
+      "ref": "C34",
+      "value": "10uF 10V",
+      "kind": "C",
+      "sheet": "power",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "SYS_5V"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        44,
+        48
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "dd58ecc5-e6c0-5522-85c0-899e4a372588"
+    },
+    {
+      "ref": "C35",
+      "value": "100nF",
+      "kind": "C",
+      "sheet": "power",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "SYS_5V"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        44,
+        52
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "notes": "",
+      "uuid": "8e3e345c-6c29-5c72-8d4d-13319d80bd50"
+    },
+    {
+      "ref": "R85",
+      "value": "1k",
+      "kind": "R",
+      "sheet": "processor",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "OVERLOAD_LED"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "OVL_A"
+        }
+      ],
+      "xy": [
+        129,
+        126
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "94c355aa-9b42-5044-9b97-1f5f7928aef0"
+    },
+    {
+      "ref": "LED1",
+      "value": "Overload LED",
+      "kind": "led",
+      "sheet": "processor",
+      "pins": [
+        {
+          "number": "A",
+          "name": "A",
+          "net": "OVL_A"
+        },
+        {
+          "number": "K",
+          "name": "K",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        121,
+        8
+      ],
+      "size": [
+        3,
+        3
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "",
+      "uuid": "39d1b305-8041-50aa-8ade-2419f8154436"
+    },
+    {
+      "ref": "R86",
+      "value": "2k2",
+      "kind": "R",
+      "sheet": "processor",
+      "pins": [
+        {
+          "number": "1",
+          "name": "1",
+          "net": "3V3"
+        },
+        {
+          "number": "2",
+          "name": "2",
+          "net": "PWR_A"
+        }
+      ],
+      "xy": [
+        135,
+        126
+      ],
+      "size": [
+        2,
+        1.25
+      ],
+      "side": "B",
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "notes": "",
+      "uuid": "8e2c78bc-8648-528e-8266-70139cefb5ae"
+    },
+    {
+      "ref": "LED2",
+      "value": "Power LED",
+      "kind": "led",
+      "sheet": "processor",
+      "pins": [
+        {
+          "number": "A",
+          "name": "A",
+          "net": "PWR_A"
+        },
+        {
+          "number": "K",
+          "name": "K",
+          "net": "GND"
+        }
+      ],
+      "xy": [
+        208,
+        135
+      ],
+      "size": [
+        3,
+        3
+      ],
+      "side": "F",
+      "footprint": null,
+      "notes": "",
+      "uuid": "9fff0f42-b59b-577a-bc2d-17aee6ed7553"
+    }
+  ],
+  "gpio": {
+    "I2C_SDA": 1,
+    "I2C_SCL": 2,
+    "POT_ADC1": 4,
+    "POT_ADC2": 5,
+    "MUX_S0": 6,
+    "MUX_S1": 7,
+    "MUX_S2": 8,
+    "MUX_S3": 9,
+    "IO_INT1": 10,
+    "IO_INT2": 11,
+    "IO_INT3": 12,
+    "OVERLOAD_LED": 13,
+    "I2S_BCLK": 15,
+    "I2S_LRCLK": 16,
+    "I2S_TX": 17,
+    "I2S_RX": 18,
+    "USB_DM": 19,
+    "USB_DP": 20,
+    "I2S_MCLK": 21,
+    "VBUS_EN": 47,
+    "VBUS_FAULT_N": 39,
+    "HP_EN": 40,
+    "DAC_MUTE_N": 41,
+    "SPK_EN": 42
+  },
+  "scan": [
+    {
+      "control": "E1",
+      "pin": "A",
+      "net": "E1_A",
+      "module": "IO1",
+      "port": "GPA0"
+    },
+    {
+      "control": "E1",
+      "pin": "B",
+      "net": "E1_B",
+      "module": "IO1",
+      "port": "GPA1"
+    },
+    {
+      "control": "E1",
+      "pin": "SW1",
+      "net": "E1_P",
+      "module": "IO1",
+      "port": "GPA2"
+    },
+    {
+      "control": "E2",
+      "pin": "A",
+      "net": "E2_A",
+      "module": "IO1",
+      "port": "GPA3"
+    },
+    {
+      "control": "E2",
+      "pin": "B",
+      "net": "E2_B",
+      "module": "IO1",
+      "port": "GPA4"
+    },
+    {
+      "control": "E2",
+      "pin": "SW1",
+      "net": "E2_P",
+      "module": "IO1",
+      "port": "GPA5"
+    },
+    {
+      "control": "E3",
+      "pin": "A",
+      "net": "E3_A",
+      "module": "IO1",
+      "port": "GPA6"
+    },
+    {
+      "control": "E3",
+      "pin": "B",
+      "net": "E3_B",
+      "module": "IO1",
+      "port": "GPB0"
+    },
+    {
+      "control": "E3",
+      "pin": "SW1",
+      "net": "E3_P",
+      "module": "IO1",
+      "port": "GPB1"
+    },
+    {
+      "control": "E4",
+      "pin": "A",
+      "net": "E4_A",
+      "module": "IO1",
+      "port": "GPB2"
+    },
+    {
+      "control": "E4",
+      "pin": "B",
+      "net": "E4_B",
+      "module": "IO1",
+      "port": "GPB3"
+    },
+    {
+      "control": "E4",
+      "pin": "SW1",
+      "net": "E4_P",
+      "module": "IO1",
+      "port": "GPB4"
+    },
+    {
+      "control": "E5",
+      "pin": "A",
+      "net": "E5_A",
+      "module": "IO1",
+      "port": "GPB5"
+    },
+    {
+      "control": "E5",
+      "pin": "B",
+      "net": "E5_B",
+      "module": "IO1",
+      "port": "GPB6"
+    },
+    {
+      "control": "E5",
+      "pin": "SW1",
+      "net": "E5_P",
+      "module": "IO2",
+      "port": "GPA0"
+    },
+    {
+      "control": "E6",
+      "pin": "A",
+      "net": "E6_A",
+      "module": "IO2",
+      "port": "GPA1"
+    },
+    {
+      "control": "E6",
+      "pin": "B",
+      "net": "E6_B",
+      "module": "IO2",
+      "port": "GPA2"
+    },
+    {
+      "control": "E6",
+      "pin": "SW1",
+      "net": "E6_P",
+      "module": "IO2",
+      "port": "GPA3"
+    },
+    {
+      "control": "E7",
+      "pin": "A",
+      "net": "E7_A",
+      "module": "IO2",
+      "port": "GPA4"
+    },
+    {
+      "control": "E7",
+      "pin": "B",
+      "net": "E7_B",
+      "module": "IO2",
+      "port": "GPA5"
+    },
+    {
+      "control": "E7",
+      "pin": "SW1",
+      "net": "E7_P",
+      "module": "IO2",
+      "port": "GPA6"
+    },
+    {
+      "control": "E8",
+      "pin": "A",
+      "net": "E8_A",
+      "module": "IO2",
+      "port": "GPB0"
+    },
+    {
+      "control": "E8",
+      "pin": "B",
+      "net": "E8_B",
+      "module": "IO2",
+      "port": "GPB1"
+    },
+    {
+      "control": "E8",
+      "pin": "SW1",
+      "net": "E8_P",
+      "module": "IO2",
+      "port": "GPB2"
+    },
+    {
+      "control": "S1",
+      "pin": "ON",
+      "net": "S1_ON",
+      "module": "IO2",
+      "port": "GPB3"
+    },
+    {
+      "control": "S2",
+      "pin": "ON",
+      "net": "S2_ON",
+      "module": "IO2",
+      "port": "GPB4"
+    },
+    {
+      "control": "S3",
+      "pin": "ON",
+      "net": "S3_ON",
+      "module": "IO2",
+      "port": "GPB5"
+    },
+    {
+      "control": "S4",
+      "pin": "ON",
+      "net": "S4_ON",
+      "module": "IO2",
+      "port": "GPB6"
+    },
+    {
+      "control": "S5",
+      "pin": "ON",
+      "net": "S5_ON",
+      "module": "IO3",
+      "port": "GPA0"
+    },
+    {
+      "control": "S6",
+      "pin": "ON",
+      "net": "S6_ON",
+      "module": "IO3",
+      "port": "GPA1"
+    },
+    {
+      "control": "S7",
+      "pin": "ON",
+      "net": "S7_ON",
+      "module": "IO3",
+      "port": "GPA2"
+    },
+    {
+      "control": "S8",
+      "pin": "ON",
+      "net": "S8_ON",
+      "module": "IO3",
+      "port": "GPA3"
+    },
+    {
+      "control": "S9",
+      "pin": "ON",
+      "net": "S9_ON",
+      "module": "IO3",
+      "port": "GPA4"
+    },
+    {
+      "control": "S10",
+      "pin": "ON",
+      "net": "S10_ON",
+      "module": "IO3",
+      "port": "GPA5"
+    },
+    {
+      "control": "S11",
+      "pin": "ON",
+      "net": "S11_ON",
+      "module": "IO3",
+      "port": "GPA6"
+    },
+    {
+      "control": "S12",
+      "pin": "ON",
+      "net": "S12_ON",
+      "module": "IO3",
+      "port": "GPB0"
+    },
+    {
+      "control": "S13",
+      "pin": "ON",
+      "net": "S13_ON",
+      "module": "IO3",
+      "port": "GPB1"
+    },
+    {
+      "control": "S14",
+      "pin": "ON",
+      "net": "S14_ON",
+      "module": "IO3",
+      "port": "GPB2"
+    },
+    {
+      "control": "S15",
+      "pin": "ON",
+      "net": "S15_ON",
+      "module": "IO3",
+      "port": "GPB3"
+    },
+    {
+      "control": "S16",
+      "pin": "ON",
+      "net": "S16_ON",
+      "module": "IO3",
+      "port": "GPB4"
+    },
+    {
+      "control": "S17",
+      "pin": "ON",
+      "net": "S17_ON",
+      "module": "IO3",
+      "port": "GPB5"
+    },
+    {
+      "control": "S18",
+      "pin": "ON",
+      "net": "S18_ON",
+      "module": "IO3",
+      "port": "GPB6"
+    }
+  ],
+  "mounting_holes": [
+    [
+      5,
+      5
+    ],
+    [
+      110,
+      5
+    ],
+    [
+      215,
+      5
+    ],
+    [
+      5,
+      145
+    ],
+    [
+      110,
+      145
+    ],
+    [
+      215,
+      145
+    ]
+  ],
+  "case": {
+    "outside_mm": [
+      244,
+      166,
+      54
+    ],
+    "panel_mm": [
+      230,
+      160,
+      1
+    ],
+    "panel_bottom_z_mm": 16,
+    "pcb_bottom_z_mm": 0,
+    "base_bottom_z_mm": -36
+  },
+  "open_items": [
+    "Missing exact footprints on 56 component instances; see source-evidence.md",
+    "Power switch, input jack, line jack and fuse part selection incomplete",
+    "USB data routing, stackup, ground plane and CNC nonplated assembly not designed",
+    "Audio module coupling and gain, signal level validation required",
+    "No firmware or bench validation; no production release"
+  ]
+}

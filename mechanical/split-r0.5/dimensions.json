@@ -1,0 +1,43 @@
+{
+  "board_control_mm": [
+    220,
+    150,
+    1.6
+  ],
+  "board_core_mm": [
+    210,
+    90,
+    1.6
+  ],
+  "aluminium_panel_mm": [
+    246,
+    172,
+    1
+  ],
+  "wood_sides_mm": [
+    18,
+    172.13924212171975,
+    93.32072333492694
+  ],
+  "pmma_front_mm": [
+    233.6,
+    43.69615242270663,
+    3
+  ],
+  "pmma_rear_mm": [
+    233.6,
+    89.82072333492694,
+    3
+  ],
+  "pmma_bottom_mm": [
+    233.6,
+    165.73924212171974,
+    3
+  ],
+  "outside_width_mm": 266,
+  "outside_depth_mm": 172.13924212171975,
+  "wood_front_height_mm": 47.19615242270663,
+  "wood_rear_height_mm": 93.32072333492694,
+  "slope_deg": 15,
+  "connector_openings_verified": false
+}

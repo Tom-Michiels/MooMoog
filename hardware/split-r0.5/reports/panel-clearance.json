@@ -1,0 +1,38 @@
+[
+  {
+    "x": -8,
+    "y": -6,
+    "clear_radius_mm": 4.5,
+    "engraving_pixels_in_zone": 0
+  },
+  {
+    "x": 228,
+    "y": -6,
+    "clear_radius_mm": 4.5,
+    "engraving_pixels_in_zone": 0
+  },
+  {
+    "x": -8,
+    "y": 75,
+    "clear_radius_mm": 4.5,
+    "engraving_pixels_in_zone": 0
+  },
+  {
+    "x": 228,
+    "y": 75,
+    "clear_radius_mm": 4.5,
+    "engraving_pixels_in_zone": 0
+  },
+  {
+    "x": -8,
+    "y": 156,
+    "clear_radius_mm": 4.5,
+    "engraving_pixels_in_zone": 0
+  },
+  {
+    "x": 228,
+    "y": 156,
+    "clear_radius_mm": 4.5,
+    "engraving_pixels_in_zone": 0
+  }
+]
