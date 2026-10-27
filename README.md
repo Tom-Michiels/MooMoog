@@ -1,14 +1,26 @@
 # Compact D — two-board sloped synthesizer
 
+<p align="center">
+  <img src="hardware/split-r0.5/previews/assembled-front.png" alt="Compact D R0.5 assembled, front view" width="100%">
+</p>
+
+<table>
+  <tr>
+    <td width="50%"><img src="hardware/split-r0.5/previews/assembled-rear.png" alt="Rear view with jacks and USB"><br><sub><b>Rear</b> — audio jacks and USB ports</sub></td>
+    <td width="50%"><img src="hardware/split-r0.5/previews/exploded.png" alt="Exploded assembly"><br><sub><b>Exploded</b> — panel, control PCB, rails and electronics PCB</sub></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="hardware/split-r0.5/previews/interior-cable.png" alt="Interior cross-section"><br><sub><b>Interior</b> — sloped control board above the flat electronics board</sub></td>
+    <td width="50%"><img src="hardware/split-r0.5/previews/control-pcb-top.png" alt="Control PCB top"><br><sub><b>Control PCB</b> — 19 pots, 8 encoders, 17 switches</sub></td>
+  </tr>
+</table>
+
+<sub>Renders use reconstructed component models, not certified vendor CAD.</sub>
+
 Active revision: [Split R0.5](hardware/split-r0.5/README.md).
 
 A 220 × 150-mm control PCB under a 15° aluminium panel and a separate 210 × 90-mm electronics PCB, joined by a soldered 12-wire ribbon. CNC wooden sides, PMMA front/rear/bottom, classical printed knobs and the official maakleerplek wordmark. Panel screws now have dedicated clear borders.
 
-- [Assembled front](hardware/split-r0.5/previews/assembled-front.png)
-- [Assembled rear](hardware/split-r0.5/previews/assembled-rear.png)
-- [Interior and ribbon cable](hardware/split-r0.5/previews/interior-cable.png)
-- [Exploded assembly](hardware/split-r0.5/previews/exploded.png)
-- [Control PCB top](hardware/split-r0.5/previews/control-pcb-top.png)
 - [Control PCB underside](hardware/split-r0.5/previews/control-pcb-underside.png)
 - [Electronics PCB](hardware/split-r0.5/previews/electronics-pcb.png)
 - [Control KiCad project](hardware/split-r0.5/control/control.kicad_pro)
